@@ -7,9 +7,9 @@
       "maxAcceleration": 1.1,
       "maxDeceleration": 1.2,
       "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12.0,
+      "maxSpeedLocalStation": 12,
       "capacityPerCar": 80,
-      "carLength": 13.0,
+      "carLength": 13,
       "minCars": 2,
       "maxCars": 2,
       "carsPerCarSet": 2,
@@ -26,7 +26,7 @@
       "maxLateralAcceleration": 0.9,
       "minTurnRadius": 50,
       "minStationTurnRadius": 420,
-      "maxSlopePercentage": 4.0,
+      "maxSlopePercentage": 4,
       "parallelTrackSpacing": 3.8,
       "stopTimeSeconds": 30,
       "trackMaintenanceCostPerMeter": 0,
@@ -36,13 +36,13 @@
       "color": "#009999"
     },
     "elevationMultipliers": {
-      "DEEP_BORE": 4.0,
-      "STANDARD_TUNNEL": 2.0,
-      "CUT_AND_COVER": 1.0,
+      "DEEP_BORE": 4,
+      "STANDARD_TUNNEL": 2,
+      "CUT_AND_COVER": 1,
       "AT_GRADE": 0.3,
       "ELEVATED": 0.8
     },
-    "allowAtGradeRoadCrossing": false,
+    "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
       "Matra",
       "Siemens Mobility"
@@ -56,7 +56,7 @@
       "maxAcceleration": 1.1,
       "maxDeceleration": 1.2,
       "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12.0,
+      "maxSpeedLocalStation": 12,
       "capacityPerCar": 100,
       "carLength": 12.8,
       "minCars": 2,
@@ -75,7 +75,7 @@
       "maxLateralAcceleration": 0.9,
       "minTurnRadius": 50,
       "minStationTurnRadius": 420,
-      "maxSlopePercentage": 4.0,
+      "maxSlopePercentage": 4,
       "parallelTrackSpacing": 3.8,
       "stopTimeSeconds": 30,
       "trackMaintenanceCostPerMeter": 0,
@@ -85,13 +85,13 @@
       "color": "#E4002B"
     },
     "elevationMultipliers": {
-      "DEEP_BORE": 4.0,
-      "STANDARD_TUNNEL": 2.0,
-      "CUT_AND_COVER": 1.0,
+      "DEEP_BORE": 4,
+      "STANDARD_TUNNEL": 2,
+      "CUT_AND_COVER": 1,
       "AT_GRADE": 0.3,
       "ELEVATED": 0.8
     },
-    "allowAtGradeRoadCrossing": false,
+    "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
       "Bombardier Transportation",
       "Alstom"
@@ -105,9 +105,9 @@
       "maxAcceleration": 1.1,
       "maxDeceleration": 1.2,
       "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12.0,
+      "maxSpeedLocalStation": 12,
       "capacityPerCar": 125,
-      "carLength": 13.0,
+      "carLength": 13,
       "minCars": 4,
       "maxCars": 4,
       "carsPerCarSet": 4,
@@ -124,7 +124,7 @@
       "maxLateralAcceleration": 0.9,
       "minTurnRadius": 50,
       "minStationTurnRadius": 420,
-      "maxSlopePercentage": 4.0,
+      "maxSlopePercentage": 4,
       "parallelTrackSpacing": 3.8,
       "stopTimeSeconds": 30,
       "trackMaintenanceCostPerMeter": 0,
@@ -134,13 +134,13 @@
       "color": "#E4002B"
     },
     "elevationMultipliers": {
-      "DEEP_BORE": 4.0,
-      "STANDARD_TUNNEL": 2.0,
-      "CUT_AND_COVER": 1.0,
+      "DEEP_BORE": 4,
+      "STANDARD_TUNNEL": 2,
+      "CUT_AND_COVER": 1,
       "AT_GRADE": 0.3,
       "ELEVATED": 0.8
     },
-    "allowAtGradeRoadCrossing": false,
+    "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
       "Bombardier Transportation",
       "Alstom"
@@ -153,10 +153,10 @@
     "stats": {
       "maxAcceleration": 1.1,
       "maxDeceleration": 1.2,
-      "maxSpeed": 25.0,
-      "maxSpeedLocalStation": 12.0,
+      "maxSpeed": 25,
+      "maxSpeedLocalStation": 12,
       "capacityPerCar": 150,
-      "carLength": 13.0,
+      "carLength": 13,
       "minCars": 3,
       "maxCars": 3,
       "carsPerCarSet": 3,
@@ -173,7 +173,7 @@
       "maxLateralAcceleration": 0.9,
       "minTurnRadius": 50,
       "minStationTurnRadius": 420,
-      "maxSlopePercentage": 4.0,
+      "maxSlopePercentage": 4,
       "parallelTrackSpacing": 3.8,
       "stopTimeSeconds": 30,
       "trackMaintenanceCostPerMeter": 0,
@@ -183,13 +183,13 @@
       "color": "#7B6469"
     },
     "elevationMultipliers": {
-      "DEEP_BORE": 4.0,
-      "STANDARD_TUNNEL": 2.0,
-      "CUT_AND_COVER": 1.0,
+      "DEEP_BORE": 4,
+      "STANDARD_TUNNEL": 2,
+      "CUT_AND_COVER": 1,
       "AT_GRADE": 0.3,
       "ELEVATED": 0.8
     },
-    "allowAtGradeRoadCrossing": false,
+    "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
       "Hitachi Rail"
     ]
@@ -202,7 +202,7 @@
       "maxAcceleration": 1.1,
       "maxDeceleration": 1.2,
       "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12.0,
+      "maxSpeedLocalStation": 12,
       "capacityPerCar": 135,
       "carLength": 12.6,
       "minCars": 4,
@@ -221,7 +221,7 @@
       "maxLateralAcceleration": 0.9,
       "minTurnRadius": 50,
       "minStationTurnRadius": 420,
-      "maxSlopePercentage": 4.0,
+      "maxSlopePercentage": 4,
       "parallelTrackSpacing": 3.8,
       "stopTimeSeconds": 30,
       "trackMaintenanceCostPerMeter": 0,
@@ -231,13 +231,13 @@
       "color": "#7B6469"
     },
     "elevationMultipliers": {
-      "DEEP_BORE": 4.0,
-      "STANDARD_TUNNEL": 2.0,
-      "CUT_AND_COVER": 1.0,
+      "DEEP_BORE": 4,
+      "STANDARD_TUNNEL": 2,
+      "CUT_AND_COVER": 1,
       "AT_GRADE": 0.3,
       "ELEVATED": 0.8
     },
-    "allowAtGradeRoadCrossing": false,
+    "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
       "Hitachi Rail"
     ]
@@ -250,14 +250,14 @@
       "maxAcceleration": 1.1,
       "maxDeceleration": 1.2,
       "maxSpeed": 27.78,
-      "maxSpeedLocalStation": 12.0,
+      "maxSpeedLocalStation": 12,
       "capacityPerCar": 250,
-      "carLength": 22.0,
+      "carLength": 22,
       "minCars": 4,
       "maxCars": 4,
       "carsPerCarSet": 4,
       "carCost": 3600000,
-      "trainWidth": 3.0,
+      "trainWidth": 3,
       "minStationLength": 88,
       "maxStationLength": 100,
       "baseTrackCost": 32000,
@@ -269,7 +269,7 @@
       "maxLateralAcceleration": 0.9,
       "minTurnRadius": 50,
       "minStationTurnRadius": 420,
-      "maxSlopePercentage": 4.0,
+      "maxSlopePercentage": 4,
       "parallelTrackSpacing": 3.8,
       "stopTimeSeconds": 30,
       "trackMaintenanceCostPerMeter": 0,
@@ -279,13 +279,13 @@
       "color": "#6CACE4"
     },
     "elevationMultipliers": {
-      "DEEP_BORE": 4.0,
-      "STANDARD_TUNNEL": 2.0,
-      "CUT_AND_COVER": 1.0,
+      "DEEP_BORE": 4,
+      "STANDARD_TUNNEL": 2,
+      "CUT_AND_COVER": 1,
       "AT_GRADE": 0.3,
       "ELEVATED": 0.8
     },
-    "allowAtGradeRoadCrossing": false,
+    "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
       "Alstom"
     ]
@@ -298,9 +298,9 @@
       "maxAcceleration": 1.1,
       "maxDeceleration": 1.2,
       "maxSpeed": 27.78,
-      "maxSpeedLocalStation": 12.0,
+      "maxSpeedLocalStation": 12,
       "capacityPerCar": 150,
-      "carLength": 19.0,
+      "carLength": 19,
       "minCars": 4,
       "maxCars": 4,
       "carsPerCarSet": 4,
@@ -317,7 +317,7 @@
       "maxLateralAcceleration": 0.9,
       "minTurnRadius": 50,
       "minStationTurnRadius": 420,
-      "maxSlopePercentage": 4.0,
+      "maxSlopePercentage": 4,
       "parallelTrackSpacing": 3.8,
       "stopTimeSeconds": 30,
       "trackMaintenanceCostPerMeter": 0,
@@ -327,13 +327,13 @@
       "color": "#6CACE4"
     },
     "elevationMultipliers": {
-      "DEEP_BORE": 4.0,
-      "STANDARD_TUNNEL": 2.0,
-      "CUT_AND_COVER": 1.0,
+      "DEEP_BORE": 4,
+      "STANDARD_TUNNEL": 2,
+      "CUT_AND_COVER": 1,
       "AT_GRADE": 0.3,
       "ELEVATED": 0.8
     },
-    "allowAtGradeRoadCrossing": false,
+    "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
       "Alstom"
     ]
@@ -345,10 +345,10 @@
     "stats": {
       "maxAcceleration": 1.1,
       "maxDeceleration": 1.2,
-      "maxSpeed": 25.0,
-      "maxSpeedLocalStation": 12.0,
+      "maxSpeed": 25,
+      "maxSpeedLocalStation": 12,
       "capacityPerCar": 220,
-      "carLength": 20.0,
+      "carLength": 20,
       "minCars": 4,
       "maxCars": 4,
       "carsPerCarSet": 4,
@@ -365,7 +365,7 @@
       "maxLateralAcceleration": 0.9,
       "minTurnRadius": 50,
       "minStationTurnRadius": 420,
-      "maxSlopePercentage": 4.0,
+      "maxSlopePercentage": 4,
       "parallelTrackSpacing": 3.8,
       "stopTimeSeconds": 30,
       "trackMaintenanceCostPerMeter": 0,
@@ -375,13 +375,13 @@
       "color": "#009999"
     },
     "elevationMultipliers": {
-      "DEEP_BORE": 4.0,
-      "STANDARD_TUNNEL": 2.0,
-      "CUT_AND_COVER": 1.0,
+      "DEEP_BORE": 4,
+      "STANDARD_TUNNEL": 2,
+      "CUT_AND_COVER": 1,
       "AT_GRADE": 0.3,
       "ELEVATED": 0.8
     },
-    "allowAtGradeRoadCrossing": false,
+    "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
       "Siemens Mobility"
     ]
@@ -393,10 +393,10 @@
     "stats": {
       "maxAcceleration": 1.1,
       "maxDeceleration": 1.2,
-      "maxSpeed": 25.0,
-      "maxSpeedLocalStation": 12.0,
+      "maxSpeed": 25,
+      "maxSpeedLocalStation": 12,
       "capacityPerCar": 220,
-      "carLength": 20.0,
+      "carLength": 20,
       "minCars": 4,
       "maxCars": 4,
       "carsPerCarSet": 4,
@@ -413,7 +413,7 @@
       "maxLateralAcceleration": 0.9,
       "minTurnRadius": 50,
       "minStationTurnRadius": 420,
-      "maxSlopePercentage": 4.0,
+      "maxSlopePercentage": 4,
       "parallelTrackSpacing": 3.8,
       "stopTimeSeconds": 30,
       "trackMaintenanceCostPerMeter": 0,
@@ -423,13 +423,13 @@
       "color": "#E4002B"
     },
     "elevationMultipliers": {
-      "DEEP_BORE": 4.0,
-      "STANDARD_TUNNEL": 2.0,
-      "CUT_AND_COVER": 1.0,
+      "DEEP_BORE": 4,
+      "STANDARD_TUNNEL": 2,
+      "CUT_AND_COVER": 1,
       "AT_GRADE": 0.3,
       "ELEVATED": 0.8
     },
-    "allowAtGradeRoadCrossing": false,
+    "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
       "Bombardier Transportation",
       "Alstom"
@@ -442,10 +442,10 @@
     "stats": {
       "maxAcceleration": 1.1,
       "maxDeceleration": 1.2,
-      "maxSpeed": 25.0,
-      "maxSpeedLocalStation": 12.0,
+      "maxSpeed": 25,
+      "maxSpeedLocalStation": 12,
       "capacityPerCar": 210,
-      "carLength": 20.0,
+      "carLength": 20,
       "minCars": 4,
       "maxCars": 4,
       "carsPerCarSet": 4,
@@ -462,7 +462,7 @@
       "maxLateralAcceleration": 0.9,
       "minTurnRadius": 50,
       "minStationTurnRadius": 420,
-      "maxSlopePercentage": 4.0,
+      "maxSlopePercentage": 4,
       "parallelTrackSpacing": 3.8,
       "stopTimeSeconds": 30,
       "trackMaintenanceCostPerMeter": 0,
@@ -472,13 +472,13 @@
       "color": "#004B93"
     },
     "elevationMultipliers": {
-      "DEEP_BORE": 4.0,
-      "STANDARD_TUNNEL": 2.0,
-      "CUT_AND_COVER": 1.0,
+      "DEEP_BORE": 4,
+      "STANDARD_TUNNEL": 2,
+      "CUT_AND_COVER": 1,
       "AT_GRADE": 0.3,
       "ELEVATED": 0.8
     },
-    "allowAtGradeRoadCrossing": false,
+    "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
       "CAF"
     ]
@@ -491,9 +491,9 @@
       "maxAcceleration": 1.1,
       "maxDeceleration": 1.2,
       "maxSpeed": 27.78,
-      "maxSpeedLocalStation": 12.0,
+      "maxSpeedLocalStation": 12,
       "capacityPerCar": 230,
-      "carLength": 20.0,
+      "carLength": 20,
       "minCars": 4,
       "maxCars": 4,
       "carsPerCarSet": 4,
@@ -510,7 +510,7 @@
       "maxLateralAcceleration": 0.9,
       "minTurnRadius": 50,
       "minStationTurnRadius": 420,
-      "maxSlopePercentage": 4.0,
+      "maxSlopePercentage": 4,
       "parallelTrackSpacing": 3.8,
       "stopTimeSeconds": 30,
       "trackMaintenanceCostPerMeter": 0,
@@ -520,13 +520,13 @@
       "color": "#D71920"
     },
     "elevationMultipliers": {
-      "DEEP_BORE": 4.0,
-      "STANDARD_TUNNEL": 2.0,
-      "CUT_AND_COVER": 1.0,
+      "DEEP_BORE": 4,
+      "STANDARD_TUNNEL": 2,
+      "CUT_AND_COVER": 1,
       "AT_GRADE": 0.3,
       "ELEVATED": 0.8
     },
-    "allowAtGradeRoadCrossing": false,
+    "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
       "CRRC"
     ]
@@ -538,10 +538,10 @@
     "stats": {
       "maxAcceleration": 1.1,
       "maxDeceleration": 1.2,
-      "maxSpeed": 25.0,
-      "maxSpeedLocalStation": 12.0,
+      "maxSpeed": 25,
+      "maxSpeedLocalStation": 12,
       "capacityPerCar": 160,
-      "carLength": 17.0,
+      "carLength": 17,
       "minCars": 2,
       "maxCars": 2,
       "carsPerCarSet": 2,
@@ -558,7 +558,7 @@
       "maxLateralAcceleration": 0.9,
       "minTurnRadius": 50,
       "minStationTurnRadius": 420,
-      "maxSlopePercentage": 4.0,
+      "maxSlopePercentage": 4,
       "parallelTrackSpacing": 3.8,
       "stopTimeSeconds": 30,
       "trackMaintenanceCostPerMeter": 0,
@@ -568,13 +568,13 @@
       "color": "#00A3E0"
     },
     "elevationMultipliers": {
-      "DEEP_BORE": 4.0,
-      "STANDARD_TUNNEL": 2.0,
-      "CUT_AND_COVER": 1.0,
+      "DEEP_BORE": 4,
+      "STANDARD_TUNNEL": 2,
+      "CUT_AND_COVER": 1,
       "AT_GRADE": 0.3,
       "ELEVATED": 0.8
     },
-    "allowAtGradeRoadCrossing": false,
+    "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
       "Bombardier Transportation",
       "Alstom"
@@ -587,8 +587,8 @@
     "stats": {
       "maxAcceleration": 1.1,
       "maxDeceleration": 1.2,
-      "maxSpeed": 25.0,
-      "maxSpeedLocalStation": 12.0,
+      "maxSpeed": 25,
+      "maxSpeedLocalStation": 12,
       "capacityPerCar": 160,
       "carLength": 17.5,
       "minCars": 4,
@@ -607,7 +607,7 @@
       "maxLateralAcceleration": 0.9,
       "minTurnRadius": 50,
       "minStationTurnRadius": 420,
-      "maxSlopePercentage": 4.0,
+      "maxSlopePercentage": 4,
       "parallelTrackSpacing": 3.8,
       "stopTimeSeconds": 30,
       "trackMaintenanceCostPerMeter": 0,
@@ -617,13 +617,13 @@
       "color": "#00A3E0"
     },
     "elevationMultipliers": {
-      "DEEP_BORE": 4.0,
-      "STANDARD_TUNNEL": 2.0,
-      "CUT_AND_COVER": 1.0,
+      "DEEP_BORE": 4,
+      "STANDARD_TUNNEL": 2,
+      "CUT_AND_COVER": 1,
       "AT_GRADE": 0.3,
       "ELEVATED": 0.8
     },
-    "allowAtGradeRoadCrossing": false,
+    "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
       "Bombardier Transportation",
       "Alstom"
