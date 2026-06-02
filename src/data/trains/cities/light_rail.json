@@ -1,3150 +1,22 @@
 [
   {
-    "id": "hou-h1-s70-lrv",
-    "name": "HOU H1 S70 LRV",
-    "description": "Houston METRORail Siemens S70 LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 29.44,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 200,
-      "carLength": 29,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4100000,
-      "trainWidth": 2.65,
-      "minStationLength": 29,
-      "maxStationLength": 76,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#D71920"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "hou-h2-s70-lrv",
-    "name": "HOU H2 S70 LRV",
-    "description": "Houston METRORail second-series Siemens S70 LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 29.44,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 200,
-      "carLength": 29,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4200000,
-      "trainWidth": 2.65,
-      "minStationLength": 29,
-      "maxStationLength": 76,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#D71920"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "hou-h3-s700-lrv",
-    "name": "HOU H3 S700 LRV",
-    "description": "Houston METRORail Siemens S700 LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 29.44,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 200,
-      "carLength": 29,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4400000,
-      "trainWidth": 2.65,
-      "minStationLength": 29,
-      "maxStationLength": 76,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#D71920"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "la-p865-lrv",
-    "name": "LA P865 LRV",
-    "description": "Los Angeles Metro Rail Nippon Sharyo P865 high-floor LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 24.72,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 160,
-      "carLength": 26.2,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 2400000,
-      "trainWidth": 2.65,
-      "minStationLength": 26,
-      "maxStationLength": 70,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#0072CE"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Nippon Sharyo"
-    ]
-  },
-  {
-    "id": "la-p2020-lrv",
-    "name": "LA P2020 LRV",
-    "description": "Los Angeles Metro Rail Nippon Sharyo P2020 high-floor LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 24.72,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 160,
-      "carLength": 26.2,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 2500000,
-      "trainWidth": 2.65,
-      "minStationLength": 26,
-      "maxStationLength": 70,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#0072CE"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Nippon Sharyo"
-    ]
-  },
-  {
-    "id": "la-p2550-lrv",
-    "name": "LA P2550 LRV",
-    "description": "Los Angeles Metro Rail Siemens P2000/P2550 LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 29.17,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 180,
-      "carLength": 28.6,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 3600000,
-      "trainWidth": 2.65,
-      "minStationLength": 29,
-      "maxStationLength": 76,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#0072CE"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "la-p3010-lrv",
-    "name": "LA P3010 LRV",
-    "description": "Los Angeles Metro Rail Kinki Sharyo P3010 low-floor LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 28.89,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 220,
-      "carLength": 27.13,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4200000,
-      "trainWidth": 2.66,
-      "minStationLength": 27,
-      "maxStationLength": 72,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#0072CE"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Kinki Sharyo"
-    ]
-  },
-  {
-    "id": "dal-slrv-lrv",
-    "name": "DAL SLRV LRV",
-    "description": "Dallas DART Kinki Sharyo SLRV articulated light rail vehicle.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 29.17,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 220,
-      "carLength": 37.7,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4500000,
-      "trainWidth": 2.65,
-      "minStationLength": 38,
-      "maxStationLength": 94,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#F58220"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Kinki Sharyo"
-    ]
-  },
-  {
-    "id": "den-sd100-lrv",
-    "name": "DEN SD100 LRV",
-    "description": "Denver RTD Siemens SD100 high-floor LRV.",
+    "id": "man-metrolink-lrv",
+    "name": "MAN Metrolink LRV",
+    "description": "Representative Manchester Metrolink LRV.",
     "stats": {
       "maxAcceleration": 1.05,
       "maxDeceleration": 1.15,
       "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 170,
-      "carLength": 24.8,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 2600000,
-      "trainWidth": 2.65,
-      "minStationLength": 25,
-      "maxStationLength": 68,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#7B6469"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "den-sd160-lrv",
-    "name": "DEN SD160 LRV",
-    "description": "Denver RTD Siemens SD160 high-floor LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 170,
-      "carLength": 24.8,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 2800000,
-      "trainWidth": 2.65,
-      "minStationLength": 25,
-      "maxStationLength": 68,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#7B6469"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "den-s70-lrv",
-    "name": "DEN S70 LRV",
-    "description": "Denver RTD Siemens S70 low-floor LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 29.17,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 200,
-      "carLength": 29,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4100000,
-      "trainWidth": 2.65,
-      "minStationLength": 29,
-      "maxStationLength": 76,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#7B6469"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "sd-u2-lrv",
-    "name": "SD U2 LRV",
-    "description": "San Diego Trolley Siemens-Duewag U2 high-floor LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 160,
-      "carLength": 24.3,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 2000000,
-      "trainWidth": 2.65,
-      "minStationLength": 24,
-      "maxStationLength": 66,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#D71920"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "DUEWAG",
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "sd-sd100-lrv",
-    "name": "SD SD100 LRV",
-    "description": "San Diego Trolley Siemens SD100 high-floor LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 170,
-      "carLength": 24.8,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 2600000,
-      "trainWidth": 2.65,
-      "minStationLength": 25,
-      "maxStationLength": 68,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#D71920"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "sd-s70-lrv",
-    "name": "SD S70 LRV",
-    "description": "San Diego Trolley Siemens S70 low-floor LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 29.17,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 200,
-      "carLength": 29,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4100000,
-      "trainWidth": 2.65,
-      "minStationLength": 29,
-      "maxStationLength": 76,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#D71920"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "sd-s700-lrv",
-    "name": "SD S700 LRV",
-    "description": "San Diego Trolley Siemens S700 low-floor LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 29.17,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 200,
-      "carLength": 29,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4400000,
-      "trainWidth": 2.65,
-      "minStationLength": 29,
-      "maxStationLength": 76,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#D71920"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "por-type-1-lrv",
-    "name": "POR Type 1 LRV",
-    "description": "Portland MAX Type 1 Bombardier high-floor LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 24.44,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 166,
-      "carLength": 26,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 2400000,
-      "trainWidth": 2.65,
-      "minStationLength": 26,
-      "maxStationLength": 70,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#005EB8"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Bombardier Transportation"
-    ]
-  },
-  {
-    "id": "por-type-2-lrv",
-    "name": "POR Type 2 LRV",
-    "description": "Portland MAX Type 2 Siemens SD660 low-floor LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 24.44,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 170,
-      "carLength": 28,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 3000000,
-      "trainWidth": 2.65,
-      "minStationLength": 28,
-      "maxStationLength": 74,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#005EB8"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "por-type-3-lrv",
-    "name": "POR Type 3 LRV",
-    "description": "Portland MAX Type 3 Siemens SD660 low-floor LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 24.44,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 170,
-      "carLength": 28,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 3100000,
-      "trainWidth": 2.65,
-      "minStationLength": 28,
-      "maxStationLength": 74,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#005EB8"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "por-type-4-lrv",
-    "name": "POR Type 4 LRV",
-    "description": "Portland MAX Type 4 Siemens S70 LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 24.44,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 200,
-      "carLength": 29,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4100000,
-      "trainWidth": 2.65,
-      "minStationLength": 29,
-      "maxStationLength": 76,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#005EB8"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "por-type-5-lrv",
-    "name": "POR Type 5 LRV",
-    "description": "Portland MAX Type 5 Siemens S70 LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 24.44,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 200,
-      "carLength": 29,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4200000,
-      "trainWidth": 2.65,
-      "minStationLength": 29,
-      "maxStationLength": 76,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#005EB8"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "por-type-6-lrv",
-    "name": "POR Type 6 LRV",
-    "description": "Portland MAX Type 6 Siemens S700 LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 24.44,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 200,
-      "carLength": 29,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4400000,
-      "trainWidth": 2.65,
-      "minStationLength": 29,
-      "maxStationLength": 76,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#005EB8"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "sea-kinki-sharyo-lrv",
-    "name": "SEA Kinki Sharyo LRV",
-    "description": "Seattle Link first-generation Kinki Sharyo LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 29.17,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 200,
-      "carLength": 29,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4200000,
-      "trainWidth": 2.65,
-      "minStationLength": 29,
-      "maxStationLength": 76,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#00A3E0"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Kinki Sharyo"
-    ]
-  },
-  {
-    "id": "sea-s700-lrv",
-    "name": "SEA S700 LRV",
-    "description": "Seattle Link Siemens S700 LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 29.17,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 200,
-      "carLength": 29,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4400000,
-      "trainWidth": 2.65,
-      "minStationLength": 29,
-      "maxStationLength": 76,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#00A3E0"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "phx-kinki-sharyo-lrv",
-    "name": "PHX Kinki Sharyo LRV",
-    "description": "Valley Metro Phoenix Kinki Sharyo LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 29.17,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 220,
-      "carLength": 27.13,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4200000,
-      "trainWidth": 2.66,
-      "minStationLength": 27,
-      "maxStationLength": 72,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#8E44AD"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Kinki Sharyo"
-    ]
-  },
-  {
-    "id": "phx-s700-lrv",
-    "name": "PHX S700 LRV",
-    "description": "Valley Metro Phoenix Siemens S700 LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 29.17,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 200,
-      "carLength": 29,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4400000,
-      "trainWidth": 2.65,
-      "minStationLength": 29,
-      "maxStationLength": 76,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#8E44AD"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "sac-u2a-lrv",
-    "name": "SAC U2A LRV",
-    "description": "Sacramento RT Siemens-Duewag U2A high-floor LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 160,
-      "carLength": 24.3,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 2100000,
-      "trainWidth": 2.65,
-      "minStationLength": 24,
-      "maxStationLength": 66,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#005EB8"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "DUEWAG",
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "sac-caf-lrv",
-    "name": "SAC CAF LRV",
-    "description": "Sacramento RT CAF low-floor LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 25,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 180,
-      "carLength": 27,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 3300000,
-      "trainWidth": 2.65,
-      "minStationLength": 27,
-      "maxStationLength": 72,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#005EB8"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "CAF"
-    ]
-  },
-  {
-    "id": "sac-s700-lrv",
-    "name": "SAC S700 LRV",
-    "description": "Sacramento RT Siemens S700 low-floor LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 29.17,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 200,
-      "carLength": 29,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4400000,
-      "trainWidth": 2.65,
-      "minStationLength": 29,
-      "maxStationLength": 76,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#005EB8"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "sjc-utdc-lrv",
-    "name": "SJC UTDC LRV",
-    "description": "VTA San Jose UTDC high-floor LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 160,
-      "carLength": 26,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 2300000,
-      "trainWidth": 2.65,
-      "minStationLength": 26,
-      "maxStationLength": 70,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#007A3D"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "UTDC"
-    ]
-  },
-  {
-    "id": "sjc-kinki-low-floor-lrv",
-    "name": "SJC Kinki Low Floor LRV",
-    "description": "VTA San Jose Kinki Sharyo low-floor LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 29.17,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 200,
-      "carLength": 27,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4000000,
-      "trainWidth": 2.65,
-      "minStationLength": 27,
-      "maxStationLength": 72,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#007A3D"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Kinki Sharyo"
-    ]
-  },
-  {
-    "id": "slc-sd100-lrv",
-    "name": "SLC SD100 LRV",
-    "description": "UTA TRAX Siemens SD100 high-floor LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 170,
-      "carLength": 24.8,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 2600000,
-      "trainWidth": 2.65,
-      "minStationLength": 25,
-      "maxStationLength": 68,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#D71920"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "slc-sd160-lrv",
-    "name": "SLC SD160 LRV",
-    "description": "UTA TRAX Siemens SD160 high-floor LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 170,
-      "carLength": 24.8,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 2800000,
-      "trainWidth": 2.65,
-      "minStationLength": 25,
-      "maxStationLength": 68,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#D71920"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "slc-s70-lrv",
-    "name": "SLC S70 LRV",
-    "description": "UTA TRAX Siemens S70 low-floor LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 29.17,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 200,
-      "carLength": 29,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4100000,
-      "trainWidth": 2.65,
-      "minStationLength": 29,
-      "maxStationLength": 76,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#D71920"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "msp-s70-lrv",
-    "name": "MSP S70 LRV",
-    "description": "Metro Transit Twin Cities Siemens S70 LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 29.17,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 200,
-      "carLength": 29,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4100000,
-      "trainWidth": 2.65,
-      "minStationLength": 29,
-      "maxStationLength": 76,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#005EB8"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "msp-s700-lrv",
-    "name": "MSP S700 LRV",
-    "description": "Metro Transit Twin Cities Siemens S700 LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 29.17,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 200,
-      "carLength": 29,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4400000,
-      "trainWidth": 2.65,
-      "minStationLength": 29,
-      "maxStationLength": 76,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#005EB8"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "stl-sd400-lrv",
-    "name": "STL SD400 LRV",
-    "description": "St. Louis MetroLink Siemens SD400 high-floor LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 29.17,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 180,
-      "carLength": 27,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 3100000,
-      "trainWidth": 2.65,
-      "minStationLength": 27,
-      "maxStationLength": 72,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#D71920"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "stl-sd460-lrv",
-    "name": "STL SD460 LRV",
-    "description": "St. Louis MetroLink Siemens SD460 high-floor LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 29.17,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 180,
-      "carLength": 27,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 3200000,
-      "trainWidth": 2.65,
-      "minStationLength": 27,
-      "maxStationLength": 72,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#D71920"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "bal-abb-lrv",
-    "name": "BAL ABB LRV",
-    "description": "Baltimore Light Rail ABB LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 26.94,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 200,
-      "carLength": 29,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 3000000,
-      "trainWidth": 2.65,
-      "minStationLength": 29,
-      "maxStationLength": 76,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#005EB8"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "ABB"
-    ]
-  },
-  {
-    "id": "buf-tokyu-lrv",
-    "name": "BUF Tokyu LRV",
-    "description": "Buffalo Metro Rail Tokyu Car high-floor LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 160,
-      "carLength": 20,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 2300000,
-      "trainWidth": 2.65,
-      "minStationLength": 20,
-      "maxStationLength": 58,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#7B6469"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Tokyu Car Corporation"
-    ]
-  },
-  {
-    "id": "pit-sd400-lrv",
-    "name": "PIT SD400 LRV",
-    "description": "Pittsburgh light rail Siemens SD400 high-floor LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 170,
-      "carLength": 24.8,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 2700000,
-      "trainWidth": 2.65,
-      "minStationLength": 25,
-      "maxStationLength": 68,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#D71920"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "pit-caf-lrv",
-    "name": "PIT CAF LRV",
-    "description": "Pittsburgh CAF LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 170,
-      "carLength": 24.8,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 3000000,
-      "trainWidth": 2.65,
-      "minStationLength": 25,
-      "maxStationLength": 68,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#D71920"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "CAF"
-    ]
-  },
-  {
-    "id": "bos-type-7-lrv",
-    "name": "BOS Type 7 LRV",
-    "description": "Boston Green Line Type 7 Kinki Sharyo LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 150,
-      "carLength": 22.8,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 2600000,
-      "trainWidth": 2.65,
-      "minStationLength": 23,
-      "maxStationLength": 64,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#00843D"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Kinki Sharyo"
-    ]
-  },
-  {
-    "id": "bos-type-8-lrv",
-    "name": "BOS Type 8 LRV",
-    "description": "Boston Green Line Type 8 AnsaldoBreda low-floor LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 180,
-      "carLength": 22.8,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 3000000,
-      "trainWidth": 2.65,
-      "minStationLength": 23,
-      "maxStationLength": 64,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#00843D"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "AnsaldoBreda"
-    ]
-  },
-  {
-    "id": "bos-type-9-lrv",
-    "name": "BOS Type 9 LRV",
-    "description": "Boston Green Line Type 9 CAF low-floor LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 180,
-      "carLength": 22.8,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 3400000,
-      "trainWidth": 2.65,
-      "minStationLength": 23,
-      "maxStationLength": 64,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#00843D"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "CAF"
-    ]
-  },
-  {
-    "id": "bos-type-10-lrv",
-    "name": "BOS Type 10 LRV",
-    "description": "Boston Green Line Type 10 CAF supercar LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 250,
-      "carLength": 34,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 5000000,
-      "trainWidth": 2.65,
-      "minStationLength": 34,
-      "maxStationLength": 86,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#00843D"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "CAF"
-    ]
-  },
-  {
-    "id": "sf-boeing-lrv-lrv",
-    "name": "SF Boeing LRV LRV",
-    "description": "San Francisco Muni Boeing-Vertol light rail vehicle.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 160,
-      "carLength": 21.6,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 2000000,
-      "trainWidth": 2.65,
-      "minStationLength": 22,
-      "maxStationLength": 62,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#D71920"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Boeing Vertol"
-    ]
-  },
-  {
-    "id": "sf-breda-lrv3-lrv",
-    "name": "SF Breda LRV3 LRV",
-    "description": "San Francisco Muni Breda LRV2/LRV3 family.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 178,
-      "carLength": 23,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 2800000,
-      "trainWidth": 2.65,
-      "minStationLength": 23,
-      "maxStationLength": 64,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#D71920"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Breda"
-    ]
-  },
-  {
-    "id": "sf-s200-lrv",
-    "name": "SF S200 LRV",
-    "description": "San Francisco Muni Siemens S200 LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 29.17,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 190,
-      "carLength": 24.8,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4000000,
-      "trainWidth": 2.65,
-      "minStationLength": 25,
-      "maxStationLength": 68,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#D71920"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "njt-hblr-kinki-lrv",
-    "name": "NJT HBLR Kinki LRV",
-    "description": "NJ Transit Hudson-Bergen Light Rail Kinki Sharyo LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 25,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 180,
-      "carLength": 27.4,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 3300000,
-      "trainWidth": 2.65,
-      "minStationLength": 27,
-      "maxStationLength": 72,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#F58220"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Kinki Sharyo"
-    ]
-  },
-  {
-    "id": "nwk-kinki-lrv",
-    "name": "NWK Kinki LRV",
-    "description": "Newark Light Rail Kinki Sharyo LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 25,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 180,
-      "carLength": 27.4,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 3300000,
-      "trainWidth": 2.65,
-      "minStationLength": 27,
-      "maxStationLength": 72,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#F58220"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Kinki Sharyo"
-    ]
-  },
-  {
-    "id": "cle-breda-lrv-lrv",
-    "name": "CLE Breda LRV LRV",
-    "description": "Cleveland RTA Blue/Green Line Breda LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 180,
-      "carLength": 23,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 2800000,
-      "trainWidth": 2.65,
-      "minStationLength": 23,
-      "maxStationLength": 64,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#0072CE"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Breda"
-    ]
-  },
-  {
-    "id": "cle-s200-lrv",
-    "name": "CLE S200 LRV",
-    "description": "Cleveland RTA future Siemens S200 LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 29.17,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 190,
-      "carLength": 24.8,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4000000,
-      "trainWidth": 2.65,
-      "minStationLength": 25,
-      "maxStationLength": 68,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#0072CE"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "cha-s70-lrv",
-    "name": "CHA S70 LRV",
-    "description": "Charlotte Lynx Blue Line Siemens S70 LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 29.17,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 200,
-      "carLength": 29,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4100000,
-      "trainWidth": 2.65,
-      "minStationLength": 29,
-      "maxStationLength": 76,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#005EB8"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "cha-s700-lrv",
-    "name": "CHA S700 LRV",
-    "description": "Charlotte Lynx Siemens S700 LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 29.17,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 200,
-      "carLength": 29,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4400000,
-      "trainWidth": 2.65,
-      "minStationLength": 29,
-      "maxStationLength": 76,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#005EB8"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "nor-s70-lrv",
-    "name": "NOR S70 LRV",
-    "description": "Norfolk Tide Siemens S70 LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 29.17,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 200,
-      "carLength": 29,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4100000,
-      "trainWidth": 2.65,
-      "minStationLength": 29,
-      "maxStationLength": 76,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#005EB8"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "wat-flexity-freedom-lrv",
-    "name": "WAT Flexity Freedom LRV",
-    "description": "Waterloo ION Bombardier Flexity Freedom LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 200,
-      "carLength": 30,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4100000,
-      "trainWidth": 2.65,
-      "minStationLength": 30,
-      "maxStationLength": 78,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#00A3E0"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Bombardier Transportation",
-      "Alstom"
-    ]
-  },
-  {
-    "id": "ott-citadis-spirit-lrv",
-    "name": "OTT Citadis Spirit LRV",
-    "description": "Ottawa O-Train Confederation Line Alstom Citadis Spirit LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 27.78,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 300,
-      "carLength": 48,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 5200000,
-      "trainWidth": 2.65,
-      "minStationLength": 48,
-      "maxStationLength": 114,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#D71920"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Alstom"
-    ]
-  },
-  {
-    "id": "tor-flexity-freedom-lrv",
-    "name": "TOR Flexity Freedom LRV",
-    "description": "Toronto Eglinton/Finch-style Bombardier Flexity Freedom LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 200,
-      "carLength": 30,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4100000,
-      "trainWidth": 2.65,
-      "minStationLength": 30,
-      "maxStationLength": 78,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#D71920"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Bombardier Transportation",
-      "Alstom"
-    ]
-  },
-  {
-    "id": "edm-u2-lrv",
-    "name": "EDM U2 LRV",
-    "description": "Edmonton LRT Siemens-Duewag U2 LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 160,
-      "carLength": 24.3,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 2000000,
-      "trainWidth": 2.65,
-      "minStationLength": 24,
-      "maxStationLength": 66,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#005EB8"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "DUEWAG",
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "edm-sd160-lrv",
-    "name": "EDM SD160 LRV",
-    "description": "Edmonton LRT Siemens SD160 LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 170,
-      "carLength": 24.8,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 2800000,
-      "trainWidth": 2.65,
-      "minStationLength": 25,
-      "maxStationLength": 68,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#005EB8"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "edm-flexity-freedom-lrv",
-    "name": "EDM Flexity Freedom LRV",
-    "description": "Edmonton Valley Line Bombardier Flexity Freedom LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 200,
-      "carLength": 30,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4100000,
-      "trainWidth": 2.65,
-      "minStationLength": 30,
-      "maxStationLength": 78,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#005EB8"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Bombardier Transportation",
-      "Alstom"
-    ]
-  },
-  {
-    "id": "cgy-u2-lrv",
-    "name": "CGY U2 LRV",
-    "description": "Calgary CTrain Siemens-Duewag U2 LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 160,
-      "carLength": 24.3,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 2000000,
-      "trainWidth": 2.65,
-      "minStationLength": 24,
-      "maxStationLength": 66,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#D71920"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "DUEWAG",
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "cgy-sd160-lrv",
-    "name": "CGY SD160 LRV",
-    "description": "Calgary CTrain Siemens SD160 LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 170,
-      "carLength": 24.8,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 2800000,
-      "trainWidth": 2.65,
-      "minStationLength": 25,
-      "maxStationLength": 68,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#D71920"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "cgy-s200-lrv",
-    "name": "CGY S200 LRV",
-    "description": "Calgary CTrain Siemens S200 LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 29.17,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 190,
-      "carLength": 24.8,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 4000000,
-      "trainWidth": 2.65,
-      "minStationLength": 25,
-      "maxStationLength": 68,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#D71920"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "man-t-68-lrv",
-    "name": "MAN T-68 LRV",
-    "description": "Manchester Metrolink T-68 high-floor LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 200,
-      "carLength": 29,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 2800000,
-      "trainWidth": 2.65,
-      "minStationLength": 29,
-      "maxStationLength": 76,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#F6BE00"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Firema",
-      "Ansaldo"
-    ]
-  },
-  {
-    "id": "man-m5000-lrv",
-    "name": "MAN M5000 LRV",
-    "description": "Manchester Metrolink Bombardier M5000 Flexity Swift LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
+      "maxSpeedLocalStation": 12.0,
       "capacityPerCar": 206,
       "carLength": 28.4,
       "minCars": 1,
-      "maxCars": 2,
+      "maxCars": 1,
       "carsPerCarSet": 1,
       "carCost": 3900000,
       "trainWidth": 2.65,
       "minStationLength": 28,
-      "maxStationLength": 74,
+      "maxStationLength": 37,
       "baseTrackCost": 26000,
       "baseStationCost": 26000000,
       "trainOperationalCostPerHour": 150,
@@ -3172,28 +44,27 @@
     },
     "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
-      "Bombardier Transportation",
       "Alstom"
     ]
   },
   {
-    "id": "crd-cr4000-lrv",
-    "name": "CRD CR4000 LRV",
-    "description": "Croydon Tramlink Bombardier CR4000 LRV.",
+    "id": "crd-tramlink-lrv",
+    "name": "CRD Tramlink LRV",
+    "description": "Representative Croydon Tramlink LRV.",
     "stats": {
       "maxAcceleration": 1.05,
       "maxDeceleration": 1.15,
       "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 208,
-      "carLength": 30.1,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 220,
+      "carLength": 32.0,
       "minCars": 1,
-      "maxCars": 2,
+      "maxCars": 1,
       "carsPerCarSet": 1,
-      "carCost": 3400000,
+      "carCost": 3500000,
       "trainWidth": 2.65,
-      "minStationLength": 30,
-      "maxStationLength": 78,
+      "minStationLength": 32,
+      "maxStationLength": 41,
       "baseTrackCost": 26000,
       "baseStationCost": 26000000,
       "trainOperationalCostPerHour": 150,
@@ -3221,27 +92,28 @@
     },
     "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
+      "Stadler Rail",
       "Bombardier Transportation"
     ]
   },
   {
-    "id": "crd-variobahn-lrv",
-    "name": "CRD Variobahn LRV",
-    "description": "Croydon Tramlink Stadler Variobahn LRV.",
+    "id": "not-net-lrv",
+    "name": "NOT NET LRV",
+    "description": "Representative Nottingham Express Transit LRV.",
     "stats": {
       "maxAcceleration": 1.05,
       "maxDeceleration": 1.15,
       "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
+      "maxSpeedLocalStation": 12.0,
       "capacityPerCar": 220,
-      "carLength": 32,
+      "carLength": 33.0,
       "minCars": 1,
-      "maxCars": 2,
+      "maxCars": 1,
       "carsPerCarSet": 1,
       "carCost": 3500000,
-      "trainWidth": 2.65,
-      "minStationLength": 32,
-      "maxStationLength": 82,
+      "trainWidth": 2.4,
+      "minStationLength": 33,
+      "maxStationLength": 42,
       "baseTrackCost": 26000,
       "baseStationCost": 26000000,
       "trainOperationalCostPerHour": 150,
@@ -3258,7 +130,200 @@
       "stationMaintenanceCostPerYear": 0
     },
     "appearance": {
-      "color": "#8E44AD"
+      "color": "#43B02A"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Alstom",
+      "Bombardier Transportation"
+    ]
+  },
+  {
+    "id": "dub-luas-lrv",
+    "name": "DUB Luas LRV",
+    "description": "Representative Dublin Luas Citadis LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 310,
+      "carLength": 43.6,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 4300000,
+      "trainWidth": 2.4,
+      "minStationLength": 44,
+      "maxStationLength": 53,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#7B6469"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Alstom"
+    ]
+  },
+  {
+    "id": "dub-luas-long-lrv",
+    "name": "DUB Luas Long LRV",
+    "description": "Higher-capacity Dublin Luas long LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 350,
+      "carLength": 54.6,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 5400000,
+      "trainWidth": 2.4,
+      "minStationLength": 55,
+      "maxStationLength": 64,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#7B6469"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Alstom"
+    ]
+  },
+  {
+    "id": "wml-metro-lrv",
+    "name": "WML Metro LRV",
+    "description": "Representative West Midlands Metro LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 210,
+      "carLength": 32.4,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 3600000,
+      "trainWidth": 2.65,
+      "minStationLength": 32,
+      "maxStationLength": 41,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#004B93"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "CAF"
+    ]
+  },
+  {
+    "id": "ncl-metro-lrv",
+    "name": "NCL Metro LRV",
+    "description": "Tyne and Wear Metro-style regional LRT vehicle.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 250,
+      "carLength": 28.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 3800000,
+      "trainWidth": 2.65,
+      "minStationLength": 28,
+      "maxStationLength": 37,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#F6BE00"
     },
     "elevationMultipliers": {
       "DEEP_BORE": 3.5,
@@ -3273,23 +338,121 @@
     ]
   },
   {
-    "id": "not-incentro-lrv",
-    "name": "NOT Incentro LRV",
-    "description": "Nottingham Express Transit Bombardier Incentro LRV.",
+    "id": "lon-dlr-lrv",
+    "name": "LON DLR LRV",
+    "description": "London DLR automated light rail vehicle.",
     "stats": {
       "maxAcceleration": 1.05,
       "maxDeceleration": 1.15,
       "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 200,
-      "carLength": 33,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 170,
+      "carLength": 28.0,
       "minCars": 1,
-      "maxCars": 2,
+      "maxCars": 1,
       "carsPerCarSet": 1,
       "carCost": 3500000,
-      "trainWidth": 2.4,
-      "minStationLength": 33,
-      "maxStationLength": 84,
+      "trainWidth": 2.65,
+      "minStationLength": 28,
+      "maxStationLength": 37,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#00A3E0"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "CAF",
+      "Bombardier Transportation"
+    ]
+  },
+  {
+    "id": "str-stadtbahn-lrv",
+    "name": "STR Stadtbahn LRV",
+    "description": "Representative Stuttgart Stadtbahn LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 180,
+      "carLength": 38.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 4200000,
+      "trainWidth": 2.65,
+      "minStationLength": 38,
+      "maxStationLength": 47,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#F3D03E"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "DUEWAG",
+      "Stadler Rail"
+    ]
+  },
+  {
+    "id": "han-stadtbahn-lrv",
+    "name": "HAN Stadtbahn LRV",
+    "description": "Representative Hannover Stadtbahn LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 180,
+      "carLength": 28.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 3300000,
+      "trainWidth": 2.65,
+      "minStationLength": 28,
+      "maxStationLength": 37,
       "baseTrackCost": 26000,
       "baseStationCost": 26000000,
       "trainOperationalCostPerHour": 150,
@@ -3307,6 +470,55 @@
     },
     "appearance": {
       "color": "#43B02A"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "DUEWAG",
+      "TW"
+    ]
+  },
+  {
+    "id": "cgn-stadtbahn-lrv",
+    "name": "CGN Stadtbahn LRV",
+    "description": "Representative Cologne Stadtbahn LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 180,
+      "carLength": 28.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 3300000,
+      "trainWidth": 2.65,
+      "minStationLength": 28,
+      "maxStationLength": 37,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#C8102E"
     },
     "elevationMultipliers": {
       "DEEP_BORE": 3.5,
@@ -3321,71 +533,23 @@
     ]
   },
   {
-    "id": "not-citadis-lrv",
-    "name": "NOT Citadis LRV",
-    "description": "Nottingham Express Transit Alstom Citadis LRV.",
-    "stats": {
-      "maxAcceleration": 1.05,
-      "maxDeceleration": 1.15,
-      "maxSpeed": 19.44,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 220,
-      "carLength": 32,
-      "minCars": 1,
-      "maxCars": 2,
-      "carsPerCarSet": 1,
-      "carCost": 3400000,
-      "trainWidth": 2.4,
-      "minStationLength": 32,
-      "maxStationLength": 82,
-      "baseTrackCost": 26000,
-      "baseStationCost": 26000000,
-      "trainOperationalCostPerHour": 150,
-      "carOperationalCostPerHour": 24,
-      "scissorsCrossoverCost": 9000000,
-      "trackClearance": 0.8,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 35,
-      "minStationTurnRadius": 250,
-      "maxSlopePercentage": 5,
-      "parallelTrackSpacing": 3.5,
-      "stopTimeSeconds": 24,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#43B02A"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.5,
-      "STANDARD_TUNNEL": 1.9,
-      "CUT_AND_COVER": 0.95,
-      "AT_GRADE": 0.28,
-      "ELEVATED": 0.75
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Alstom"
-    ]
-  },
-  {
-    "id": "shf-duewag-lrv",
-    "name": "SHF Duewag LRV",
-    "description": "Sheffield Supertram Siemens-Duewag LRV.",
+    "id": "fra-u-bahn-lrv",
+    "name": "FRA U-Bahn LRV",
+    "description": "Representative Frankfurt Stadtbahn LRV.",
     "stats": {
       "maxAcceleration": 1.05,
       "maxDeceleration": 1.15,
       "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 240,
-      "carLength": 34.8,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 180,
+      "carLength": 25.0,
       "minCars": 1,
-      "maxCars": 2,
+      "maxCars": 1,
       "carsPerCarSet": 1,
-      "carCost": 3300000,
+      "carCost": 3200000,
       "trainWidth": 2.65,
-      "minStationLength": 35,
-      "maxStationLength": 88,
+      "minStationLength": 25,
+      "maxStationLength": 34,
       "baseTrackCost": 26000,
       "baseStationCost": 26000000,
       "trainOperationalCostPerHour": 150,
@@ -3414,27 +578,315 @@
     "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
       "DUEWAG",
+      "Bombardier Transportation"
+    ]
+  },
+  {
+    "id": "porto-metro-lrv",
+    "name": "PORTO Metro LRV",
+    "description": "Representative Porto Metro LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 27.78,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 250,
+      "carLength": 37.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 4300000,
+      "trainWidth": 2.65,
+      "minStationLength": 37,
+      "maxStationLength": 46,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#005EB8"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Bombardier Transportation"
+    ]
+  },
+  {
+    "id": "berg-bybanen-lrv",
+    "name": "BERG Bybanen LRV",
+    "description": "Bergen Bybanen Stadler LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 220,
+      "carLength": 42.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 4300000,
+      "trainWidth": 2.65,
+      "minStationLength": 42,
+      "maxStationLength": 51,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#ED1C24"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Stadler Rail"
+    ]
+  },
+  {
+    "id": "aar-letbane-lrv",
+    "name": "AAR Letbane LRV",
+    "description": "Aarhus Letbane regional LRT vehicle.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 27.78,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 250,
+      "carLength": 39.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 4500000,
+      "trainWidth": 2.65,
+      "minStationLength": 39,
+      "maxStationLength": 48,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#ED1C24"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Stadler Rail"
+    ]
+  },
+  {
+    "id": "hou-metrorail-lrv",
+    "name": "HOU METRORail LRV",
+    "description": "Representative Houston METRORail LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 29.44,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 200,
+      "carLength": 29.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 4300000,
+      "trainWidth": 2.65,
+      "minStationLength": 29,
+      "maxStationLength": 38,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#D71920"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
       "Siemens Mobility"
     ]
   },
   {
-    "id": "dub-citadis-301-lrv",
-    "name": "DUB Citadis 301 LRV",
-    "description": "Dublin Luas Alstom Citadis 301 LRV.",
+    "id": "la-metro-rail-lrv",
+    "name": "LA Metro Rail LRV",
+    "description": "Representative Los Angeles Metro Rail modern LRV.",
     "stats": {
       "maxAcceleration": 1.05,
       "maxDeceleration": 1.15,
-      "maxSpeed": 19.44,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 235,
-      "carLength": 30,
+      "maxSpeed": 28.89,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 220,
+      "carLength": 27.13,
       "minCars": 1,
-      "maxCars": 2,
+      "maxCars": 1,
       "carsPerCarSet": 1,
-      "carCost": 3400000,
-      "trainWidth": 2.4,
-      "minStationLength": 30,
-      "maxStationLength": 78,
+      "carCost": 4200000,
+      "trainWidth": 2.66,
+      "minStationLength": 27,
+      "maxStationLength": 36,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#0072CE"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Kinki Sharyo"
+    ]
+  },
+  {
+    "id": "dal-dart-lrv",
+    "name": "DAL DART LRV",
+    "description": "Representative Dallas DART articulated LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 29.17,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 220,
+      "carLength": 37.7,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 4500000,
+      "trainWidth": 2.65,
+      "minStationLength": 38,
+      "maxStationLength": 47,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#F58220"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Kinki Sharyo"
+    ]
+  },
+  {
+    "id": "den-rtd-lrv",
+    "name": "DEN RTD LRV",
+    "description": "Representative Denver RTD LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 24.44,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 180,
+      "carLength": 26.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 3300000,
+      "trainWidth": 2.65,
+      "minStationLength": 26,
+      "maxStationLength": 35,
       "baseTrackCost": 26000,
       "baseStationCost": 26000000,
       "trainOperationalCostPerHour": 150,
@@ -3462,27 +914,27 @@
     },
     "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
-      "Alstom"
+      "Siemens Mobility"
     ]
   },
   {
-    "id": "dub-citadis-402-lrv",
-    "name": "DUB Citadis 402 LRV",
-    "description": "Dublin Luas Alstom Citadis 402 LRV.",
+    "id": "sd-trolley-lrv",
+    "name": "SD Trolley LRV",
+    "description": "Representative San Diego Trolley LRV.",
     "stats": {
       "maxAcceleration": 1.05,
       "maxDeceleration": 1.15,
-      "maxSpeed": 19.44,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 310,
-      "carLength": 43.6,
+      "maxSpeed": 29.17,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 200,
+      "carLength": 29.0,
       "minCars": 1,
-      "maxCars": 2,
+      "maxCars": 1,
       "carsPerCarSet": 1,
       "carCost": 4300000,
-      "trainWidth": 2.4,
-      "minStationLength": 44,
-      "maxStationLength": 106,
+      "trainWidth": 2.65,
+      "minStationLength": 29,
+      "maxStationLength": 38,
       "baseTrackCost": 26000,
       "baseStationCost": 26000000,
       "trainOperationalCostPerHour": 150,
@@ -3499,7 +951,7 @@
       "stationMaintenanceCostPerYear": 0
     },
     "appearance": {
-      "color": "#7B6469"
+      "color": "#D71920"
     },
     "elevationMultipliers": {
       "DEEP_BORE": 3.5,
@@ -3510,27 +962,27 @@
     },
     "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
-      "Alstom"
+      "Siemens Mobility"
     ]
   },
   {
-    "id": "dub-citadis-502-lrv",
-    "name": "DUB Citadis 502 LRV",
-    "description": "Dublin Luas Alstom Citadis 502 longer LRV.",
+    "id": "por-max-lrv",
+    "name": "POR MAX LRV",
+    "description": "Representative Portland MAX LRV.",
     "stats": {
       "maxAcceleration": 1.05,
       "maxDeceleration": 1.15,
-      "maxSpeed": 19.44,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 350,
-      "carLength": 54.6,
+      "maxSpeed": 24.44,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 200,
+      "carLength": 29.0,
       "minCars": 1,
-      "maxCars": 2,
+      "maxCars": 1,
       "carsPerCarSet": 1,
-      "carCost": 5400000,
-      "trainWidth": 2.4,
-      "minStationLength": 55,
-      "maxStationLength": 128,
+      "carCost": 4300000,
+      "trainWidth": 2.65,
+      "minStationLength": 29,
+      "maxStationLength": 38,
       "baseTrackCost": 26000,
       "baseStationCost": 26000000,
       "trainOperationalCostPerHour": 150,
@@ -3547,7 +999,7 @@
       "stationMaintenanceCostPerYear": 0
     },
     "appearance": {
-      "color": "#7B6469"
+      "color": "#005EB8"
     },
     "elevationMultipliers": {
       "DEEP_BORE": 3.5,
@@ -3558,27 +1010,558 @@
     },
     "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
-      "Alstom"
+      "Siemens Mobility"
     ]
   },
   {
-    "id": "mex-te-90-lrv",
-    "name": "MEX TE-90 LRV",
-    "description": "Mexico City Xochimilco Light Rail TE-90-style LRV.",
+    "id": "sea-link-lrv",
+    "name": "SEA Link LRV",
+    "description": "Representative Seattle Link LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 29.17,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 200,
+      "carLength": 29.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 4300000,
+      "trainWidth": 2.65,
+      "minStationLength": 29,
+      "maxStationLength": 38,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#00A3E0"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Kinki Sharyo",
+      "Siemens Mobility"
+    ]
+  },
+  {
+    "id": "phx-valley-metro-lrv",
+    "name": "PHX Valley Metro LRV",
+    "description": "Representative Phoenix Valley Metro LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 29.17,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 210,
+      "carLength": 28.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 4300000,
+      "trainWidth": 2.65,
+      "minStationLength": 28,
+      "maxStationLength": 37,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#8E44AD"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Kinki Sharyo",
+      "Siemens Mobility"
+    ]
+  },
+  {
+    "id": "sjc-vta-lrv",
+    "name": "SJC VTA LRV",
+    "description": "Representative San Jose VTA LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 29.17,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 200,
+      "carLength": 27.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 4000000,
+      "trainWidth": 2.65,
+      "minStationLength": 27,
+      "maxStationLength": 36,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#007A3D"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Kinki Sharyo"
+    ]
+  },
+  {
+    "id": "msp-metro-transit-lrv",
+    "name": "MSP Metro Transit LRV",
+    "description": "Representative Twin Cities LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 29.17,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 200,
+      "carLength": 29.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 4300000,
+      "trainWidth": 2.65,
+      "minStationLength": 29,
+      "maxStationLength": 38,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#005EB8"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Siemens Mobility"
+    ]
+  },
+  {
+    "id": "bos-green-line-lrv",
+    "name": "BOS Green Line LRV",
+    "description": "Representative Boston Green Line LRV.",
     "stats": {
       "maxAcceleration": 1.05,
       "maxDeceleration": 1.15,
       "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 200,
-      "carLength": 29,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 180,
+      "carLength": 22.8,
       "minCars": 1,
-      "maxCars": 2,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 3400000,
+      "trainWidth": 2.65,
+      "minStationLength": 23,
+      "maxStationLength": 32,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#00843D"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Kinki Sharyo",
+      "CAF"
+    ]
+  },
+  {
+    "id": "bos-supercar-lrv",
+    "name": "BOS Supercar LRV",
+    "description": "Higher-capacity Boston Type 10-style LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 250,
+      "carLength": 34.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 5000000,
+      "trainWidth": 2.65,
+      "minStationLength": 34,
+      "maxStationLength": 43,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#00843D"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "CAF"
+    ]
+  },
+  {
+    "id": "sf-muni-metro-lrv",
+    "name": "SF Muni Metro LRV",
+    "description": "Representative San Francisco Muni Metro LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 29.17,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 190,
+      "carLength": 24.8,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 4000000,
+      "trainWidth": 2.65,
+      "minStationLength": 25,
+      "maxStationLength": 34,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#D71920"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Siemens Mobility"
+    ]
+  },
+  {
+    "id": "njt-hudson-bergen-lrv",
+    "name": "NJT Hudson Bergen LRV",
+    "description": "Representative Hudson-Bergen/Newark LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 25.0,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 180,
+      "carLength": 27.4,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 3300000,
+      "trainWidth": 2.65,
+      "minStationLength": 27,
+      "maxStationLength": 36,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#F58220"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Kinki Sharyo"
+    ]
+  },
+  {
+    "id": "wat-ion-lrv",
+    "name": "WAT ION LRV",
+    "description": "Waterloo ION LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 200,
+      "carLength": 30.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 4100000,
+      "trainWidth": 2.65,
+      "minStationLength": 30,
+      "maxStationLength": 39,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#00A3E0"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Alstom"
+    ]
+  },
+  {
+    "id": "ott-o-train-lrv",
+    "name": "OTT O-Train LRV",
+    "description": "Ottawa Citadis Spirit LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 27.78,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 300,
+      "carLength": 48.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 5200000,
+      "trainWidth": 2.65,
+      "minStationLength": 48,
+      "maxStationLength": 57,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#D71920"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Alstom"
+    ]
+  },
+  {
+    "id": "tor-crosstown-lrv",
+    "name": "TOR Crosstown LRV",
+    "description": "Toronto Eglinton/Finch LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 200,
+      "carLength": 30.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 4100000,
+      "trainWidth": 2.65,
+      "minStationLength": 30,
+      "maxStationLength": 39,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#D71920"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Alstom"
+    ]
+  },
+  {
+    "id": "edm-high-floor-lrv",
+    "name": "EDM High-Floor LRV",
+    "description": "Representative Edmonton high-floor LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 170,
+      "carLength": 24.8,
+      "minCars": 1,
+      "maxCars": 1,
       "carsPerCarSet": 1,
       "carCost": 2800000,
       "trainWidth": 2.65,
-      "minStationLength": 29,
-      "maxStationLength": 76,
+      "minStationLength": 25,
+      "maxStationLength": 34,
       "baseTrackCost": 26000,
       "baseStationCost": 26000000,
       "trainOperationalCostPerHour": 150,
@@ -3595,7 +1578,7 @@
       "stationMaintenanceCostPerYear": 0
     },
     "appearance": {
-      "color": "#F58220"
+      "color": "#005EB8"
     },
     "elevationMultipliers": {
       "DEEP_BORE": 3.5,
@@ -3606,27 +1589,219 @@
     },
     "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
-      "Concarril"
+      "Siemens Mobility"
     ]
   },
   {
-    "id": "mex-ste-lrv-lrv",
-    "name": "MEX STE LRV LRV",
-    "description": "Mexico City Tren Ligero modernized LRV family.",
+    "id": "edm-valley-line-lrv",
+    "name": "EDM Valley Line LRV",
+    "description": "Edmonton Valley Line low-floor LRV.",
     "stats": {
       "maxAcceleration": 1.05,
       "maxDeceleration": 1.15,
       "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 220,
-      "carLength": 29,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 200,
+      "carLength": 30.0,
       "minCars": 1,
-      "maxCars": 2,
+      "maxCars": 1,
       "carsPerCarSet": 1,
-      "carCost": 3200000,
+      "carCost": 4100000,
       "trainWidth": 2.65,
-      "minStationLength": 29,
-      "maxStationLength": 76,
+      "minStationLength": 30,
+      "maxStationLength": 39,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#005EB8"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Alstom"
+    ]
+  },
+  {
+    "id": "cgy-ctrain-lrv",
+    "name": "CGY CTrain LRV",
+    "description": "Representative Calgary CTrain LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 29.17,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 190,
+      "carLength": 24.8,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 4000000,
+      "trainWidth": 2.65,
+      "minStationLength": 25,
+      "maxStationLength": 34,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#D71920"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Siemens Mobility"
+    ]
+  },
+  {
+    "id": "tpe-danhai-lrv",
+    "name": "TPE Danhai LRV",
+    "description": "Taipei Danhai light rail vehicle.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 265,
+      "carLength": 34.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 3800000,
+      "trainWidth": 2.65,
+      "minStationLength": 34,
+      "maxStationLength": 43,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#43B02A"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Taiwan Rolling Stock Company"
+    ]
+  },
+  {
+    "id": "kao-circular-lrv",
+    "name": "KAO Circular LRV",
+    "description": "Kaohsiung Circular Light Rail LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 250,
+      "carLength": 34.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 3800000,
+      "trainWidth": 2.65,
+      "minStationLength": 34,
+      "maxStationLength": 43,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#43B02A"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "CAF"
+    ]
+  },
+  {
+    "id": "kl-ampang-lrv",
+    "name": "KL Ampang LRV",
+    "description": "Kuala Lumpur Ampang/Sri Petaling LRT vehicle.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 200,
+      "carLength": 22.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 3000000,
+      "trainWidth": 2.65,
+      "minStationLength": 22,
+      "maxStationLength": 31,
       "baseTrackCost": 26000,
       "baseStationCost": 26000000,
       "trainOperationalCostPerHour": 150,
@@ -3654,8 +1829,539 @@
     },
     "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
-      "CAF",
-      "Concarril"
+      "Adtranz",
+      "CRRC Zhuzhou"
+    ]
+  },
+  {
+    "id": "mnl-lrt1-lrv",
+    "name": "MNL LRT1 LRV",
+    "description": "Manila LRT Line 1 representative LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 250,
+      "carLength": 26.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 3000000,
+      "trainWidth": 2.65,
+      "minStationLength": 26,
+      "maxStationLength": 35,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#F3D03E"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "BN",
+      "Hyundai Rotem",
+      "CAF"
+    ]
+  },
+  {
+    "id": "mnl-lrt2-lrv",
+    "name": "MNL LRT2 LRV",
+    "description": "Manila LRT Line 2 light metro vehicle.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 270,
+      "carLength": 22.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 3300000,
+      "trainWidth": 3.0,
+      "minStationLength": 22,
+      "maxStationLength": 31,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#7B6469"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Hyundai Rotem"
+    ]
+  },
+  {
+    "id": "jkt-lrt-lrv",
+    "name": "JKT LRT LRV",
+    "description": "Jakarta LRT representative vehicle.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 220,
+      "carLength": 20.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 3000000,
+      "trainWidth": 2.65,
+      "minStationLength": 20,
+      "maxStationLength": 29,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#005EB8"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Hyundai Rotem"
+    ]
+  },
+  {
+    "id": "jkt-jabodebek-lrv",
+    "name": "JKT Jabodebek LRV",
+    "description": "Jabodebek LRT automated vehicle.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 250,
+      "carLength": 17.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 3000000,
+      "trainWidth": 2.65,
+      "minStationLength": 17,
+      "maxStationLength": 26,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#005EB8"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "INKA"
+    ]
+  },
+  {
+    "id": "syd-light-rail-lrv",
+    "name": "SYD Light Rail LRV",
+    "description": "Sydney modern high-capacity LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 300,
+      "carLength": 45.4,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 5000000,
+      "trainWidth": 2.65,
+      "minStationLength": 45,
+      "maxStationLength": 54,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#ED1C24"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Alstom"
+    ]
+  },
+  {
+    "id": "gld-g-link-lrv",
+    "name": "GLD G:link LRV",
+    "description": "Gold Coast G:link LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 309,
+      "carLength": 43.5,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 4700000,
+      "trainWidth": 2.65,
+      "minStationLength": 44,
+      "maxStationLength": 53,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#F6BE00"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Alstom"
+    ]
+  },
+  {
+    "id": "cbr-light-rail-lrv",
+    "name": "CBR Light Rail LRV",
+    "description": "Canberra CAF Urbos LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 207,
+      "carLength": 32.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 3600000,
+      "trainWidth": 2.65,
+      "minStationLength": 32,
+      "maxStationLength": 41,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#004B93"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "CAF"
+    ]
+  },
+  {
+    "id": "rio-vlt-lrv",
+    "name": "RIO VLT LRV",
+    "description": "Rio de Janeiro VLT LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 420,
+      "carLength": 44.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 4600000,
+      "trainWidth": 2.65,
+      "minStationLength": 44,
+      "maxStationLength": 53,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#6CACE4"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Alstom"
+    ]
+  },
+  {
+    "id": "med-ayacucho-lrv",
+    "name": "MED Ayacucho LRV",
+    "description": "Medellín Ayacucho tram/LRT vehicle.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 300,
+      "carLength": 40.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 4200000,
+      "trainWidth": 2.65,
+      "minStationLength": 40,
+      "maxStationLength": 49,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#6CACE4"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Alstom"
+    ]
+  },
+  {
+    "id": "add-lrt-lrv",
+    "name": "ADD LRT LRV",
+    "description": "Addis Ababa light rail vehicle.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 300,
+      "carLength": 30.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 3300000,
+      "trainWidth": 2.65,
+      "minStationLength": 30,
+      "maxStationLength": 39,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#005EB8"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "CNR Changchun"
+    ]
+  },
+  {
+    "id": "tun-metro-leger-lrv",
+    "name": "TUN Metro Leger LRV",
+    "description": "Tunis Métro léger representative LRV.",
+    "stats": {
+      "maxAcceleration": 1.05,
+      "maxDeceleration": 1.15,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 200,
+      "carLength": 30.0,
+      "minCars": 1,
+      "maxCars": 1,
+      "carsPerCarSet": 1,
+      "carCost": 3000000,
+      "trainWidth": 2.4,
+      "minStationLength": 30,
+      "maxStationLength": 39,
+      "baseTrackCost": 26000,
+      "baseStationCost": 26000000,
+      "trainOperationalCostPerHour": 150,
+      "carOperationalCostPerHour": 24,
+      "scissorsCrossoverCost": 9000000,
+      "trackClearance": 0.8,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 35,
+      "minStationTurnRadius": 250,
+      "maxSlopePercentage": 5,
+      "parallelTrackSpacing": 3.5,
+      "stopTimeSeconds": 24,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#43B02A"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.5,
+      "STANDARD_TUNNEL": 1.9,
+      "CUT_AND_COVER": 0.95,
+      "AT_GRADE": 0.28,
+      "ELEVATED": 0.75
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Siemens Mobility",
+      "CAF"
     ]
   }
 ]

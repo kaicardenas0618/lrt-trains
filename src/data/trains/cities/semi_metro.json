@@ -1,123 +1,25 @@
 [
   {
-    "id": "ww-val-208-light-metro",
-    "name": "WW VAL 208 Light Metro",
-    "description": "Siemens/Matra VAL 208 rubber-tired automated light metro family.",
+    "id": "lon-dlr-semi-metro",
+    "name": "LON DLR Semi-Metro",
+    "description": "London DLR automated light metro vehicle.",
     "stats": {
       "maxAcceleration": 1.1,
       "maxDeceleration": 1.2,
       "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 80,
-      "carLength": 13,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 170,
+      "carLength": 28.0,
       "minCars": 2,
       "maxCars": 2,
       "carsPerCarSet": 2,
-      "carCost": 2200000,
-      "trainWidth": 2.08,
-      "minStationLength": 26,
-      "maxStationLength": 38,
-      "baseTrackCost": 32000,
-      "baseStationCost": 60000000,
-      "trainOperationalCostPerHour": 248,
-      "carOperationalCostPerHour": 23,
-      "scissorsCrossoverCost": 14000000,
-      "trackClearance": 0.95,
-      "maxLateralAcceleration": 0.9,
-      "minTurnRadius": 50,
-      "minStationTurnRadius": 420,
-      "maxSlopePercentage": 4,
-      "parallelTrackSpacing": 3.8,
-      "stopTimeSeconds": 30,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#009999"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 4,
-      "STANDARD_TUNNEL": 2,
-      "CUT_AND_COVER": 1,
-      "AT_GRADE": 0.3,
-      "ELEVATED": 0.8
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Matra",
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "ww-innovia-apm-light-metro",
-    "name": "WW Innovia APM",
-    "description": "Alstom/Bombardier Innovia APM automated people mover/light metro family.",
-    "stats": {
-      "maxAcceleration": 1.1,
-      "maxDeceleration": 1.2,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 100,
-      "carLength": 12.8,
-      "minCars": 2,
-      "maxCars": 2,
-      "carsPerCarSet": 2,
-      "carCost": 2600000,
-      "trainWidth": 2.8,
-      "minStationLength": 26,
-      "maxStationLength": 38,
-      "baseTrackCost": 32000,
-      "baseStationCost": 60000000,
-      "trainOperationalCostPerHour": 248,
-      "carOperationalCostPerHour": 23,
-      "scissorsCrossoverCost": 14000000,
-      "trackClearance": 0.95,
-      "maxLateralAcceleration": 0.9,
-      "minTurnRadius": 50,
-      "minStationTurnRadius": 420,
-      "maxSlopePercentage": 4,
-      "parallelTrackSpacing": 3.8,
-      "stopTimeSeconds": 30,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#E4002B"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 4,
-      "STANDARD_TUNNEL": 2,
-      "CUT_AND_COVER": 1,
-      "AT_GRADE": 0.3,
-      "ELEVATED": 0.8
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Bombardier Transportation",
-      "Alstom"
-    ]
-  },
-  {
-    "id": "ww-innovia-metro-light",
-    "name": "WW Innovia Metro",
-    "description": "Alstom/Bombardier Innovia Metro automated light metro family.",
-    "stats": {
-      "maxAcceleration": 1.1,
-      "maxDeceleration": 1.2,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 125,
-      "carLength": 13,
-      "minCars": 4,
-      "maxCars": 4,
-      "carsPerCarSet": 4,
-      "carCost": 2700000,
+      "carCost": 3500000,
       "trainWidth": 2.65,
-      "minStationLength": 52,
-      "maxStationLength": 64,
+      "minStationLength": 56,
+      "maxStationLength": 68,
       "baseTrackCost": 32000,
-      "baseStationCost": 64000000,
-      "trainOperationalCostPerHour": 284,
+      "baseStationCost": 58500000,
+      "trainOperationalCostPerHour": 248,
       "carOperationalCostPerHour": 23,
       "scissorsCrossoverCost": 14000000,
       "trackClearance": 0.95,
@@ -131,32 +33,32 @@
       "stationMaintenanceCostPerYear": 0
     },
     "appearance": {
-      "color": "#E4002B"
+      "color": "#00A3E0"
     },
     "elevationMultipliers": {
-      "DEEP_BORE": 4,
-      "STANDARD_TUNNEL": 2,
-      "CUT_AND_COVER": 1,
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
       "AT_GRADE": 0.3,
       "ELEVATED": 0.8
     },
     "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
-      "Bombardier Transportation",
-      "Alstom"
+      "CAF",
+      "Bombardier Transportation"
     ]
   },
   {
-    "id": "ww-hitachi-driverless-metro",
-    "name": "WW Hitachi Driverless",
-    "description": "Hitachi Rail driverless metro/light metro family.",
+    "id": "cph-metro-semi-metro",
+    "name": "CPH Metro Semi-Metro",
+    "description": "Copenhagen automated light metro train.",
     "stats": {
       "maxAcceleration": 1.1,
       "maxDeceleration": 1.2,
-      "maxSpeed": 25,
-      "maxSpeedLocalStation": 12,
+      "maxSpeed": 25.0,
+      "maxSpeedLocalStation": 12.0,
       "capacityPerCar": 150,
-      "carLength": 13,
+      "carLength": 13.0,
       "minCars": 3,
       "maxCars": 3,
       "carsPerCarSet": 3,
@@ -165,7 +67,7 @@
       "minStationLength": 39,
       "maxStationLength": 51,
       "baseTrackCost": 32000,
-      "baseStationCost": 62000000,
+      "baseStationCost": 61000000,
       "trainOperationalCostPerHour": 266,
       "carOperationalCostPerHour": 23,
       "scissorsCrossoverCost": 14000000,
@@ -183,9 +85,9 @@
       "color": "#7B6469"
     },
     "elevationMultipliers": {
-      "DEEP_BORE": 4,
-      "STANDARD_TUNNEL": 2,
-      "CUT_AND_COVER": 1,
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
       "AT_GRADE": 0.3,
       "ELEVATED": 0.8
     },
@@ -195,14 +97,14 @@
     ]
   },
   {
-    "id": "ww-milan-m5-light-metro",
-    "name": "WW Milan M5 Light Metro",
-    "description": "Milan M5-style Hitachi driverless light metro train.",
+    "id": "mil-m5-semi-metro",
+    "name": "MIL M5 Semi-Metro",
+    "description": "Milan M5 driverless light metro train.",
     "stats": {
       "maxAcceleration": 1.1,
       "maxDeceleration": 1.2,
       "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 12,
+      "maxSpeedLocalStation": 12.0,
       "capacityPerCar": 135,
       "carLength": 12.6,
       "minCars": 4,
@@ -213,7 +115,7 @@
       "minStationLength": 50,
       "maxStationLength": 62,
       "baseTrackCost": 32000,
-      "baseStationCost": 64000000,
+      "baseStationCost": 63500000,
       "trainOperationalCostPerHour": 284,
       "carOperationalCostPerHour": 23,
       "scissorsCrossoverCost": 14000000,
@@ -231,9 +133,9 @@
       "color": "#7B6469"
     },
     "elevationMultipliers": {
-      "DEEP_BORE": 4,
-      "STANDARD_TUNNEL": 2,
-      "CUT_AND_COVER": 1,
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
       "AT_GRADE": 0.3,
       "ELEVATED": 0.8
     },
@@ -243,122 +145,26 @@
     ]
   },
   {
-    "id": "ww-alstom-metropolis-light",
-    "name": "WW Metropolis Light",
-    "description": "Alstom Metropolis medium-capacity light metro configuration.",
+    "id": "tls-val-semi-metro",
+    "name": "TLS VAL Semi-Metro",
+    "description": "Toulouse/Rennes-style VAL automated light metro.",
     "stats": {
       "maxAcceleration": 1.1,
       "maxDeceleration": 1.2,
-      "maxSpeed": 27.78,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 250,
-      "carLength": 22,
-      "minCars": 4,
-      "maxCars": 4,
-      "carsPerCarSet": 4,
-      "carCost": 3600000,
-      "trainWidth": 3,
-      "minStationLength": 88,
-      "maxStationLength": 100,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 80,
+      "carLength": 13.0,
+      "minCars": 2,
+      "maxCars": 2,
+      "carsPerCarSet": 2,
+      "carCost": 2200000,
+      "trainWidth": 2.08,
+      "minStationLength": 26,
+      "maxStationLength": 38,
       "baseTrackCost": 32000,
-      "baseStationCost": 64000000,
-      "trainOperationalCostPerHour": 284,
-      "carOperationalCostPerHour": 23,
-      "scissorsCrossoverCost": 14000000,
-      "trackClearance": 0.95,
-      "maxLateralAcceleration": 0.9,
-      "minTurnRadius": 50,
-      "minStationTurnRadius": 420,
-      "maxSlopePercentage": 4,
-      "parallelTrackSpacing": 3.8,
-      "stopTimeSeconds": 30,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#6CACE4"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 4,
-      "STANDARD_TUNNEL": 2,
-      "CUT_AND_COVER": 1,
-      "AT_GRADE": 0.3,
-      "ELEVATED": 0.8
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Alstom"
-    ]
-  },
-  {
-    "id": "ww-rem-metropolis",
-    "name": "WW REM Metropolis",
-    "description": "Montréal REM-style Alstom Metropolis light metro train.",
-    "stats": {
-      "maxAcceleration": 1.1,
-      "maxDeceleration": 1.2,
-      "maxSpeed": 27.78,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 150,
-      "carLength": 19,
-      "minCars": 4,
-      "maxCars": 4,
-      "carsPerCarSet": 4,
-      "carCost": 3600000,
-      "trainWidth": 2.94,
-      "minStationLength": 76,
-      "maxStationLength": 88,
-      "baseTrackCost": 32000,
-      "baseStationCost": 64000000,
-      "trainOperationalCostPerHour": 284,
-      "carOperationalCostPerHour": 23,
-      "scissorsCrossoverCost": 14000000,
-      "trackClearance": 0.95,
-      "maxLateralAcceleration": 0.9,
-      "minTurnRadius": 50,
-      "minStationTurnRadius": 420,
-      "maxSlopePercentage": 4,
-      "parallelTrackSpacing": 3.8,
-      "stopTimeSeconds": 30,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#6CACE4"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 4,
-      "STANDARD_TUNNEL": 2,
-      "CUT_AND_COVER": 1,
-      "AT_GRADE": 0.3,
-      "ELEVATED": 0.8
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Alstom"
-    ]
-  },
-  {
-    "id": "ww-siemens-inspiro-light",
-    "name": "WW Inspiro Light",
-    "description": "Siemens Inspiro light metro / medium-capacity metro configuration.",
-    "stats": {
-      "maxAcceleration": 1.1,
-      "maxDeceleration": 1.2,
-      "maxSpeed": 25,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 220,
-      "carLength": 20,
-      "minCars": 4,
-      "maxCars": 4,
-      "carsPerCarSet": 4,
-      "carCost": 3300000,
-      "trainWidth": 2.75,
-      "minStationLength": 80,
-      "maxStationLength": 92,
-      "baseTrackCost": 32000,
-      "baseStationCost": 64000000,
-      "trainOperationalCostPerHour": 284,
+      "baseStationCost": 58500000,
+      "trainOperationalCostPerHour": 248,
       "carOperationalCostPerHour": 23,
       "scissorsCrossoverCost": 14000000,
       "trackClearance": 0.95,
@@ -375,38 +181,39 @@
       "color": "#009999"
     },
     "elevationMultipliers": {
-      "DEEP_BORE": 4,
-      "STANDARD_TUNNEL": 2,
-      "CUT_AND_COVER": 1,
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
       "AT_GRADE": 0.3,
       "ELEVATED": 0.8
     },
     "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
+      "Matra",
       "Siemens Mobility"
     ]
   },
   {
-    "id": "ww-movia-light-metro",
-    "name": "WW Movia Light",
-    "description": "Bombardier/Alstom Movia light metro configuration.",
+    "id": "lil-val-semi-metro",
+    "name": "LIL VAL Semi-Metro",
+    "description": "Lille-style VAL automated light metro.",
     "stats": {
       "maxAcceleration": 1.1,
       "maxDeceleration": 1.2,
-      "maxSpeed": 25,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 220,
-      "carLength": 20,
-      "minCars": 4,
-      "maxCars": 4,
-      "carsPerCarSet": 4,
-      "carCost": 3300000,
-      "trainWidth": 2.8,
-      "minStationLength": 80,
-      "maxStationLength": 92,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 80,
+      "carLength": 13.0,
+      "minCars": 2,
+      "maxCars": 2,
+      "carsPerCarSet": 2,
+      "carCost": 2200000,
+      "trainWidth": 2.08,
+      "minStationLength": 26,
+      "maxStationLength": 38,
       "baseTrackCost": 32000,
-      "baseStationCost": 64000000,
-      "trainOperationalCostPerHour": 284,
+      "baseStationCost": 58500000,
+      "trainOperationalCostPerHour": 248,
       "carOperationalCostPerHour": 23,
       "scissorsCrossoverCost": 14000000,
       "trackClearance": 0.95,
@@ -420,41 +227,137 @@
       "stationMaintenanceCostPerYear": 0
     },
     "appearance": {
-      "color": "#E4002B"
+      "color": "#009999"
     },
     "elevationMultipliers": {
-      "DEEP_BORE": 4,
-      "STANDARD_TUNNEL": 2,
-      "CUT_AND_COVER": 1,
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
       "AT_GRADE": 0.3,
       "ELEVATED": 0.8
     },
     "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
-      "Bombardier Transportation",
+      "Matra",
+      "Siemens Mobility"
+    ]
+  },
+  {
+    "id": "lau-m2-semi-metro",
+    "name": "LAU M2 Semi-Metro",
+    "description": "Lausanne m2 rubber-tired automated semi-metro.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 16.67,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 110,
+      "carLength": 15.0,
+      "minCars": 2,
+      "maxCars": 2,
+      "carsPerCarSet": 2,
+      "carCost": 2600000,
+      "trainWidth": 2.45,
+      "minStationLength": 30,
+      "maxStationLength": 42,
+      "baseTrackCost": 32000,
+      "baseStationCost": 58500000,
+      "trainOperationalCostPerHour": 248,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#005EB8"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
       "Alstom"
     ]
   },
   {
-    "id": "ww-caf-inneo-light",
-    "name": "WW Inneo Light",
-    "description": "CAF Inneo light metro / medium-capacity metro configuration.",
+    "id": "brs-metro-semi-metro",
+    "name": "BRS Metro Semi-Metro",
+    "description": "Brescia automated light metro train.",
     "stats": {
       "maxAcceleration": 1.1,
       "maxDeceleration": 1.2,
-      "maxSpeed": 25,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 210,
-      "carLength": 20,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 135,
+      "carLength": 12.6,
+      "minCars": 3,
+      "maxCars": 3,
+      "carsPerCarSet": 3,
+      "carCost": 3000000,
+      "trainWidth": 2.65,
+      "minStationLength": 38,
+      "maxStationLength": 50,
+      "baseTrackCost": 32000,
+      "baseStationCost": 61000000,
+      "trainOperationalCostPerHour": 266,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#7B6469"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Hitachi Rail"
+    ]
+  },
+  {
+    "id": "van-skytrain-semi-metro",
+    "name": "VAN SkyTrain Semi-Metro",
+    "description": "Vancouver SkyTrain automated light metro.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 25.0,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 160,
+      "carLength": 17.5,
       "minCars": 4,
       "maxCars": 4,
       "carsPerCarSet": 4,
       "carCost": 3200000,
-      "trainWidth": 2.75,
-      "minStationLength": 80,
-      "maxStationLength": 92,
+      "trainWidth": 2.65,
+      "minStationLength": 70,
+      "maxStationLength": 82,
       "baseTrackCost": 32000,
-      "baseStationCost": 64000000,
+      "baseStationCost": 63500000,
       "trainOperationalCostPerHour": 284,
       "carOperationalCostPerHour": 23,
       "scissorsCrossoverCost": 14000000,
@@ -469,88 +372,40 @@
       "stationMaintenanceCostPerYear": 0
     },
     "appearance": {
-      "color": "#004B93"
+      "color": "#00A3E0"
     },
     "elevationMultipliers": {
-      "DEEP_BORE": 4,
-      "STANDARD_TUNNEL": 2,
-      "CUT_AND_COVER": 1,
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
       "AT_GRADE": 0.3,
       "ELEVATED": 0.8
     },
     "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
-      "CAF"
+      "Alstom"
     ]
   },
   {
-    "id": "ww-crrc-light-metro",
-    "name": "WW CRRC Light Metro",
-    "description": "CRRC medium-capacity light metro family.",
+    "id": "yvr-canada-line-semi-metro",
+    "name": "YVR Canada Line Semi-Metro",
+    "description": "Vancouver Canada Line automated light metro.",
     "stats": {
       "maxAcceleration": 1.1,
       "maxDeceleration": 1.2,
-      "maxSpeed": 27.78,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 230,
-      "carLength": 20,
-      "minCars": 4,
-      "maxCars": 4,
-      "carsPerCarSet": 4,
-      "carCost": 3100000,
-      "trainWidth": 2.8,
-      "minStationLength": 80,
-      "maxStationLength": 92,
-      "baseTrackCost": 32000,
-      "baseStationCost": 64000000,
-      "trainOperationalCostPerHour": 284,
-      "carOperationalCostPerHour": 23,
-      "scissorsCrossoverCost": 14000000,
-      "trackClearance": 0.95,
-      "maxLateralAcceleration": 0.9,
-      "minTurnRadius": 50,
-      "minStationTurnRadius": 420,
-      "maxSlopePercentage": 4,
-      "parallelTrackSpacing": 3.8,
-      "stopTimeSeconds": 30,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#D71920"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 4,
-      "STANDARD_TUNNEL": 2,
-      "CUT_AND_COVER": 1,
-      "AT_GRADE": 0.3,
-      "ELEVATED": 0.8
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "CRRC"
-    ]
-  },
-  {
-    "id": "ww-skytrain-mark-ii",
-    "name": "WW SkyTrain Mark II",
-    "description": "Bombardier/Alstom ART/SkyTrain Mark II linear-induction light metro.",
-    "stats": {
-      "maxAcceleration": 1.1,
-      "maxDeceleration": 1.2,
-      "maxSpeed": 25,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 160,
-      "carLength": 17,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 167,
+      "carLength": 20.0,
       "minCars": 2,
       "maxCars": 2,
       "carsPerCarSet": 2,
-      "carCost": 3000000,
-      "trainWidth": 2.65,
-      "minStationLength": 34,
-      "maxStationLength": 46,
+      "carCost": 3600000,
+      "trainWidth": 3.0,
+      "minStationLength": 40,
+      "maxStationLength": 52,
       "baseTrackCost": 32000,
-      "baseStationCost": 60000000,
+      "baseStationCost": 58500000,
       "trainOperationalCostPerHour": 248,
       "carOperationalCostPerHour": 23,
       "scissorsCrossoverCost": 14000000,
@@ -568,9 +423,153 @@
       "color": "#00A3E0"
     },
     "elevationMultipliers": {
-      "DEEP_BORE": 4,
-      "STANDARD_TUNNEL": 2,
-      "CUT_AND_COVER": 1,
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Hyundai Rotem"
+    ]
+  },
+  {
+    "id": "mtl-rem-semi-metro",
+    "name": "MTL REM Semi-Metro",
+    "description": "Montréal REM automated light metro train.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 27.78,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 150,
+      "carLength": 19.0,
+      "minCars": 4,
+      "maxCars": 4,
+      "carsPerCarSet": 4,
+      "carCost": 3600000,
+      "trainWidth": 2.94,
+      "minStationLength": 76,
+      "maxStationLength": 88,
+      "baseTrackCost": 32000,
+      "baseStationCost": 63500000,
+      "trainOperationalCostPerHour": 284,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#6CACE4"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Alstom"
+    ]
+  },
+  {
+    "id": "jfk-airtrain-semi-metro",
+    "name": "JFK AirTrain Semi-Metro",
+    "description": "New York JFK AirTrain automated light metro.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 100,
+      "carLength": 12.8,
+      "minCars": 2,
+      "maxCars": 2,
+      "carsPerCarSet": 2,
+      "carCost": 2600000,
+      "trainWidth": 2.8,
+      "minStationLength": 26,
+      "maxStationLength": 38,
+      "baseTrackCost": 32000,
+      "baseStationCost": 58500000,
+      "trainOperationalCostPerHour": 248,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#E4002B"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Alstom"
+    ]
+  },
+  {
+    "id": "mia-metromover-semi-metro",
+    "name": "MIA Metromover Semi-Metro",
+    "description": "Miami Metromover automated people mover train.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 13.89,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 90,
+      "carLength": 12.0,
+      "minCars": 2,
+      "maxCars": 2,
+      "carsPerCarSet": 2,
+      "carCost": 2200000,
+      "trainWidth": 2.8,
+      "minStationLength": 24,
+      "maxStationLength": 36,
+      "baseTrackCost": 32000,
+      "baseStationCost": 58500000,
+      "trainOperationalCostPerHour": 248,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#E4002B"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
       "AT_GRADE": 0.3,
       "ELEVATED": 0.8
     },
@@ -581,26 +580,172 @@
     ]
   },
   {
-    "id": "ww-skytrain-mark-iii",
-    "name": "WW SkyTrain Mark III",
-    "description": "Bombardier/Alstom ART/SkyTrain Mark III automated light metro.",
+    "id": "las-monorail-semi-metro",
+    "name": "LAS Monorail Semi-Metro",
+    "description": "Las Vegas Monorail-style automated semi-metro.",
     "stats": {
       "maxAcceleration": 1.1,
       "maxDeceleration": 1.2,
-      "maxSpeed": 25,
-      "maxSpeedLocalStation": 12,
-      "capacityPerCar": 160,
-      "carLength": 17.5,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 120,
+      "carLength": 11.0,
       "minCars": 4,
       "maxCars": 4,
       "carsPerCarSet": 4,
-      "carCost": 3200000,
-      "trainWidth": 2.65,
-      "minStationLength": 70,
-      "maxStationLength": 82,
+      "carCost": 2600000,
+      "trainWidth": 2.8,
+      "minStationLength": 44,
+      "maxStationLength": 56,
       "baseTrackCost": 32000,
-      "baseStationCost": 64000000,
+      "baseStationCost": 63500000,
       "trainOperationalCostPerHour": 284,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#005EB8"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Bombardier Transportation"
+    ]
+  },
+  {
+    "id": "kl-kelana-jaya-semi-metro",
+    "name": "KL Kelana Jaya Semi-Metro",
+    "description": "Kuala Lumpur Kelana Jaya automated LRT train.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 170,
+      "carLength": 17.0,
+      "minCars": 4,
+      "maxCars": 4,
+      "carsPerCarSet": 4,
+      "carCost": 3000000,
+      "trainWidth": 2.65,
+      "minStationLength": 68,
+      "maxStationLength": 80,
+      "baseTrackCost": 32000,
+      "baseStationCost": 63500000,
+      "trainOperationalCostPerHour": 284,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#E4002B"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Bombardier Transportation",
+      "Alstom"
+    ]
+  },
+  {
+    "id": "bkk-gold-line-semi-metro",
+    "name": "BKK Gold Line Semi-Metro",
+    "description": "Bangkok Gold Line APM-style light metro.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 100,
+      "carLength": 12.8,
+      "minCars": 2,
+      "maxCars": 2,
+      "carsPerCarSet": 2,
+      "carCost": 2600000,
+      "trainWidth": 2.8,
+      "minStationLength": 26,
+      "maxStationLength": 38,
+      "baseTrackCost": 32000,
+      "baseStationCost": 58500000,
+      "trainOperationalCostPerHour": 248,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#E4002B"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Bombardier Transportation",
+      "Alstom"
+    ]
+  },
+  {
+    "id": "mfm-lrt-semi-metro",
+    "name": "MFM LRT Semi-Metro",
+    "description": "Macau Light Rapid Transit rubber-tired train.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 150,
+      "carLength": 12.0,
+      "minCars": 2,
+      "maxCars": 2,
+      "carsPerCarSet": 2,
+      "carCost": 2600000,
+      "trainWidth": 2.8,
+      "minStationLength": 24,
+      "maxStationLength": 36,
+      "baseTrackCost": 32000,
+      "baseStationCost": 58500000,
+      "trainOperationalCostPerHour": 248,
       "carOperationalCostPerHour": 23,
       "scissorsCrossoverCost": 14000000,
       "trackClearance": 0.95,
@@ -617,15 +762,398 @@
       "color": "#00A3E0"
     },
     "elevationMultipliers": {
-      "DEEP_BORE": 4,
-      "STANDARD_TUNNEL": 2,
-      "CUT_AND_COVER": 1,
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
       "AT_GRADE": 0.3,
       "ELEVATED": 0.8
     },
     "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
-      "Bombardier Transportation",
+      "Mitsubishi Heavy Industries"
+    ]
+  },
+  {
+    "id": "sin-bukit-panjang-semi-metro",
+    "name": "SIN Bukit Panjang Semi-Metro",
+    "description": "Singapore Bukit Panjang LRT automated train.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 15.28,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 105,
+      "carLength": 12.8,
+      "minCars": 2,
+      "maxCars": 2,
+      "carsPerCarSet": 2,
+      "carCost": 2300000,
+      "trainWidth": 2.8,
+      "minStationLength": 26,
+      "maxStationLength": 38,
+      "baseTrackCost": 32000,
+      "baseStationCost": 58500000,
+      "trainOperationalCostPerHour": 248,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#E4002B"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Bombardier Transportation"
+    ]
+  },
+  {
+    "id": "sin-sengkang-punggol-semi-metro",
+    "name": "SIN Sengkang Punggol Semi-Metro",
+    "description": "Singapore Sengkang/Punggol LRT train.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 105,
+      "carLength": 11.2,
+      "minCars": 2,
+      "maxCars": 2,
+      "carsPerCarSet": 2,
+      "carCost": 2300000,
+      "trainWidth": 2.7,
+      "minStationLength": 22,
+      "maxStationLength": 34,
+      "baseTrackCost": 32000,
+      "baseStationCost": 58500000,
+      "trainOperationalCostPerHour": 248,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#E4002B"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Mitsubishi Heavy Industries"
+    ]
+  },
+  {
+    "id": "tyo-yurikamome-semi-metro",
+    "name": "TYO Yurikamome Semi-Metro",
+    "description": "Tokyo Yurikamome automated guideway train.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 16.67,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 120,
+      "carLength": 8.8,
+      "minCars": 6,
+      "maxCars": 6,
+      "carsPerCarSet": 6,
+      "carCost": 2200000,
+      "trainWidth": 2.5,
+      "minStationLength": 53,
+      "maxStationLength": 65,
+      "baseTrackCost": 32000,
+      "baseStationCost": 68500000,
+      "trainOperationalCostPerHour": 320,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#005EB8"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Niigata Transys"
+    ]
+  },
+  {
+    "id": "yok-seaside-semi-metro",
+    "name": "YOK Seaside Semi-Metro",
+    "description": "Yokohama Seaside Line automated train.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 16.67,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 120,
+      "carLength": 8.5,
+      "minCars": 5,
+      "maxCars": 5,
+      "carsPerCarSet": 5,
+      "carCost": 2200000,
+      "trainWidth": 2.5,
+      "minStationLength": 42,
+      "maxStationLength": 54,
+      "baseTrackCost": 32000,
+      "baseStationCost": 66000000,
+      "trainOperationalCostPerHour": 302,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#005EB8"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Niigata Transys"
+    ]
+  },
+  {
+    "id": "bus-lrt-semi-metro",
+    "name": "BUS LRT Semi-Metro",
+    "description": "Busan-Gimhae automated light metro train.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 120,
+      "carLength": 17.0,
+      "minCars": 2,
+      "maxCars": 2,
+      "carsPerCarSet": 2,
+      "carCost": 2800000,
+      "trainWidth": 2.65,
+      "minStationLength": 34,
+      "maxStationLength": 46,
+      "baseTrackCost": 32000,
+      "baseStationCost": 58500000,
+      "trainOperationalCostPerHour": 248,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#005EB8"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Hyundai Rotem"
+    ]
+  },
+  {
+    "id": "tpe-wenhu-semi-metro",
+    "name": "TPE Wenhu Semi-Metro",
+    "description": "Taipei Wenhu medium-capacity automated metro train.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 95,
+      "carLength": 13.0,
+      "minCars": 4,
+      "maxCars": 4,
+      "carsPerCarSet": 4,
+      "carCost": 2300000,
+      "trainWidth": 2.1,
+      "minStationLength": 52,
+      "maxStationLength": 64,
+      "baseTrackCost": 32000,
+      "baseStationCost": 63500000,
+      "trainOperationalCostPerHour": 284,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#8E44AD"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Bombardier Transportation"
+    ]
+  },
+  {
+    "id": "gru-monorail-semi-metro",
+    "name": "GRU Monorail Semi-Metro",
+    "description": "São Paulo monorail-style semi-metro train.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 160,
+      "carLength": 13.0,
+      "minCars": 7,
+      "maxCars": 7,
+      "carsPerCarSet": 7,
+      "carCost": 3200000,
+      "trainWidth": 3.0,
+      "minStationLength": 91,
+      "maxStationLength": 103,
+      "baseTrackCost": 32000,
+      "baseStationCost": 71000000,
+      "trainOperationalCostPerHour": 338,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#C8102E"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Bombardier Transportation"
+    ]
+  },
+  {
+    "id": "cai-monorail-semi-metro",
+    "name": "CAI Monorail Semi-Metro",
+    "description": "Cairo monorail-style automated semi-metro train.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 160,
+      "carLength": 13.0,
+      "minCars": 4,
+      "maxCars": 4,
+      "carsPerCarSet": 4,
+      "carCost": 3200000,
+      "trainWidth": 3.0,
+      "minStationLength": 52,
+      "maxStationLength": 64,
+      "baseTrackCost": 32000,
+      "baseStationCost": 63500000,
+      "trainOperationalCostPerHour": 284,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#005EB8"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
       "Alstom"
     ]
   }
