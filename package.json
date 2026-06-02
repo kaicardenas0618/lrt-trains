@@ -1,5 +1,5 @@
 {
-  "name": "lrt",
+  "name": "lrt-trains",
   "version": "v1.0.0",
   "description": "A train pack containing LRT trains from around the world for Subway Builder.",
   "main": "dist/index.js",

@@ -1,6 +1,6 @@
-# Subway Builder LRT
+# Subway Builder LRT Trains
 
-Subway Builder LRT is a mod for Subway Builder that adds various forms of LRT and tram transit modes to Subway Builder. This curated pack contains rolling stock from cities around the world.
+Subway Builder LRT Trains is a mod for Subway Builder that adds various forms of LRT and tram transit modes to Subway Builder. This curated pack contains rolling stock from cities around the world.
 
 ## Currently Available Trains (163)
 

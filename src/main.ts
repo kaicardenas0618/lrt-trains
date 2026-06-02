@@ -5,9 +5,9 @@
 
 import { trains } from './data/trains';
 
-const MOD_ID = 'lrt';
+const MOD_ID = 'lrt-trains';
 const MOD_VERSION = 'v1.0.0';
-const TAG = '[LRT]';
+const TAG = '[LRT Trains]';
 
 const api = window.SubwayBuilderAPI;
 

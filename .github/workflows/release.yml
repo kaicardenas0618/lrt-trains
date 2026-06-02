@@ -37,7 +37,7 @@ jobs:
         shell: bash
         run: |
           TAG_NAME="${GITHUB_REF_NAME}"
-          ZIP_NAME="lrt-${TAG_NAME}.zip"
+          ZIP_NAME="lrt-trains-${TAG_NAME}.zip"
 
           cd dist
           zip -r "../${ZIP_NAME}" .
@@ -48,5 +48,5 @@ jobs:
           tag_name: ${{ github.ref_name }}
           name: ${{ github.ref_name }}
           files: |
-            lrt-${{ github.ref_name }}.zip
+            lrt-trains-${{ github.ref_name }}.zip
             dist/manifest.json
