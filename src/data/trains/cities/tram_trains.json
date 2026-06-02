@@ -1,104 +1,8 @@
 [
   {
-    "id": "ww-stadler-citylink-tt",
-    "name": "WW Citylink Tram-Train",
-    "description": "Stadler Citylink modular tram-train family.",
-    "stats": {
-      "maxAcceleration": 0.95,
-      "maxDeceleration": 1.1,
-      "maxSpeed": 27.78,
-      "maxSpeedLocalStation": 14.0,
-      "capacityPerCar": 216,
-      "carLength": 37.2,
-      "minCars": 1,
-      "maxCars": 1,
-      "carsPerCarSet": 1,
-      "carCost": 5200000,
-      "trainWidth": 2.65,
-      "minStationLength": 37,
-      "maxStationLength": 49,
-      "baseTrackCost": 36000,
-      "baseStationCost": 42000000,
-      "trainOperationalCostPerHour": 240,
-      "carOperationalCostPerHour": 30,
-      "scissorsCrossoverCost": 15000000,
-      "trackClearance": 1.0,
-      "maxLateralAcceleration": 0.78,
-      "minTurnRadius": 70,
-      "minStationTurnRadius": 900,
-      "maxSlopePercentage": 4.0,
-      "parallelTrackSpacing": 4.0,
-      "stopTimeSeconds": 30,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#ED1C24"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.8,
-      "STANDARD_TUNNEL": 2.0,
-      "CUT_AND_COVER": 1.0,
-      "AT_GRADE": 0.35,
-      "ELEVATED": 0.85
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Stadler Rail"
-    ]
-  },
-  {
-    "id": "ww-citylink-tfw-tt",
-    "name": "WW Citylink TfW",
-    "description": "Stadler Citylink Transport for Wales-style tram-train.",
-    "stats": {
-      "maxAcceleration": 0.95,
-      "maxDeceleration": 1.1,
-      "maxSpeed": 27.78,
-      "maxSpeedLocalStation": 14.0,
-      "capacityPerCar": 252,
-      "carLength": 40.0,
-      "minCars": 1,
-      "maxCars": 1,
-      "carsPerCarSet": 1,
-      "carCost": 5400000,
-      "trainWidth": 2.65,
-      "minStationLength": 40,
-      "maxStationLength": 52,
-      "baseTrackCost": 36000,
-      "baseStationCost": 42000000,
-      "trainOperationalCostPerHour": 240,
-      "carOperationalCostPerHour": 30,
-      "scissorsCrossoverCost": 15000000,
-      "trackClearance": 1.0,
-      "maxLateralAcceleration": 0.78,
-      "minTurnRadius": 70,
-      "minStationTurnRadius": 900,
-      "maxSlopePercentage": 4.0,
-      "parallelTrackSpacing": 4.0,
-      "stopTimeSeconds": 30,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#ED1C24"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.8,
-      "STANDARD_TUNNEL": 2.0,
-      "CUT_AND_COVER": 1.0,
-      "AT_GRADE": 0.35,
-      "ELEVATED": 0.85
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Stadler Rail"
-    ]
-  },
-  {
-    "id": "ww-citylink-sheffield-tt",
-    "name": "WW Citylink Sheffield",
-    "description": "Stadler Citylink Class 399-style tram-train.",
+    "id": "shf-citylink-lrv",
+    "name": "SHF Citylink LRV",
+    "description": "Sheffield Supertram Stadler Citylink tram-train/LRV.",
     "stats": {
       "maxAcceleration": 0.95,
       "maxDeceleration": 1.1,
@@ -107,12 +11,60 @@
       "capacityPerCar": 250,
       "carLength": 37.2,
       "minCars": 1,
-      "maxCars": 1,
+      "maxCars": 2,
       "carsPerCarSet": 1,
       "carCost": 5200000,
       "trainWidth": 2.65,
       "minStationLength": 37,
-      "maxStationLength": 49,
+      "maxStationLength": 46,
+      "baseTrackCost": 36000,
+      "baseStationCost": 42000000,
+      "trainOperationalCostPerHour": 240,
+      "carOperationalCostPerHour": 30,
+      "scissorsCrossoverCost": 15000000,
+      "trackClearance": 1.0,
+      "maxLateralAcceleration": 0.78,
+      "minTurnRadius": 70,
+      "minStationTurnRadius": 900,
+      "maxSlopePercentage": 4.0,
+      "parallelTrackSpacing": 4.0,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#005EB8"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.8,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.35,
+      "ELEVATED": 0.85
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Stadler Rail"
+    ]
+  },
+  {
+    "id": "ww-citylink-tram-train",
+    "name": "WW Citylink Tram-Train",
+    "description": "Stadler Citylink modular tram-train family for tramway and mainline use.",
+    "stats": {
+      "maxAcceleration": 0.95,
+      "maxDeceleration": 1.1,
+      "maxSpeed": 27.78,
+      "maxSpeedLocalStation": 14.0,
+      "capacityPerCar": 216,
+      "carLength": 37.2,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 5200000,
+      "trainWidth": 2.65,
+      "minStationLength": 37,
+      "maxStationLength": 46,
       "baseTrackCost": 36000,
       "baseStationCost": 42000000,
       "trainOperationalCostPerHour": 240,
@@ -144,56 +96,8 @@
     ]
   },
   {
-    "id": "ww-siemens-regiotram-tt",
-    "name": "WW RegioTram",
-    "description": "Siemens RegioTram-style tram-train.",
-    "stats": {
-      "maxAcceleration": 0.95,
-      "maxDeceleration": 1.1,
-      "maxSpeed": 27.78,
-      "maxSpeedLocalStation": 14.0,
-      "capacityPerCar": 200,
-      "carLength": 37.0,
-      "minCars": 1,
-      "maxCars": 1,
-      "carsPerCarSet": 1,
-      "carCost": 5000000,
-      "trainWidth": 2.65,
-      "minStationLength": 37,
-      "maxStationLength": 49,
-      "baseTrackCost": 36000,
-      "baseStationCost": 42000000,
-      "trainOperationalCostPerHour": 240,
-      "carOperationalCostPerHour": 30,
-      "scissorsCrossoverCost": 15000000,
-      "trackClearance": 1.0,
-      "maxLateralAcceleration": 0.78,
-      "minTurnRadius": 70,
-      "minStationTurnRadius": 900,
-      "maxSlopePercentage": 4.0,
-      "parallelTrackSpacing": 4.0,
-      "stopTimeSeconds": 30,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#009999"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 3.8,
-      "STANDARD_TUNNEL": 2.0,
-      "CUT_AND_COVER": 1.0,
-      "AT_GRADE": 0.35,
-      "ELEVATED": 0.85
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "ww-alstom-regio-citadis-tt",
-    "name": "WW RegioCitadis",
+    "id": "ww-regiocitadis-tram-train",
+    "name": "WW RegioCitadis Tram-Train",
     "description": "Alstom RegioCitadis tram-train family.",
     "stats": {
       "maxAcceleration": 0.95,
@@ -203,12 +107,12 @@
       "capacityPerCar": 200,
       "carLength": 36.8,
       "minCars": 1,
-      "maxCars": 1,
+      "maxCars": 2,
       "carsPerCarSet": 1,
       "carCost": 5000000,
       "trainWidth": 2.65,
       "minStationLength": 37,
-      "maxStationLength": 49,
+      "maxStationLength": 46,
       "baseTrackCost": 36000,
       "baseStationCost": 42000000,
       "trainOperationalCostPerHour": 240,
@@ -240,8 +144,56 @@
     ]
   },
   {
-    "id": "ww-bombardier-flexity-link-tt",
-    "name": "WW Flexity Link",
+    "id": "ww-avanto-tram-train",
+    "name": "WW Avanto Tram-Train",
+    "description": "Siemens Avanto tram-train family.",
+    "stats": {
+      "maxAcceleration": 0.95,
+      "maxDeceleration": 1.1,
+      "maxSpeed": 27.78,
+      "maxSpeedLocalStation": 14.0,
+      "capacityPerCar": 200,
+      "carLength": 37.0,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 5000000,
+      "trainWidth": 2.65,
+      "minStationLength": 37,
+      "maxStationLength": 46,
+      "baseTrackCost": 36000,
+      "baseStationCost": 42000000,
+      "trainOperationalCostPerHour": 240,
+      "carOperationalCostPerHour": 30,
+      "scissorsCrossoverCost": 15000000,
+      "trackClearance": 1.0,
+      "maxLateralAcceleration": 0.78,
+      "minTurnRadius": 70,
+      "minStationTurnRadius": 900,
+      "maxSlopePercentage": 4.0,
+      "parallelTrackSpacing": 4.0,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#009999"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 3.8,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.35,
+      "ELEVATED": 0.85
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Siemens Mobility"
+    ]
+  },
+  {
+    "id": "ww-flexity-link-tram-train",
+    "name": "WW Flexity Link Tram-Train",
     "description": "Bombardier Flexity Link tram-train family.",
     "stats": {
       "maxAcceleration": 0.95,
@@ -251,12 +203,12 @@
       "capacityPerCar": 220,
       "carLength": 37.0,
       "minCars": 1,
-      "maxCars": 1,
+      "maxCars": 2,
       "carsPerCarSet": 1,
       "carCost": 5100000,
       "trainWidth": 2.65,
       "minStationLength": 37,
-      "maxStationLength": 49,
+      "maxStationLength": 46,
       "baseTrackCost": 36000,
       "baseStationCost": 42000000,
       "trainOperationalCostPerHour": 240,
@@ -288,8 +240,8 @@
     ]
   },
   {
-    "id": "ww-dual-mode-citylink-tt",
-    "name": "WW Dual-Mode Citylink",
+    "id": "ww-dual-mode-citylink-tram-train",
+    "name": "WW Dual-Mode Citylink Tram-Train",
     "description": "Dual-mode Stadler Citylink diesel/electric tram-train.",
     "stats": {
       "maxAcceleration": 0.95,
@@ -299,12 +251,12 @@
       "capacityPerCar": 216,
       "carLength": 37.2,
       "minCars": 1,
-      "maxCars": 1,
+      "maxCars": 2,
       "carsPerCarSet": 1,
       "carCost": 5800000,
       "trainWidth": 2.65,
       "minStationLength": 37,
-      "maxStationLength": 49,
+      "maxStationLength": 46,
       "baseTrackCost": 36000,
       "baseStationCost": 42000000,
       "trainOperationalCostPerHour": 240,

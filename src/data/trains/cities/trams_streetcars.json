@@ -1,24 +1,168 @@
 [
   {
-    "id": "ww-citadis-302-tram",
-    "name": "WW Citadis 302 Tram",
-    "description": "Alstom Citadis 302-style 5-section low-floor tram.",
+    "id": "ams-11g-tram",
+    "name": "AMS 11G Tram",
+    "description": "Amsterdam 11G BN bidirectional tram, retired legacy high-floor/partial-low-floor stock.",
     "stats": {
       "maxAcceleration": 1.1,
       "maxDeceleration": 1.2,
       "maxSpeed": 19.44,
       "maxSpeedLocalStation": 8.0,
-      "capacityPerCar": 220,
-      "carLength": 32.0,
+      "capacityPerCar": 128,
+      "carLength": 25.9,
       "minCars": 1,
-      "maxCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 1800000,
+      "trainWidth": 2.35,
+      "minStationLength": 26,
+      "maxStationLength": 35,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#005EB8"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "BN"
+    ]
+  },
+  {
+    "id": "ams-12g-tram",
+    "name": "AMS 12G Tram",
+    "description": "Amsterdam 12G BN articulated tram, retired legacy stock.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 141,
+      "carLength": 25.0,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 1800000,
+      "trainWidth": 2.35,
+      "minStationLength": 25,
+      "maxStationLength": 34,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#005EB8"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "BN"
+    ]
+  },
+  {
+    "id": "ams-13g-combino-tram",
+    "name": "AMS 13G Combino Tram",
+    "description": "Amsterdam 13G Siemens Combino low-floor tram.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 131,
+      "carLength": 29.2,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3300000,
+      "trainWidth": 2.4,
+      "minStationLength": 29,
+      "maxStationLength": 38,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#005EB8"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Siemens Mobility"
+    ]
+  },
+  {
+    "id": "ams-14g-combino-tram",
+    "name": "AMS 14G Combino Tram",
+    "description": "Amsterdam 14G Siemens Combino bidirectional low-floor tram.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 151,
+      "carLength": 29.2,
+      "minCars": 1,
+      "maxCars": 2,
       "carsPerCarSet": 1,
       "carCost": 3400000,
       "trainWidth": 2.4,
-      "minStationLength": 32,
-      "maxStationLength": 41,
+      "minStationLength": 29,
+      "maxStationLength": 38,
       "baseTrackCost": 15000,
-      "baseStationCost": 8000000,
+      "baseStationCost": 8500000,
       "trainOperationalCostPerHour": 95,
       "carOperationalCostPerHour": 20,
       "scissorsCrossoverCost": 5000000,
@@ -33,7 +177,7 @@
       "stationMaintenanceCostPerYear": 0
     },
     "appearance": {
-      "color": "#6CACE4"
+      "color": "#005EB8"
     },
     "elevationMultipliers": {
       "DEEP_BORE": 2.8,
@@ -44,125 +188,29 @@
     },
     "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
-      "Alstom"
+      "Siemens Mobility"
     ]
   },
   {
-    "id": "ww-citadis-402-tram",
-    "name": "WW Citadis 402 Tram",
-    "description": "Alstom Citadis 402-style 7-section low-floor tram.",
+    "id": "ams-15g-urbos-tram",
+    "name": "AMS 15G Urbos Tram",
+    "description": "Amsterdam 15G CAF Urbos 100 bidirectional low-floor tram.",
     "stats": {
       "maxAcceleration": 1.1,
       "maxDeceleration": 1.2,
       "maxSpeed": 19.44,
       "maxSpeedLocalStation": 8.0,
-      "capacityPerCar": 300,
-      "carLength": 43.7,
-      "minCars": 1,
-      "maxCars": 1,
-      "carsPerCarSet": 1,
-      "carCost": 4300000,
-      "trainWidth": 2.65,
-      "minStationLength": 44,
-      "maxStationLength": 53,
-      "baseTrackCost": 15000,
-      "baseStationCost": 8000000,
-      "trainOperationalCostPerHour": 95,
-      "carOperationalCostPerHour": 20,
-      "scissorsCrossoverCost": 5000000,
-      "trackClearance": 0.65,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 25,
-      "minStationTurnRadius": 80,
-      "maxSlopePercentage": 6.0,
-      "parallelTrackSpacing": 3.2,
-      "stopTimeSeconds": 18,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#6CACE4"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 2.8,
-      "STANDARD_TUNNEL": 1.5,
-      "CUT_AND_COVER": 0.8,
-      "AT_GRADE": 0.2,
-      "ELEVATED": 0.6
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Alstom"
-    ]
-  },
-  {
-    "id": "ww-citadis-x05-tram",
-    "name": "WW Citadis X05 Tram",
-    "description": "Modern Alstom Citadis X05 modular low-floor tram family.",
-    "stats": {
-      "maxAcceleration": 1.1,
-      "maxDeceleration": 1.2,
-      "maxSpeed": 19.44,
-      "maxSpeedLocalStation": 8.0,
-      "capacityPerCar": 290,
-      "carLength": 44.0,
-      "minCars": 1,
-      "maxCars": 1,
-      "carsPerCarSet": 1,
-      "carCost": 4600000,
-      "trainWidth": 2.65,
-      "minStationLength": 44,
-      "maxStationLength": 53,
-      "baseTrackCost": 15000,
-      "baseStationCost": 8000000,
-      "trainOperationalCostPerHour": 95,
-      "carOperationalCostPerHour": 20,
-      "scissorsCrossoverCost": 5000000,
-      "trackClearance": 0.65,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 25,
-      "minStationTurnRadius": 80,
-      "maxSlopePercentage": 6.0,
-      "parallelTrackSpacing": 3.2,
-      "stopTimeSeconds": 18,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#6CACE4"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 2.8,
-      "STANDARD_TUNNEL": 1.5,
-      "CUT_AND_COVER": 0.8,
-      "AT_GRADE": 0.2,
-      "ELEVATED": 0.6
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Alstom"
-    ]
-  },
-  {
-    "id": "ww-flexity-classic-tram",
-    "name": "WW Flexity Classic Tram",
-    "description": "Bombardier/Alstom Flexity Classic articulated low-floor tram.",
-    "stats": {
-      "maxAcceleration": 1.1,
-      "maxDeceleration": 1.2,
-      "maxSpeed": 19.44,
-      "maxSpeedLocalStation": 8.0,
-      "capacityPerCar": 179,
+      "capacityPerCar": 175,
       "carLength": 30.0,
       "minCars": 1,
-      "maxCars": 1,
+      "maxCars": 2,
       "carsPerCarSet": 1,
-      "carCost": 3200000,
+      "carCost": 3600000,
       "trainWidth": 2.4,
       "minStationLength": 30,
       "maxStationLength": 39,
       "baseTrackCost": 15000,
-      "baseStationCost": 8000000,
+      "baseStationCost": 8500000,
       "trainOperationalCostPerHour": 95,
       "carOperationalCostPerHour": 20,
       "scissorsCrossoverCost": 5000000,
@@ -177,7 +225,7 @@
       "stationMaintenanceCostPerYear": 0
     },
     "appearance": {
-      "color": "#E4002B"
+      "color": "#005EB8"
     },
     "elevationMultipliers": {
       "DEEP_BORE": 2.8,
@@ -188,37 +236,36 @@
     },
     "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
-      "Bombardier Transportation",
-      "Alstom"
+      "CAF"
     ]
   },
   {
-    "id": "ww-flexity-2-tram",
-    "name": "WW Flexity 2 Tram",
-    "description": "Bombardier/Alstom Flexity 2 100% low-floor articulated tram.",
+    "id": "tor-pcc-streetcar",
+    "name": "TOR PCC Streetcar",
+    "description": "Toronto PCC streetcar, legacy single-unit streetcar.",
     "stats": {
-      "maxAcceleration": 1.1,
-      "maxDeceleration": 1.2,
-      "maxSpeed": 19.44,
+      "maxAcceleration": 1.0,
+      "maxDeceleration": 1.1,
+      "maxSpeed": 18.06,
       "maxSpeedLocalStation": 8.0,
-      "capacityPerCar": 222,
-      "carLength": 32.2,
+      "capacityPerCar": 100,
+      "carLength": 14.5,
       "minCars": 1,
-      "maxCars": 1,
+      "maxCars": 2,
       "carsPerCarSet": 1,
-      "carCost": 3800000,
-      "trainWidth": 2.65,
-      "minStationLength": 32,
-      "maxStationLength": 41,
-      "baseTrackCost": 15000,
-      "baseStationCost": 8000000,
-      "trainOperationalCostPerHour": 95,
-      "carOperationalCostPerHour": 20,
-      "scissorsCrossoverCost": 5000000,
+      "carCost": 750000,
+      "trainWidth": 2.54,
+      "minStationLength": 14,
+      "maxStationLength": 24,
+      "baseTrackCost": 14000,
+      "baseStationCost": 7000000,
+      "trainOperationalCostPerHour": 85,
+      "carOperationalCostPerHour": 18,
+      "scissorsCrossoverCost": 4500000,
       "trackClearance": 0.65,
       "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 25,
-      "minStationTurnRadius": 80,
+      "minTurnRadius": 20,
+      "minStationTurnRadius": 70,
       "maxSlopePercentage": 6.0,
       "parallelTrackSpacing": 3.2,
       "stopTimeSeconds": 18,
@@ -226,7 +273,7 @@
       "stationMaintenanceCostPerYear": 0
     },
     "appearance": {
-      "color": "#E4002B"
+      "color": "#D71920"
     },
     "elevationMultipliers": {
       "DEEP_BORE": 2.8,
@@ -237,30 +284,128 @@
     },
     "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
-      "Bombardier Transportation",
-      "Alstom"
+      "Canadian Car and Foundry",
+      "St. Louis Car Company"
     ]
   },
   {
-    "id": "ww-flexity-outlook-tram",
-    "name": "WW Flexity Outlook Tram",
-    "description": "Bombardier/Alstom Flexity Outlook streetcar/tram family.",
+    "id": "tor-clrv-streetcar",
+    "name": "TOR CLRV Streetcar",
+    "description": "Toronto Canadian Light Rail Vehicle streetcar.",
+    "stats": {
+      "maxAcceleration": 1.0,
+      "maxDeceleration": 1.1,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 132,
+      "carLength": 15.4,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 1400000,
+      "trainWidth": 2.54,
+      "minStationLength": 15,
+      "maxStationLength": 24,
+      "baseTrackCost": 14000,
+      "baseStationCost": 7000000,
+      "trainOperationalCostPerHour": 85,
+      "carOperationalCostPerHour": 18,
+      "scissorsCrossoverCost": 4500000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 20,
+      "minStationTurnRadius": 70,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#D71920"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "UTDC",
+      "SIG"
+    ]
+  },
+  {
+    "id": "tor-alrv-streetcar",
+    "name": "TOR ALRV Streetcar",
+    "description": "Toronto Articulated Light Rail Vehicle streetcar.",
+    "stats": {
+      "maxAcceleration": 1.0,
+      "maxDeceleration": 1.1,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 205,
+      "carLength": 23.2,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 2100000,
+      "trainWidth": 2.54,
+      "minStationLength": 23,
+      "maxStationLength": 32,
+      "baseTrackCost": 14000,
+      "baseStationCost": 7000000,
+      "trainOperationalCostPerHour": 85,
+      "carOperationalCostPerHour": 18,
+      "scissorsCrossoverCost": 4500000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 20,
+      "minStationTurnRadius": 70,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#D71920"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "UTDC",
+      "Hawker Siddeley Canada"
+    ]
+  },
+  {
+    "id": "tor-flexity-outlook-streetcar",
+    "name": "TOR Flexity Outlook Streetcar",
+    "description": "Toronto TTC Flexity Outlook 5-section low-floor streetcar.",
     "stats": {
       "maxAcceleration": 1.1,
       "maxDeceleration": 1.2,
       "maxSpeed": 19.44,
       "maxSpeedLocalStation": 8.0,
-      "capacityPerCar": 250,
+      "capacityPerCar": 200,
       "carLength": 30.2,
       "minCars": 1,
-      "maxCars": 1,
+      "maxCars": 2,
       "carsPerCarSet": 1,
-      "carCost": 3900000,
+      "carCost": 5200000,
       "trainWidth": 2.54,
       "minStationLength": 30,
       "maxStationLength": 39,
       "baseTrackCost": 15000,
-      "baseStationCost": 8000000,
+      "baseStationCost": 8500000,
       "trainOperationalCostPerHour": 95,
       "carOperationalCostPerHour": 20,
       "scissorsCrossoverCost": 5000000,
@@ -275,7 +420,7 @@
       "stationMaintenanceCostPerYear": 0
     },
     "appearance": {
-      "color": "#E4002B"
+      "color": "#D71920"
     },
     "elevationMultipliers": {
       "DEEP_BORE": 2.8,
@@ -291,32 +436,32 @@
     ]
   },
   {
-    "id": "ww-urbos-3-tram",
-    "name": "WW Urbos 3 Tram",
-    "description": "CAF Urbos 3 modular low-floor tram family.",
+    "id": "no-perley-thomas-streetcar",
+    "name": "NO Perley Thomas Streetcar",
+    "description": "New Orleans Perley Thomas 900-series heritage streetcar.",
     "stats": {
-      "maxAcceleration": 1.1,
-      "maxDeceleration": 1.2,
-      "maxSpeed": 22.22,
+      "maxAcceleration": 1.0,
+      "maxDeceleration": 1.1,
+      "maxSpeed": 18.06,
       "maxSpeedLocalStation": 8.0,
-      "capacityPerCar": 230,
-      "carLength": 32.0,
+      "capacityPerCar": 90,
+      "carLength": 14.0,
       "minCars": 1,
-      "maxCars": 1,
+      "maxCars": 2,
       "carsPerCarSet": 1,
-      "carCost": 3500000,
-      "trainWidth": 2.4,
-      "minStationLength": 32,
-      "maxStationLength": 41,
-      "baseTrackCost": 15000,
-      "baseStationCost": 8000000,
-      "trainOperationalCostPerHour": 95,
-      "carOperationalCostPerHour": 20,
-      "scissorsCrossoverCost": 5000000,
+      "carCost": 700000,
+      "trainWidth": 2.6,
+      "minStationLength": 14,
+      "maxStationLength": 23,
+      "baseTrackCost": 14000,
+      "baseStationCost": 7000000,
+      "trainOperationalCostPerHour": 85,
+      "carOperationalCostPerHour": 18,
+      "scissorsCrossoverCost": 4500000,
       "trackClearance": 0.65,
       "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 25,
-      "minStationTurnRadius": 80,
+      "minTurnRadius": 20,
+      "minStationTurnRadius": 70,
       "maxSlopePercentage": 6.0,
       "parallelTrackSpacing": 3.2,
       "stopTimeSeconds": 18,
@@ -324,7 +469,7 @@
       "stationMaintenanceCostPerYear": 0
     },
     "appearance": {
-      "color": "#004B93"
+      "color": "#006633"
     },
     "elevationMultipliers": {
       "DEEP_BORE": 2.8,
@@ -335,36 +480,36 @@
     },
     "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
-      "CAF"
+      "Perley A. Thomas Car Works"
     ]
   },
   {
-    "id": "ww-urbos-100-tram",
-    "name": "WW Urbos 100 Tram",
-    "description": "CAF Urbos 100 high-capacity 100% low-floor tram family.",
+    "id": "no-riverfront-streetcar",
+    "name": "NO Riverfront Streetcar",
+    "description": "New Orleans Riverfront/Gomaco-style replica streetcar.",
     "stats": {
-      "maxAcceleration": 1.1,
-      "maxDeceleration": 1.2,
-      "maxSpeed": 22.22,
+      "maxAcceleration": 1.0,
+      "maxDeceleration": 1.1,
+      "maxSpeed": 18.06,
       "maxSpeedLocalStation": 8.0,
-      "capacityPerCar": 260,
-      "carLength": 42.0,
+      "capacityPerCar": 90,
+      "carLength": 14.5,
       "minCars": 1,
-      "maxCars": 1,
+      "maxCars": 2,
       "carsPerCarSet": 1,
-      "carCost": 4300000,
-      "trainWidth": 2.65,
-      "minStationLength": 42,
-      "maxStationLength": 51,
-      "baseTrackCost": 15000,
-      "baseStationCost": 8000000,
-      "trainOperationalCostPerHour": 95,
-      "carOperationalCostPerHour": 20,
-      "scissorsCrossoverCost": 5000000,
+      "carCost": 900000,
+      "trainWidth": 2.6,
+      "minStationLength": 14,
+      "maxStationLength": 24,
+      "baseTrackCost": 14000,
+      "baseStationCost": 7000000,
+      "trainOperationalCostPerHour": 85,
+      "carOperationalCostPerHour": 18,
+      "scissorsCrossoverCost": 4500000,
       "trackClearance": 0.65,
       "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 25,
-      "minStationTurnRadius": 80,
+      "minTurnRadius": 20,
+      "minStationTurnRadius": 70,
       "maxSlopePercentage": 6.0,
       "parallelTrackSpacing": 3.2,
       "stopTimeSeconds": 18,
@@ -372,7 +517,7 @@
       "stationMaintenanceCostPerYear": 0
     },
     "appearance": {
-      "color": "#004B93"
+      "color": "#B50000"
     },
     "elevationMultipliers": {
       "DEEP_BORE": 2.8,
@@ -383,125 +528,29 @@
     },
     "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
-      "CAF"
+      "Gomaco"
     ]
   },
   {
-    "id": "ww-avenio-tram",
-    "name": "WW Avenio Tram",
-    "description": "Siemens Avenio low-floor modular tram family.",
-    "stats": {
-      "maxAcceleration": 1.1,
-      "maxDeceleration": 1.2,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 8.0,
-      "capacityPerCar": 220,
-      "carLength": 36.0,
-      "minCars": 1,
-      "maxCars": 1,
-      "carsPerCarSet": 1,
-      "carCost": 4000000,
-      "trainWidth": 2.4,
-      "minStationLength": 36,
-      "maxStationLength": 45,
-      "baseTrackCost": 15000,
-      "baseStationCost": 8000000,
-      "trainOperationalCostPerHour": 95,
-      "carOperationalCostPerHour": 20,
-      "scissorsCrossoverCost": 5000000,
-      "trackClearance": 0.65,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 25,
-      "minStationTurnRadius": 80,
-      "maxSlopePercentage": 6.0,
-      "parallelTrackSpacing": 3.2,
-      "stopTimeSeconds": 18,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#009999"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 2.8,
-      "STANDARD_TUNNEL": 1.5,
-      "CUT_AND_COVER": 0.8,
-      "AT_GRADE": 0.2,
-      "ELEVATED": 0.6
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "ww-combino-tram",
-    "name": "WW Combino Tram",
-    "description": "Siemens Combino low-floor tram family.",
+    "id": "por-skoda-10t-streetcar",
+    "name": "POR Skoda 10T Streetcar",
+    "description": "Portland Streetcar Škoda 10T low-floor streetcar.",
     "stats": {
       "maxAcceleration": 1.1,
       "maxDeceleration": 1.2,
       "maxSpeed": 19.44,
       "maxSpeedLocalStation": 8.0,
-      "capacityPerCar": 210,
-      "carLength": 31.0,
+      "capacityPerCar": 140,
+      "carLength": 20.1,
       "minCars": 1,
-      "maxCars": 1,
+      "maxCars": 2,
       "carsPerCarSet": 1,
-      "carCost": 3300000,
-      "trainWidth": 2.4,
-      "minStationLength": 31,
-      "maxStationLength": 40,
-      "baseTrackCost": 15000,
-      "baseStationCost": 8000000,
-      "trainOperationalCostPerHour": 95,
-      "carOperationalCostPerHour": 20,
-      "scissorsCrossoverCost": 5000000,
-      "trackClearance": 0.65,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 25,
-      "minStationTurnRadius": 80,
-      "maxSlopePercentage": 6.0,
-      "parallelTrackSpacing": 3.2,
-      "stopTimeSeconds": 18,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#009999"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 2.8,
-      "STANDARD_TUNNEL": 1.5,
-      "CUT_AND_COVER": 0.8,
-      "AT_GRADE": 0.2,
-      "ELEVATED": 0.6
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Siemens Mobility"
-    ]
-  },
-  {
-    "id": "ww-forcity-15t-tram",
-    "name": "WW ForCity 15T Tram",
-    "description": "Škoda 15T ForCity low-floor tram family.",
-    "stats": {
-      "maxAcceleration": 1.1,
-      "maxDeceleration": 1.2,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 8.0,
-      "capacityPerCar": 260,
-      "carLength": 31.4,
-      "minCars": 1,
-      "maxCars": 1,
-      "carsPerCarSet": 1,
-      "carCost": 3700000,
+      "carCost": 2500000,
       "trainWidth": 2.46,
-      "minStationLength": 31,
-      "maxStationLength": 40,
+      "minStationLength": 20,
+      "maxStationLength": 29,
       "baseTrackCost": 15000,
-      "baseStationCost": 8000000,
+      "baseStationCost": 8500000,
       "trainOperationalCostPerHour": 95,
       "carOperationalCostPerHour": 20,
       "scissorsCrossoverCost": 5000000,
@@ -516,7 +565,7 @@
       "stationMaintenanceCostPerYear": 0
     },
     "appearance": {
-      "color": "#43B02A"
+      "color": "#00A3E0"
     },
     "elevationMultipliers": {
       "DEEP_BORE": 2.8,
@@ -531,265 +580,601 @@
     ]
   },
   {
-    "id": "ww-forcity-smart-tram",
-    "name": "WW ForCity Smart Tram",
-    "description": "Škoda ForCity Smart long modular tram family.",
-    "stats": {
-      "maxAcceleration": 1.1,
-      "maxDeceleration": 1.2,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 8.0,
-      "capacityPerCar": 368,
-      "carLength": 60.0,
-      "minCars": 1,
-      "maxCars": 1,
-      "carsPerCarSet": 1,
-      "carCost": 6200000,
-      "trainWidth": 2.65,
-      "minStationLength": 60,
-      "maxStationLength": 69,
-      "baseTrackCost": 15000,
-      "baseStationCost": 8000000,
-      "trainOperationalCostPerHour": 95,
-      "carOperationalCostPerHour": 20,
-      "scissorsCrossoverCost": 5000000,
-      "trackClearance": 0.65,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 25,
-      "minStationTurnRadius": 80,
-      "maxSlopePercentage": 6.0,
-      "parallelTrackSpacing": 3.2,
-      "stopTimeSeconds": 18,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#43B02A"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 2.8,
-      "STANDARD_TUNNEL": 1.5,
-      "CUT_AND_COVER": 0.8,
-      "AT_GRADE": 0.2,
-      "ELEVATED": 0.6
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Škoda Group"
-    ]
-  },
-  {
-    "id": "ww-pesa-swing-tram",
-    "name": "WW PESA Swing Tram",
-    "description": "PESA Swing 100% low-floor tram family.",
-    "stats": {
-      "maxAcceleration": 1.1,
-      "maxDeceleration": 1.2,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 8.0,
-      "capacityPerCar": 201,
-      "carLength": 30.12,
-      "minCars": 1,
-      "maxCars": 1,
-      "carsPerCarSet": 1,
-      "carCost": 3100000,
-      "trainWidth": 2.35,
-      "minStationLength": 30,
-      "maxStationLength": 39,
-      "baseTrackCost": 15000,
-      "baseStationCost": 8000000,
-      "trainOperationalCostPerHour": 95,
-      "carOperationalCostPerHour": 20,
-      "scissorsCrossoverCost": 5000000,
-      "trackClearance": 0.65,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 25,
-      "minStationTurnRadius": 80,
-      "maxSlopePercentage": 6.0,
-      "parallelTrackSpacing": 3.2,
-      "stopTimeSeconds": 18,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#C8102E"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 2.8,
-      "STANDARD_TUNNEL": 1.5,
-      "CUT_AND_COVER": 0.8,
-      "AT_GRADE": 0.2,
-      "ELEVATED": 0.6
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "PESA"
-    ]
-  },
-  {
-    "id": "ww-pesa-jazz-tram",
-    "name": "WW PESA Jazz Tram",
-    "description": "PESA Jazz low-floor tram family.",
-    "stats": {
-      "maxAcceleration": 1.1,
-      "maxDeceleration": 1.2,
-      "maxSpeed": 19.44,
-      "maxSpeedLocalStation": 8.0,
-      "capacityPerCar": 190,
-      "carLength": 29.7,
-      "minCars": 1,
-      "maxCars": 1,
-      "carsPerCarSet": 1,
-      "carCost": 3200000,
-      "trainWidth": 2.4,
-      "minStationLength": 30,
-      "maxStationLength": 39,
-      "baseTrackCost": 15000,
-      "baseStationCost": 8000000,
-      "trainOperationalCostPerHour": 95,
-      "carOperationalCostPerHour": 20,
-      "scissorsCrossoverCost": 5000000,
-      "trackClearance": 0.65,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 25,
-      "minStationTurnRadius": 80,
-      "maxSlopePercentage": 6.0,
-      "parallelTrackSpacing": 3.2,
-      "stopTimeSeconds": 18,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#C8102E"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 2.8,
-      "STANDARD_TUNNEL": 1.5,
-      "CUT_AND_COVER": 0.8,
-      "AT_GRADE": 0.2,
-      "ELEVATED": 0.6
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "PESA"
-    ]
-  },
-  {
-    "id": "ww-stadler-variobahn-tram",
-    "name": "WW Variobahn Tram",
-    "description": "Stadler Variobahn modular low-floor tram family.",
-    "stats": {
-      "maxAcceleration": 1.1,
-      "maxDeceleration": 1.2,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 8.0,
-      "capacityPerCar": 216,
-      "carLength": 32.0,
-      "minCars": 1,
-      "maxCars": 1,
-      "carsPerCarSet": 1,
-      "carCost": 3500000,
-      "trainWidth": 2.65,
-      "minStationLength": 32,
-      "maxStationLength": 41,
-      "baseTrackCost": 15000,
-      "baseStationCost": 8000000,
-      "trainOperationalCostPerHour": 95,
-      "carOperationalCostPerHour": 20,
-      "scissorsCrossoverCost": 5000000,
-      "trackClearance": 0.65,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 25,
-      "minStationTurnRadius": 80,
-      "maxSlopePercentage": 6.0,
-      "parallelTrackSpacing": 3.2,
-      "stopTimeSeconds": 18,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#ED1C24"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 2.8,
-      "STANDARD_TUNNEL": 1.5,
-      "CUT_AND_COVER": 0.8,
-      "AT_GRADE": 0.2,
-      "ELEVATED": 0.6
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Stadler Rail"
-    ]
-  },
-  {
-    "id": "ww-stadler-tramlink-tram",
-    "name": "WW Tramlink Tram",
-    "description": "Stadler Tramlink modular low-floor tram family.",
-    "stats": {
-      "maxAcceleration": 1.1,
-      "maxDeceleration": 1.2,
-      "maxSpeed": 22.22,
-      "maxSpeedLocalStation": 8.0,
-      "capacityPerCar": 250,
-      "carLength": 42.0,
-      "minCars": 1,
-      "maxCars": 1,
-      "carsPerCarSet": 1,
-      "carCost": 4200000,
-      "trainWidth": 2.65,
-      "minStationLength": 42,
-      "maxStationLength": 51,
-      "baseTrackCost": 15000,
-      "baseStationCost": 8000000,
-      "trainOperationalCostPerHour": 95,
-      "carOperationalCostPerHour": 20,
-      "scissorsCrossoverCost": 5000000,
-      "trackClearance": 0.65,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 25,
-      "minStationTurnRadius": 80,
-      "maxSlopePercentage": 6.0,
-      "parallelTrackSpacing": 3.2,
-      "stopTimeSeconds": 18,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#ED1C24"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 2.8,
-      "STANDARD_TUNNEL": 1.5,
-      "CUT_AND_COVER": 0.8,
-      "AT_GRADE": 0.2,
-      "ELEVATED": 0.6
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "Stadler Rail"
-    ]
-  },
-  {
-    "id": "ww-inekon-trio-tram",
-    "name": "WW Inekon Trio Tram",
-    "description": "Inekon 01/12 Trio articulated low-floor tram family.",
+    "id": "por-inekon-trio-streetcar",
+    "name": "POR Inekon Trio Streetcar",
+    "description": "Portland Streetcar Inekon 12 Trio low-floor streetcar.",
     "stats": {
       "maxAcceleration": 1.1,
       "maxDeceleration": 1.2,
       "maxSpeed": 19.44,
       "maxSpeedLocalStation": 8.0,
       "capacityPerCar": 140,
-      "carLength": 20.13,
+      "carLength": 20.1,
       "minCars": 1,
-      "maxCars": 1,
+      "maxCars": 2,
       "carsPerCarSet": 1,
-      "carCost": 2400000,
+      "carCost": 2600000,
       "trainWidth": 2.46,
       "minStationLength": 20,
       "maxStationLength": 29,
       "baseTrackCost": 15000,
-      "baseStationCost": 8000000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#00A3E0"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Inekon Trams"
+    ]
+  },
+  {
+    "id": "por-united-100-streetcar",
+    "name": "POR United 100 Streetcar",
+    "description": "Portland Streetcar United Streetcar 100 low-floor streetcar.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 140,
+      "carLength": 20.1,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 2700000,
+      "trainWidth": 2.46,
+      "minStationLength": 20,
+      "maxStationLength": 29,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#00A3E0"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "United Streetcar"
+    ]
+  },
+  {
+    "id": "sea-inekon-trio-streetcar",
+    "name": "SEA Inekon Trio Streetcar",
+    "description": "Seattle Streetcar Inekon Trio low-floor streetcar.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 140,
+      "carLength": 20.1,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 2600000,
+      "trainWidth": 2.46,
+      "minStationLength": 20,
+      "maxStationLength": 29,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#00A3E0"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Inekon Trams"
+    ]
+  },
+  {
+    "id": "sea-brookville-liberty-streetcar",
+    "name": "SEA Brookville Liberty Streetcar",
+    "description": "Seattle First Hill Brookville Liberty modern streetcar.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 160,
+      "carLength": 20.4,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3000000,
+      "trainWidth": 2.46,
+      "minStationLength": 20,
+      "maxStationLength": 29,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#00A3E0"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Brookville Equipment Corporation"
+    ]
+  },
+  {
+    "id": "tuc-united-200-streetcar",
+    "name": "TUC United 200 Streetcar",
+    "description": "Tucson Sun Link United Streetcar 200-series low-floor streetcar.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 148,
+      "carLength": 20.1,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 2900000,
+      "trainWidth": 2.46,
+      "minStationLength": 20,
+      "maxStationLength": 29,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#F58220"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "United Streetcar"
+    ]
+  },
+  {
+    "id": "kc-urbos-3-streetcar",
+    "name": "KC Urbos 3 Streetcar",
+    "description": "Kansas City CAF Urbos 3 streetcar.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 150,
+      "carLength": 23.6,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3300000,
+      "trainWidth": 2.65,
+      "minStationLength": 24,
+      "maxStationLength": 33,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#004B93"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "CAF"
+    ]
+  },
+  {
+    "id": "cin-urbos-3-streetcar",
+    "name": "CIN Urbos 3 Streetcar",
+    "description": "Cincinnati Bell Connector CAF Urbos 3 streetcar.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 150,
+      "carLength": 23.6,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3300000,
+      "trainWidth": 2.65,
+      "minStationLength": 24,
+      "maxStationLength": 33,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#004B93"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "CAF"
+    ]
+  },
+  {
+    "id": "det-liberty-streetcar",
+    "name": "DET Liberty Streetcar",
+    "description": "Detroit QLine Brookville Liberty streetcar.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 160,
+      "carLength": 20.4,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3000000,
+      "trainWidth": 2.46,
+      "minStationLength": 20,
+      "maxStationLength": 29,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#7B6469"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Brookville Equipment Corporation"
+    ]
+  },
+  {
+    "id": "mke-liberty-streetcar",
+    "name": "MKE Liberty Streetcar",
+    "description": "Milwaukee Hop Brookville Liberty streetcar.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 160,
+      "carLength": 20.4,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3000000,
+      "trainWidth": 2.46,
+      "minStationLength": 20,
+      "maxStationLength": 29,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#7B6469"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Brookville Equipment Corporation"
+    ]
+  },
+  {
+    "id": "okc-liberty-streetcar",
+    "name": "OKC Liberty Streetcar",
+    "description": "Oklahoma City Brookville Liberty streetcar.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 160,
+      "carLength": 20.4,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3000000,
+      "trainWidth": 2.46,
+      "minStationLength": 20,
+      "maxStationLength": 29,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#7B6469"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Brookville Equipment Corporation"
+    ]
+  },
+  {
+    "id": "dal-liberty-streetcar",
+    "name": "DAL Liberty Streetcar",
+    "description": "Dallas Streetcar Brookville Liberty streetcar.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 160,
+      "carLength": 20.4,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3000000,
+      "trainWidth": 2.46,
+      "minStationLength": 20,
+      "maxStationLength": 29,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#7B6469"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Brookville Equipment Corporation"
+    ]
+  },
+  {
+    "id": "atl-s70-streetcar",
+    "name": "ATL S70 Streetcar",
+    "description": "Atlanta Streetcar Siemens S70 streetcar/LRV.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 195,
+      "carLength": 24.8,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3800000,
+      "trainWidth": 2.65,
+      "minStationLength": 25,
+      "maxStationLength": 34,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#009999"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Siemens Mobility"
+    ]
+  },
+  {
+    "id": "dc-inekon-trio-streetcar",
+    "name": "DC Inekon Trio Streetcar",
+    "description": "DC Streetcar Inekon 12 Trio streetcar.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 144,
+      "carLength": 20.1,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 2700000,
+      "trainWidth": 2.46,
+      "minStationLength": 20,
+      "maxStationLength": 29,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
       "trainOperationalCostPerHour": 95,
       "carOperationalCostPerHour": 20,
       "scissorsCrossoverCost": 5000000,
@@ -819,128 +1204,32 @@
     ]
   },
   {
-    "id": "ww-tatra-t3-tram",
-    "name": "WW Tatra T3 Tram",
-    "description": "Classic ČKD Tatra T3 tram family.",
+    "id": "elp-pcc-streetcar",
+    "name": "ELP PCC Streetcar",
+    "description": "El Paso PCC streetcar, rebuilt heritage city streetcar.",
     "stats": {
-      "maxAcceleration": 1.1,
-      "maxDeceleration": 1.2,
-      "maxSpeed": 18.06,
-      "maxSpeedLocalStation": 8.0,
-      "capacityPerCar": 110,
-      "carLength": 14.0,
-      "minCars": 1,
-      "maxCars": 1,
-      "carsPerCarSet": 1,
-      "carCost": 900000,
-      "trainWidth": 2.5,
-      "minStationLength": 14,
-      "maxStationLength": 23,
-      "baseTrackCost": 15000,
-      "baseStationCost": 8000000,
-      "trainOperationalCostPerHour": 95,
-      "carOperationalCostPerHour": 20,
-      "scissorsCrossoverCost": 5000000,
-      "trackClearance": 0.65,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 25,
-      "minStationTurnRadius": 80,
-      "maxSlopePercentage": 6.0,
-      "parallelTrackSpacing": 3.2,
-      "stopTimeSeconds": 18,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#F3D03E"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 2.8,
-      "STANDARD_TUNNEL": 1.5,
-      "CUT_AND_COVER": 0.8,
-      "AT_GRADE": 0.2,
-      "ELEVATED": 0.6
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "ČKD Tatra"
-    ]
-  },
-  {
-    "id": "ww-tatra-kt8d5-tram",
-    "name": "WW Tatra KT8D5 Tram",
-    "description": "ČKD Tatra KT8D5 articulated tram family.",
-    "stats": {
-      "maxAcceleration": 1.1,
-      "maxDeceleration": 1.2,
-      "maxSpeed": 18.06,
-      "maxSpeedLocalStation": 8.0,
-      "capacityPerCar": 231,
-      "carLength": 30.3,
-      "minCars": 1,
-      "maxCars": 1,
-      "carsPerCarSet": 1,
-      "carCost": 1600000,
-      "trainWidth": 2.48,
-      "minStationLength": 30,
-      "maxStationLength": 39,
-      "baseTrackCost": 15000,
-      "baseStationCost": 8000000,
-      "trainOperationalCostPerHour": 95,
-      "carOperationalCostPerHour": 20,
-      "scissorsCrossoverCost": 5000000,
-      "trackClearance": 0.65,
-      "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 25,
-      "minStationTurnRadius": 80,
-      "maxSlopePercentage": 6.0,
-      "parallelTrackSpacing": 3.2,
-      "stopTimeSeconds": 18,
-      "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
-    },
-    "appearance": {
-      "color": "#F3D03E"
-    },
-    "elevationMultipliers": {
-      "DEEP_BORE": 2.8,
-      "STANDARD_TUNNEL": 1.5,
-      "CUT_AND_COVER": 0.8,
-      "AT_GRADE": 0.2,
-      "ELEVATED": 0.6
-    },
-    "allowAtGradeRoadCrossing": true,
-    "Manufacturer": [
-      "ČKD Tatra"
-    ]
-  },
-  {
-    "id": "ww-pcc-streetcar",
-    "name": "WW PCC Streetcar",
-    "description": "Classic PCC streetcar family for legacy or heritage street-running systems.",
-    "stats": {
-      "maxAcceleration": 1.1,
-      "maxDeceleration": 1.2,
+      "maxAcceleration": 1.0,
+      "maxDeceleration": 1.1,
       "maxSpeed": 18.06,
       "maxSpeedLocalStation": 8.0,
       "capacityPerCar": 100,
       "carLength": 14.5,
       "minCars": 1,
-      "maxCars": 1,
+      "maxCars": 2,
       "carsPerCarSet": 1,
-      "carCost": 750000,
+      "carCost": 850000,
       "trainWidth": 2.54,
       "minStationLength": 14,
-      "maxStationLength": 23,
-      "baseTrackCost": 15000,
-      "baseStationCost": 8000000,
-      "trainOperationalCostPerHour": 95,
-      "carOperationalCostPerHour": 20,
-      "scissorsCrossoverCost": 5000000,
+      "maxStationLength": 24,
+      "baseTrackCost": 14000,
+      "baseStationCost": 7000000,
+      "trainOperationalCostPerHour": 85,
+      "carOperationalCostPerHour": 18,
+      "scissorsCrossoverCost": 4500000,
       "trackClearance": 0.65,
       "maxLateralAcceleration": 0.85,
-      "minTurnRadius": 25,
-      "minStationTurnRadius": 80,
+      "minTurnRadius": 20,
+      "minStationTurnRadius": 70,
       "maxSlopePercentage": 6.0,
       "parallelTrackSpacing": 3.2,
       "stopTimeSeconds": 18,
@@ -960,6 +1249,2033 @@
     "allowAtGradeRoadCrossing": true,
     "Manufacturer": [
       "PCC consortium builders"
+    ]
+  },
+  {
+    "id": "tem-liberty-streetcar",
+    "name": "TEM Liberty Streetcar",
+    "description": "Tempe Streetcar Brookville Liberty streetcar.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 160,
+      "carLength": 20.4,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3000000,
+      "trainWidth": 2.46,
+      "minStationLength": 20,
+      "maxStationLength": 29,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#7B6469"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Brookville Equipment Corporation"
+    ]
+  },
+  {
+    "id": "cha-s70-streetcar",
+    "name": "CHA S70 Streetcar",
+    "description": "Charlotte CityLYNX Siemens S70 streetcar.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 195,
+      "carLength": 24.8,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3800000,
+      "trainWidth": 2.65,
+      "minStationLength": 25,
+      "maxStationLength": 34,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#009999"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Siemens Mobility"
+    ]
+  },
+  {
+    "id": "hk-ding-ding-tram",
+    "name": "HK Ding Ding Tram",
+    "description": "Hong Kong double-deck tram, narrow-body double-deck street tram.",
+    "stats": {
+      "maxAcceleration": 1.0,
+      "maxDeceleration": 1.1,
+      "maxSpeed": 13.89,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 115,
+      "carLength": 9.4,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 700000,
+      "trainWidth": 1.9,
+      "minStationLength": 9,
+      "maxStationLength": 18,
+      "baseTrackCost": 14000,
+      "baseStationCost": 7000000,
+      "trainOperationalCostPerHour": 85,
+      "carOperationalCostPerHour": 18,
+      "scissorsCrossoverCost": 4500000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 20,
+      "minStationTurnRadius": 70,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#43B02A"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Hong Kong Tramways workshops"
+    ]
+  },
+  {
+    "id": "mel-z3-tram",
+    "name": "MEL Z3 Tram",
+    "description": "Melbourne Z3-class high-floor tram.",
+    "stats": {
+      "maxAcceleration": 1.0,
+      "maxDeceleration": 1.1,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 110,
+      "carLength": 16.6,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 1100000,
+      "trainWidth": 2.67,
+      "minStationLength": 17,
+      "maxStationLength": 26,
+      "baseTrackCost": 14000,
+      "baseStationCost": 7000000,
+      "trainOperationalCostPerHour": 85,
+      "carOperationalCostPerHour": 18,
+      "scissorsCrossoverCost": 4500000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 20,
+      "minStationTurnRadius": 70,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#43B02A"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Comeng"
+    ]
+  },
+  {
+    "id": "mel-b2-tram",
+    "name": "MEL B2 Tram",
+    "description": "Melbourne B2-class articulated high-floor tram.",
+    "stats": {
+      "maxAcceleration": 1.0,
+      "maxDeceleration": 1.1,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 180,
+      "carLength": 23.6,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 1900000,
+      "trainWidth": 2.65,
+      "minStationLength": 24,
+      "maxStationLength": 33,
+      "baseTrackCost": 14000,
+      "baseStationCost": 7000000,
+      "trainOperationalCostPerHour": 85,
+      "carOperationalCostPerHour": 18,
+      "scissorsCrossoverCost": 4500000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 20,
+      "minStationTurnRadius": 70,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#43B02A"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Comeng",
+      "ABB"
+    ]
+  },
+  {
+    "id": "mel-c-citadis-tram",
+    "name": "MEL C Citadis Tram",
+    "description": "Melbourne C-class Alstom Citadis low-floor tram.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 150,
+      "carLength": 22.0,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3000000,
+      "trainWidth": 2.65,
+      "minStationLength": 22,
+      "maxStationLength": 31,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#43B02A"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Alstom"
+    ]
+  },
+  {
+    "id": "mel-d1-combino-tram",
+    "name": "MEL D1 Combino Tram",
+    "description": "Melbourne D1 Siemens Combino 3-section tram.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 140,
+      "carLength": 20.0,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 2900000,
+      "trainWidth": 2.65,
+      "minStationLength": 20,
+      "maxStationLength": 29,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#43B02A"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Siemens Mobility"
+    ]
+  },
+  {
+    "id": "mel-d2-combino-tram",
+    "name": "MEL D2 Combino Tram",
+    "description": "Melbourne D2 Siemens Combino 5-section tram.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 210,
+      "carLength": 30.0,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3600000,
+      "trainWidth": 2.65,
+      "minStationLength": 30,
+      "maxStationLength": 39,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#43B02A"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Siemens Mobility"
+    ]
+  },
+  {
+    "id": "mel-e-flexity-tram",
+    "name": "MEL E Flexity Tram",
+    "description": "Melbourne E-class Bombardier Flexity Swift low-floor tram.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 210,
+      "carLength": 33.5,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 4300000,
+      "trainWidth": 2.65,
+      "minStationLength": 34,
+      "maxStationLength": 42,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#43B02A"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Bombardier Transportation",
+      "Alstom"
+    ]
+  },
+  {
+    "id": "syd-variotram-tram",
+    "name": "SYD Variotram Tram",
+    "description": "Sydney Variotram articulated light rail tram.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 217,
+      "carLength": 29.0,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3500000,
+      "trainWidth": 2.65,
+      "minStationLength": 29,
+      "maxStationLength": 38,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#ED1C24"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Adtranz"
+    ]
+  },
+  {
+    "id": "syd-citadis-305-tram",
+    "name": "SYD Citadis 305 Tram",
+    "description": "Sydney Alstom Citadis 305 light rail tram.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 300,
+      "carLength": 45.4,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 5000000,
+      "trainWidth": 2.65,
+      "minStationLength": 45,
+      "maxStationLength": 54,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#ED1C24"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Alstom"
+    ]
+  },
+  {
+    "id": "syd-citadis-x05-tram",
+    "name": "SYD Citadis X05 Tram",
+    "description": "Sydney CBD and South East Light Rail Citadis X05 coupled tram family.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 300,
+      "carLength": 33.0,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 4400000,
+      "trainWidth": 2.65,
+      "minStationLength": 33,
+      "maxStationLength": 42,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#ED1C24"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Alstom"
+    ]
+  },
+  {
+    "id": "prg-tatra-t3-tram",
+    "name": "PRG Tatra T3 Tram",
+    "description": "Prague Tatra T3 high-floor tram family.",
+    "stats": {
+      "maxAcceleration": 1.0,
+      "maxDeceleration": 1.1,
+      "maxSpeed": 18.06,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 110,
+      "carLength": 14.0,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 900000,
+      "trainWidth": 2.5,
+      "minStationLength": 14,
+      "maxStationLength": 23,
+      "baseTrackCost": 14000,
+      "baseStationCost": 7000000,
+      "trainOperationalCostPerHour": 85,
+      "carOperationalCostPerHour": 18,
+      "scissorsCrossoverCost": 4500000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 20,
+      "minStationTurnRadius": 70,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#F3D03E"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "ČKD Tatra"
+    ]
+  },
+  {
+    "id": "prg-tatra-kt8d5-tram",
+    "name": "PRG Tatra KT8D5 Tram",
+    "description": "Prague Tatra KT8D5 articulated tram.",
+    "stats": {
+      "maxAcceleration": 1.0,
+      "maxDeceleration": 1.1,
+      "maxSpeed": 18.06,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 231,
+      "carLength": 30.3,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 1600000,
+      "trainWidth": 2.48,
+      "minStationLength": 30,
+      "maxStationLength": 39,
+      "baseTrackCost": 14000,
+      "baseStationCost": 7000000,
+      "trainOperationalCostPerHour": 85,
+      "carOperationalCostPerHour": 18,
+      "scissorsCrossoverCost": 4500000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 20,
+      "minStationTurnRadius": 70,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#F3D03E"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "ČKD Tatra"
+    ]
+  },
+  {
+    "id": "prg-forcity-15t-tram",
+    "name": "PRG ForCity 15T Tram",
+    "description": "Prague Škoda 15T ForCity low-floor tram.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 260,
+      "carLength": 31.4,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3700000,
+      "trainWidth": 2.46,
+      "minStationLength": 31,
+      "maxStationLength": 40,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#43B02A"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Škoda Transportation"
+    ]
+  },
+  {
+    "id": "vie-ulf-tram",
+    "name": "VIE ULF Tram",
+    "description": "Vienna ULF ultra-low-floor tram family.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 207,
+      "carLength": 35.5,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3300000,
+      "trainWidth": 2.4,
+      "minStationLength": 36,
+      "maxStationLength": 44,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#C8102E"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Siemens Mobility"
+    ]
+  },
+  {
+    "id": "vie-flexity-wien-tram",
+    "name": "VIE Flexity Wien Tram",
+    "description": "Vienna Flexity Wien low-floor tram.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 211,
+      "carLength": 34.0,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3800000,
+      "trainWidth": 2.4,
+      "minStationLength": 34,
+      "maxStationLength": 43,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#C8102E"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Bombardier Transportation",
+      "Alstom"
+    ]
+  },
+  {
+    "id": "ber-flexity-berlin-tram",
+    "name": "BER Flexity Berlin Tram",
+    "description": "Berlin Bombardier Flexity Berlin low-floor tram.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 240,
+      "carLength": 40.0,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 4200000,
+      "trainWidth": 2.4,
+      "minStationLength": 40,
+      "maxStationLength": 49,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#F3D03E"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Bombardier Transportation",
+      "Alstom"
+    ]
+  },
+  {
+    "id": "muc-r2-tram",
+    "name": "MUC R2 Tram",
+    "description": "Munich R2 low-floor tram.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 157,
+      "carLength": 26.8,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 2800000,
+      "trainWidth": 2.3,
+      "minStationLength": 27,
+      "maxStationLength": 36,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#009999"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Adtranz"
+    ]
+  },
+  {
+    "id": "muc-r3-tram",
+    "name": "MUC R3 Tram",
+    "description": "Munich R3 longer low-floor tram.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 220,
+      "carLength": 36.6,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3400000,
+      "trainWidth": 2.3,
+      "minStationLength": 37,
+      "maxStationLength": 46,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#009999"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Adtranz"
+    ]
+  },
+  {
+    "id": "muc-avenio-tram",
+    "name": "MUC Avenio Tram",
+    "description": "Munich Siemens Avenio low-floor tram.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 216,
+      "carLength": 36.9,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3900000,
+      "trainWidth": 2.3,
+      "minStationLength": 37,
+      "maxStationLength": 46,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#009999"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Siemens Mobility"
+    ]
+  },
+  {
+    "id": "zrh-tram-2000-tram",
+    "name": "ZRH Tram 2000 Tram",
+    "description": "Zürich Tram 2000 high-floor tram family.",
+    "stats": {
+      "maxAcceleration": 1.0,
+      "maxDeceleration": 1.1,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 165,
+      "carLength": 21.4,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 1500000,
+      "trainWidth": 2.2,
+      "minStationLength": 21,
+      "maxStationLength": 30,
+      "baseTrackCost": 14000,
+      "baseStationCost": 7000000,
+      "trainOperationalCostPerHour": 85,
+      "carOperationalCostPerHour": 18,
+      "scissorsCrossoverCost": 4500000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 20,
+      "minStationTurnRadius": 70,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#005EB8"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Schindler",
+      "SIG"
+    ]
+  },
+  {
+    "id": "zrh-cobra-tram",
+    "name": "ZRH Cobra Tram",
+    "description": "Zürich Cobra low-floor tram.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 238,
+      "carLength": 36.0,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3500000,
+      "trainWidth": 2.4,
+      "minStationLength": 36,
+      "maxStationLength": 45,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#005EB8"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Bombardier Transportation",
+      "Alstom"
+    ]
+  },
+  {
+    "id": "zrh-flexity-tram",
+    "name": "ZRH Flexity Tram",
+    "description": "Zürich Flexity low-floor tram.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 276,
+      "carLength": 43.7,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 4300000,
+      "trainWidth": 2.4,
+      "minStationLength": 44,
+      "maxStationLength": 53,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#005EB8"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Bombardier Transportation",
+      "Alstom"
+    ]
+  },
+  {
+    "id": "bsl-combino-tram",
+    "name": "BSL Combino Tram",
+    "description": "Basel Siemens Combino low-floor tram.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 250,
+      "carLength": 42.0,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3800000,
+      "trainWidth": 2.3,
+      "minStationLength": 42,
+      "maxStationLength": 51,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#43B02A"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Siemens Mobility"
+    ]
+  },
+  {
+    "id": "bsl-flexity-tram",
+    "name": "BSL Flexity Tram",
+    "description": "Basel Flexity 2 low-floor tram.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 276,
+      "carLength": 43.2,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 4400000,
+      "trainWidth": 2.3,
+      "minStationLength": 43,
+      "maxStationLength": 52,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#43B02A"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Bombardier Transportation",
+      "Alstom"
+    ]
+  },
+  {
+    "id": "hel-variotram-tram",
+    "name": "HEL Variotram Tram",
+    "description": "Helsinki Variotram low-floor tram.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 200,
+      "carLength": 24.4,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3000000,
+      "trainWidth": 2.3,
+      "minStationLength": 24,
+      "maxStationLength": 33,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#43B02A"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Adtranz",
+      "Bombardier Transportation"
+    ]
+  },
+  {
+    "id": "hel-artic-tram",
+    "name": "HEL Artic Tram",
+    "description": "Helsinki Transtech/Škoda Artic low-floor tram.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 200,
+      "carLength": 27.6,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3300000,
+      "trainWidth": 2.4,
+      "minStationLength": 28,
+      "maxStationLength": 37,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#43B02A"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Transtech",
+      "Škoda Group"
+    ]
+  },
+  {
+    "id": "hel-jokeri-artic-x54-tram",
+    "name": "HEL Jokeri Artic X54 Tram",
+    "description": "Helsinki Jokeri Artic X54 long tram/light rail vehicle.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 300,
+      "carLength": 34.5,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 4300000,
+      "trainWidth": 2.65,
+      "minStationLength": 34,
+      "maxStationLength": 44,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#43B02A"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Škoda Group"
+    ]
+  },
+  {
+    "id": "par-tfs-tram",
+    "name": "PAR TFS Tram",
+    "description": "Paris T1/T2 Alstom TFS tram family.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 178,
+      "carLength": 29.4,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3000000,
+      "trainWidth": 2.3,
+      "minStationLength": 29,
+      "maxStationLength": 38,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#6CACE4"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Alstom"
+    ]
+  },
+  {
+    "id": "par-citadis-302-tram",
+    "name": "PAR Citadis 302 Tram",
+    "description": "Paris Alstom Citadis 302 tram family.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 220,
+      "carLength": 32.0,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3400000,
+      "trainWidth": 2.4,
+      "minStationLength": 32,
+      "maxStationLength": 41,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#6CACE4"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Alstom"
+    ]
+  },
+  {
+    "id": "par-citadis-402-tram",
+    "name": "PAR Citadis 402 Tram",
+    "description": "Paris Alstom Citadis 402 long tram family.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 300,
+      "carLength": 43.7,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 4300000,
+      "trainWidth": 2.65,
+      "minStationLength": 44,
+      "maxStationLength": 53,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#6CACE4"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Alstom"
+    ]
+  },
+  {
+    "id": "bod-citadis-402-tram",
+    "name": "BOD Citadis 402 Tram",
+    "description": "Bordeaux Alstom Citadis 402 APS-capable tram.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 300,
+      "carLength": 43.7,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 4300000,
+      "trainWidth": 2.65,
+      "minStationLength": 44,
+      "maxStationLength": 53,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#6CACE4"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Alstom"
+    ]
+  },
+  {
+    "id": "nce-citadis-302-tram",
+    "name": "NCE Citadis 302 Tram",
+    "description": "Nice Alstom Citadis 302 tram.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 220,
+      "carLength": 32.0,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3400000,
+      "trainWidth": 2.65,
+      "minStationLength": 32,
+      "maxStationLength": 41,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#6CACE4"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Alstom"
+    ]
+  },
+  {
+    "id": "bcn-citadis-302-tram",
+    "name": "BCN Citadis 302 Tram",
+    "description": "Barcelona Trambaix/Trambesòs Citadis 302 tram.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 220,
+      "carLength": 32.0,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3400000,
+      "trainWidth": 2.4,
+      "minStationLength": 32,
+      "maxStationLength": 41,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#6CACE4"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Alstom"
+    ]
+  },
+  {
+    "id": "mad-citadis-302-tram",
+    "name": "MAD Citadis 302 Tram",
+    "description": "Madrid Metro Ligero Citadis 302 tram/LRV.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 220,
+      "carLength": 32.0,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3400000,
+      "trainWidth": 2.4,
+      "minStationLength": 32,
+      "maxStationLength": 41,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#6CACE4"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Alstom"
+    ]
+  },
+  {
+    "id": "lis-articulado-tram",
+    "name": "LIS Articulado Tram",
+    "description": "Lisbon modern articulated low-floor tram family.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 210,
+      "carLength": 24.0,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 2800000,
+      "trainWidth": 2.4,
+      "minStationLength": 24,
+      "maxStationLength": 33,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#F3D03E"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Siemens Mobility",
+      "CAF"
+    ]
+  },
+  {
+    "id": "mil-sirio-tram",
+    "name": "MIL Sirio Tram",
+    "description": "Milan AnsaldoBreda Sirio low-floor tram.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 230,
+      "carLength": 35.0,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3400000,
+      "trainWidth": 2.4,
+      "minStationLength": 35,
+      "maxStationLength": 44,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#F58220"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "AnsaldoBreda"
+    ]
+  },
+  {
+    "id": "mil-peter-witt-streetcar",
+    "name": "MIL Peter Witt Streetcar",
+    "description": "Milan 1500-series Peter Witt classic streetcar.",
+    "stats": {
+      "maxAcceleration": 1.0,
+      "maxDeceleration": 1.1,
+      "maxSpeed": 13.89,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 95,
+      "carLength": 13.9,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 650000,
+      "trainWidth": 2.35,
+      "minStationLength": 14,
+      "maxStationLength": 23,
+      "baseTrackCost": 14000,
+      "baseStationCost": 7000000,
+      "trainOperationalCostPerHour": 85,
+      "carOperationalCostPerHour": 18,
+      "scissorsCrossoverCost": 4500000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 20,
+      "minStationTurnRadius": 70,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#F58220"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Officine Meccaniche"
+    ]
+  },
+  {
+    "id": "ist-citadis-304-tram",
+    "name": "IST Citadis 304 Tram",
+    "description": "Istanbul Alstom Citadis tram family.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 230,
+      "carLength": 32.0,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3500000,
+      "trainWidth": 2.65,
+      "minStationLength": 32,
+      "maxStationLength": 41,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#6CACE4"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Alstom"
+    ]
+  },
+  {
+    "id": "ist-flexity-swift-tram",
+    "name": "IST Flexity Swift Tram",
+    "description": "Istanbul Bombardier Flexity Swift tram family.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 250,
+      "carLength": 30.0,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 4000000,
+      "trainWidth": 2.65,
+      "minStationLength": 30,
+      "maxStationLength": 39,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#E4002B"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Bombardier Transportation"
+    ]
+  },
+  {
+    "id": "jrs-citadis-302-tram",
+    "name": "JRS Citadis 302 Tram",
+    "description": "Jerusalem Alstom Citadis 302 tram.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 19.44,
+      "maxSpeedLocalStation": 8.0,
+      "capacityPerCar": 220,
+      "carLength": 32.0,
+      "minCars": 1,
+      "maxCars": 2,
+      "carsPerCarSet": 1,
+      "carCost": 3400000,
+      "trainWidth": 2.65,
+      "minStationLength": 32,
+      "maxStationLength": 41,
+      "baseTrackCost": 15000,
+      "baseStationCost": 8500000,
+      "trainOperationalCostPerHour": 95,
+      "carOperationalCostPerHour": 20,
+      "scissorsCrossoverCost": 5000000,
+      "trackClearance": 0.65,
+      "maxLateralAcceleration": 0.85,
+      "minTurnRadius": 25,
+      "minStationTurnRadius": 80,
+      "maxSlopePercentage": 6.0,
+      "parallelTrackSpacing": 3.2,
+      "stopTimeSeconds": 18,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#6CACE4"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 2.8,
+      "STANDARD_TUNNEL": 1.5,
+      "CUT_AND_COVER": 0.8,
+      "AT_GRADE": 0.2,
+      "ELEVATED": 0.6
+    },
+    "allowAtGradeRoadCrossing": true,
+    "Manufacturer": [
+      "Alstom"
     ]
   }
 ]
