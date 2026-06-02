@@ -1,0 +1,632 @@
+[
+  {
+    "id": "ww-val-208-light-metro",
+    "name": "WW VAL 208 Light Metro",
+    "description": "Siemens/Matra VAL 208 rubber-tired automated light metro family.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 80,
+      "carLength": 13.0,
+      "minCars": 2,
+      "maxCars": 2,
+      "carsPerCarSet": 2,
+      "carCost": 2200000,
+      "trainWidth": 2.08,
+      "minStationLength": 26,
+      "maxStationLength": 38,
+      "baseTrackCost": 32000,
+      "baseStationCost": 60000000,
+      "trainOperationalCostPerHour": 248,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4.0,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#009999"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": false,
+    "Manufacturer": [
+      "Matra",
+      "Siemens Mobility"
+    ]
+  },
+  {
+    "id": "ww-innovia-apm-light-metro",
+    "name": "WW Innovia APM",
+    "description": "Alstom/Bombardier Innovia APM automated people mover/light metro family.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 100,
+      "carLength": 12.8,
+      "minCars": 2,
+      "maxCars": 2,
+      "carsPerCarSet": 2,
+      "carCost": 2600000,
+      "trainWidth": 2.8,
+      "minStationLength": 26,
+      "maxStationLength": 38,
+      "baseTrackCost": 32000,
+      "baseStationCost": 60000000,
+      "trainOperationalCostPerHour": 248,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4.0,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#E4002B"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": false,
+    "Manufacturer": [
+      "Bombardier Transportation",
+      "Alstom"
+    ]
+  },
+  {
+    "id": "ww-innovia-metro-light",
+    "name": "WW Innovia Metro",
+    "description": "Alstom/Bombardier Innovia Metro automated light metro family.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 125,
+      "carLength": 13.0,
+      "minCars": 4,
+      "maxCars": 4,
+      "carsPerCarSet": 4,
+      "carCost": 2700000,
+      "trainWidth": 2.65,
+      "minStationLength": 52,
+      "maxStationLength": 64,
+      "baseTrackCost": 32000,
+      "baseStationCost": 64000000,
+      "trainOperationalCostPerHour": 284,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4.0,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#E4002B"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": false,
+    "Manufacturer": [
+      "Bombardier Transportation",
+      "Alstom"
+    ]
+  },
+  {
+    "id": "ww-hitachi-driverless-metro",
+    "name": "WW Hitachi Driverless",
+    "description": "Hitachi Rail driverless metro/light metro family.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 25.0,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 150,
+      "carLength": 13.0,
+      "minCars": 3,
+      "maxCars": 3,
+      "carsPerCarSet": 3,
+      "carCost": 3000000,
+      "trainWidth": 2.65,
+      "minStationLength": 39,
+      "maxStationLength": 51,
+      "baseTrackCost": 32000,
+      "baseStationCost": 62000000,
+      "trainOperationalCostPerHour": 266,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4.0,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#7B6469"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": false,
+    "Manufacturer": [
+      "Hitachi Rail"
+    ]
+  },
+  {
+    "id": "ww-milan-m5-light-metro",
+    "name": "WW Milan M5 Light Metro",
+    "description": "Milan M5-style Hitachi driverless light metro train.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 22.22,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 135,
+      "carLength": 12.6,
+      "minCars": 4,
+      "maxCars": 4,
+      "carsPerCarSet": 4,
+      "carCost": 3000000,
+      "trainWidth": 2.65,
+      "minStationLength": 50,
+      "maxStationLength": 62,
+      "baseTrackCost": 32000,
+      "baseStationCost": 64000000,
+      "trainOperationalCostPerHour": 284,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4.0,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#7B6469"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": false,
+    "Manufacturer": [
+      "Hitachi Rail"
+    ]
+  },
+  {
+    "id": "ww-alstom-metropolis-light",
+    "name": "WW Metropolis Light",
+    "description": "Alstom Metropolis medium-capacity light metro configuration.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 27.78,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 250,
+      "carLength": 22.0,
+      "minCars": 4,
+      "maxCars": 4,
+      "carsPerCarSet": 4,
+      "carCost": 3600000,
+      "trainWidth": 3.0,
+      "minStationLength": 88,
+      "maxStationLength": 100,
+      "baseTrackCost": 32000,
+      "baseStationCost": 64000000,
+      "trainOperationalCostPerHour": 284,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4.0,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#6CACE4"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": false,
+    "Manufacturer": [
+      "Alstom"
+    ]
+  },
+  {
+    "id": "ww-rem-metropolis",
+    "name": "WW REM Metropolis",
+    "description": "Montréal REM-style Alstom Metropolis light metro train.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 27.78,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 150,
+      "carLength": 19.0,
+      "minCars": 4,
+      "maxCars": 4,
+      "carsPerCarSet": 4,
+      "carCost": 3600000,
+      "trainWidth": 2.94,
+      "minStationLength": 76,
+      "maxStationLength": 88,
+      "baseTrackCost": 32000,
+      "baseStationCost": 64000000,
+      "trainOperationalCostPerHour": 284,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4.0,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#6CACE4"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": false,
+    "Manufacturer": [
+      "Alstom"
+    ]
+  },
+  {
+    "id": "ww-siemens-inspiro-light",
+    "name": "WW Inspiro Light",
+    "description": "Siemens Inspiro light metro / medium-capacity metro configuration.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 25.0,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 220,
+      "carLength": 20.0,
+      "minCars": 4,
+      "maxCars": 4,
+      "carsPerCarSet": 4,
+      "carCost": 3300000,
+      "trainWidth": 2.75,
+      "minStationLength": 80,
+      "maxStationLength": 92,
+      "baseTrackCost": 32000,
+      "baseStationCost": 64000000,
+      "trainOperationalCostPerHour": 284,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4.0,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#009999"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": false,
+    "Manufacturer": [
+      "Siemens Mobility"
+    ]
+  },
+  {
+    "id": "ww-movia-light-metro",
+    "name": "WW Movia Light",
+    "description": "Bombardier/Alstom Movia light metro configuration.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 25.0,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 220,
+      "carLength": 20.0,
+      "minCars": 4,
+      "maxCars": 4,
+      "carsPerCarSet": 4,
+      "carCost": 3300000,
+      "trainWidth": 2.8,
+      "minStationLength": 80,
+      "maxStationLength": 92,
+      "baseTrackCost": 32000,
+      "baseStationCost": 64000000,
+      "trainOperationalCostPerHour": 284,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4.0,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#E4002B"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": false,
+    "Manufacturer": [
+      "Bombardier Transportation",
+      "Alstom"
+    ]
+  },
+  {
+    "id": "ww-caf-inneo-light",
+    "name": "WW Inneo Light",
+    "description": "CAF Inneo light metro / medium-capacity metro configuration.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 25.0,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 210,
+      "carLength": 20.0,
+      "minCars": 4,
+      "maxCars": 4,
+      "carsPerCarSet": 4,
+      "carCost": 3200000,
+      "trainWidth": 2.75,
+      "minStationLength": 80,
+      "maxStationLength": 92,
+      "baseTrackCost": 32000,
+      "baseStationCost": 64000000,
+      "trainOperationalCostPerHour": 284,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4.0,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#004B93"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": false,
+    "Manufacturer": [
+      "CAF"
+    ]
+  },
+  {
+    "id": "ww-crrc-light-metro",
+    "name": "WW CRRC Light Metro",
+    "description": "CRRC medium-capacity light metro family.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 27.78,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 230,
+      "carLength": 20.0,
+      "minCars": 4,
+      "maxCars": 4,
+      "carsPerCarSet": 4,
+      "carCost": 3100000,
+      "trainWidth": 2.8,
+      "minStationLength": 80,
+      "maxStationLength": 92,
+      "baseTrackCost": 32000,
+      "baseStationCost": 64000000,
+      "trainOperationalCostPerHour": 284,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4.0,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#D71920"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": false,
+    "Manufacturer": [
+      "CRRC"
+    ]
+  },
+  {
+    "id": "ww-skytrain-mark-ii",
+    "name": "WW SkyTrain Mark II",
+    "description": "Bombardier/Alstom ART/SkyTrain Mark II linear-induction light metro.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 25.0,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 160,
+      "carLength": 17.0,
+      "minCars": 2,
+      "maxCars": 2,
+      "carsPerCarSet": 2,
+      "carCost": 3000000,
+      "trainWidth": 2.65,
+      "minStationLength": 34,
+      "maxStationLength": 46,
+      "baseTrackCost": 32000,
+      "baseStationCost": 60000000,
+      "trainOperationalCostPerHour": 248,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4.0,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#00A3E0"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": false,
+    "Manufacturer": [
+      "Bombardier Transportation",
+      "Alstom"
+    ]
+  },
+  {
+    "id": "ww-skytrain-mark-iii",
+    "name": "WW SkyTrain Mark III",
+    "description": "Bombardier/Alstom ART/SkyTrain Mark III automated light metro.",
+    "stats": {
+      "maxAcceleration": 1.1,
+      "maxDeceleration": 1.2,
+      "maxSpeed": 25.0,
+      "maxSpeedLocalStation": 12.0,
+      "capacityPerCar": 160,
+      "carLength": 17.5,
+      "minCars": 4,
+      "maxCars": 4,
+      "carsPerCarSet": 4,
+      "carCost": 3200000,
+      "trainWidth": 2.65,
+      "minStationLength": 70,
+      "maxStationLength": 82,
+      "baseTrackCost": 32000,
+      "baseStationCost": 64000000,
+      "trainOperationalCostPerHour": 284,
+      "carOperationalCostPerHour": 23,
+      "scissorsCrossoverCost": 14000000,
+      "trackClearance": 0.95,
+      "maxLateralAcceleration": 0.9,
+      "minTurnRadius": 50,
+      "minStationTurnRadius": 420,
+      "maxSlopePercentage": 4.0,
+      "parallelTrackSpacing": 3.8,
+      "stopTimeSeconds": 30,
+      "trackMaintenanceCostPerMeter": 0,
+      "stationMaintenanceCostPerYear": 0
+    },
+    "appearance": {
+      "color": "#00A3E0"
+    },
+    "elevationMultipliers": {
+      "DEEP_BORE": 4.0,
+      "STANDARD_TUNNEL": 2.0,
+      "CUT_AND_COVER": 1.0,
+      "AT_GRADE": 0.3,
+      "ELEVATED": 0.8
+    },
+    "allowAtGradeRoadCrossing": false,
+    "Manufacturer": [
+      "Bombardier Transportation",
+      "Alstom"
+    ]
+  }
+]
