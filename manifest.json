@@ -2,7 +2,7 @@
     "id": "lrt-trains",
     "name": "LRT Trains",
     "description": "A train pack containing LRT trains from around the world for Subway Builder.",
-    "version": "v1.1.0",
+    "version": "v1.1.1",
     "author": {
 		"name": "kaicardenas0618",
 		"url": "https://github.com/kaicardenas0618"
@@ -19,6 +19,7 @@
 	],
 	"subwayBuilderVersion": ">=1.3.0",
 	"dependencies": {
-	  "subway-builder": ">=1.3.0"
+	  "subway-builder": ">=1.3.0",
+	  "scrollable-dropdowns": ">=v1.0.0"
 	}
 }
