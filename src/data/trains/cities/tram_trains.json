@@ -30,8 +30,14 @@
       "parallelTrackSpacing": 4.0,
       "stopTimeSeconds": 30,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 30,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "tram-train",
+      "light-rail"
+    ],
     "appearance": {
       "color": "#F3D03E"
     },
@@ -39,10 +45,25 @@
       "DEEP_BORE": 3.8,
       "STANDARD_TUNNEL": 2.0,
       "CUT_AND_COVER": 1.0,
+      "TRENCHED": 0.68,
       "AT_GRADE": 0.35,
+      "RAMP": 0.6,
       "ELEVATED": 0.85
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 450000,
+    "gradeCrossingMaintenancePerYear": 10000,
+    "gradeCrossingTphLimit": {
+      "highway": 6,
+      "major": 10,
+      "medium": 16,
+      "minor": 24
+    },
+    "portalCost": 7000000,
+    "rampCost": 3000000,
+    "manufacturer": [
+      "DUEWAG"
+    ],
     "Manufacturer": [
       "DUEWAG"
     ]
@@ -78,8 +99,14 @@
       "parallelTrackSpacing": 4.0,
       "stopTimeSeconds": 30,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 30,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "tram-train",
+      "light-rail"
+    ],
     "appearance": {
       "color": "#ED1C24"
     },
@@ -87,10 +114,25 @@
       "DEEP_BORE": 3.8,
       "STANDARD_TUNNEL": 2.0,
       "CUT_AND_COVER": 1.0,
+      "TRENCHED": 0.68,
       "AT_GRADE": 0.35,
+      "RAMP": 0.6,
       "ELEVATED": 0.85
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 450000,
+    "gradeCrossingMaintenancePerYear": 10000,
+    "gradeCrossingTphLimit": {
+      "highway": 6,
+      "major": 10,
+      "medium": 16,
+      "minor": 24
+    },
+    "portalCost": 7000000,
+    "rampCost": 3000000,
+    "manufacturer": [
+      "Stadler Rail"
+    ],
     "Manufacturer": [
       "Stadler Rail"
     ]
@@ -126,8 +168,14 @@
       "parallelTrackSpacing": 4.0,
       "stopTimeSeconds": 30,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 30,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "tram-train",
+      "light-rail"
+    ],
     "appearance": {
       "color": "#009999"
     },
@@ -135,10 +183,26 @@
       "DEEP_BORE": 3.8,
       "STANDARD_TUNNEL": 2.0,
       "CUT_AND_COVER": 1.0,
+      "TRENCHED": 0.68,
       "AT_GRADE": 0.35,
+      "RAMP": 0.6,
       "ELEVATED": 0.85
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 450000,
+    "gradeCrossingMaintenancePerYear": 10000,
+    "gradeCrossingTphLimit": {
+      "highway": 6,
+      "major": 10,
+      "medium": 16,
+      "minor": 24
+    },
+    "portalCost": 7000000,
+    "rampCost": 3000000,
+    "manufacturer": [
+      "Alstom",
+      "Siemens Mobility"
+    ],
     "Manufacturer": [
       "Alstom",
       "Siemens Mobility"
@@ -175,8 +239,14 @@
       "parallelTrackSpacing": 4.0,
       "stopTimeSeconds": 30,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 30,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "tram-train",
+      "light-rail"
+    ],
     "appearance": {
       "color": "#ED1C24"
     },
@@ -184,10 +254,25 @@
       "DEEP_BORE": 3.8,
       "STANDARD_TUNNEL": 2.0,
       "CUT_AND_COVER": 1.0,
+      "TRENCHED": 0.68,
       "AT_GRADE": 0.35,
+      "RAMP": 0.6,
       "ELEVATED": 0.85
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 450000,
+    "gradeCrossingMaintenancePerYear": 10000,
+    "gradeCrossingTphLimit": {
+      "highway": 6,
+      "major": 10,
+      "medium": 16,
+      "minor": 24
+    },
+    "portalCost": 7000000,
+    "rampCost": 3000000,
+    "manufacturer": [
+      "Stadler Rail"
+    ],
     "Manufacturer": [
       "Stadler Rail"
     ]
@@ -223,8 +308,14 @@
       "parallelTrackSpacing": 4.0,
       "stopTimeSeconds": 30,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 30,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "tram-train",
+      "light-rail"
+    ],
     "appearance": {
       "color": "#005EB8"
     },
@@ -232,10 +323,25 @@
       "DEEP_BORE": 3.8,
       "STANDARD_TUNNEL": 2.0,
       "CUT_AND_COVER": 1.0,
+      "TRENCHED": 0.68,
       "AT_GRADE": 0.35,
+      "RAMP": 0.6,
       "ELEVATED": 0.85
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 450000,
+    "gradeCrossingMaintenancePerYear": 10000,
+    "gradeCrossingTphLimit": {
+      "highway": 6,
+      "major": 10,
+      "medium": 16,
+      "minor": 24
+    },
+    "portalCost": 7000000,
+    "rampCost": 3000000,
+    "manufacturer": [
+      "Stadler Rail"
+    ],
     "Manufacturer": [
       "Stadler Rail"
     ]
@@ -271,8 +377,14 @@
       "parallelTrackSpacing": 4.0,
       "stopTimeSeconds": 30,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 30,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "tram-train",
+      "light-rail"
+    ],
     "appearance": {
       "color": "#ED1C24"
     },
@@ -280,10 +392,25 @@
       "DEEP_BORE": 3.8,
       "STANDARD_TUNNEL": 2.0,
       "CUT_AND_COVER": 1.0,
+      "TRENCHED": 0.68,
       "AT_GRADE": 0.35,
+      "RAMP": 0.6,
       "ELEVATED": 0.85
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 450000,
+    "gradeCrossingMaintenancePerYear": 10000,
+    "gradeCrossingTphLimit": {
+      "highway": 6,
+      "major": 10,
+      "medium": 16,
+      "minor": 24
+    },
+    "portalCost": 7000000,
+    "rampCost": 3000000,
+    "manufacturer": [
+      "Stadler Rail"
+    ],
     "Manufacturer": [
       "Stadler Rail"
     ]
@@ -319,8 +446,14 @@
       "parallelTrackSpacing": 4.0,
       "stopTimeSeconds": 30,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 30,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "tram-train",
+      "light-rail"
+    ],
     "appearance": {
       "color": "#009999"
     },
@@ -328,10 +461,25 @@
       "DEEP_BORE": 3.8,
       "STANDARD_TUNNEL": 2.0,
       "CUT_AND_COVER": 1.0,
+      "TRENCHED": 0.68,
       "AT_GRADE": 0.35,
+      "RAMP": 0.6,
       "ELEVATED": 0.85
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 450000,
+    "gradeCrossingMaintenancePerYear": 10000,
+    "gradeCrossingTphLimit": {
+      "highway": 6,
+      "major": 10,
+      "medium": 16,
+      "minor": 24
+    },
+    "portalCost": 7000000,
+    "rampCost": 3000000,
+    "manufacturer": [
+      "Siemens Mobility"
+    ],
     "Manufacturer": [
       "Siemens Mobility"
     ]
@@ -367,8 +515,14 @@
       "parallelTrackSpacing": 4.0,
       "stopTimeSeconds": 30,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 30,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "tram-train",
+      "light-rail"
+    ],
     "appearance": {
       "color": "#6CACE4"
     },
@@ -376,10 +530,25 @@
       "DEEP_BORE": 3.8,
       "STANDARD_TUNNEL": 2.0,
       "CUT_AND_COVER": 1.0,
+      "TRENCHED": 0.68,
       "AT_GRADE": 0.35,
+      "RAMP": 0.6,
       "ELEVATED": 0.85
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 450000,
+    "gradeCrossingMaintenancePerYear": 10000,
+    "gradeCrossingTphLimit": {
+      "highway": 6,
+      "major": 10,
+      "medium": 16,
+      "minor": 24
+    },
+    "portalCost": 7000000,
+    "rampCost": 3000000,
+    "manufacturer": [
+      "Alstom"
+    ],
     "Manufacturer": [
       "Alstom"
     ]
@@ -415,8 +584,14 @@
       "parallelTrackSpacing": 4.0,
       "stopTimeSeconds": 30,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 30,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "tram-train",
+      "light-rail"
+    ],
     "appearance": {
       "color": "#ED1C24"
     },
@@ -424,10 +599,25 @@
       "DEEP_BORE": 3.8,
       "STANDARD_TUNNEL": 2.0,
       "CUT_AND_COVER": 1.0,
+      "TRENCHED": 0.68,
       "AT_GRADE": 0.35,
+      "RAMP": 0.6,
       "ELEVATED": 0.85
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 450000,
+    "gradeCrossingMaintenancePerYear": 10000,
+    "gradeCrossingTphLimit": {
+      "highway": 6,
+      "major": 10,
+      "medium": 16,
+      "minor": 24
+    },
+    "portalCost": 7000000,
+    "rampCost": 3000000,
+    "manufacturer": [
+      "Stadler Rail"
+    ],
     "Manufacturer": [
       "Stadler Rail"
     ]
@@ -463,8 +653,14 @@
       "parallelTrackSpacing": 4.0,
       "stopTimeSeconds": 30,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 30,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "tram-train",
+      "light-rail"
+    ],
     "appearance": {
       "color": "#009999"
     },
@@ -472,10 +668,26 @@
       "DEEP_BORE": 3.8,
       "STANDARD_TUNNEL": 2.0,
       "CUT_AND_COVER": 1.0,
+      "TRENCHED": 0.68,
       "AT_GRADE": 0.35,
+      "RAMP": 0.6,
       "ELEVATED": 0.85
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 450000,
+    "gradeCrossingMaintenancePerYear": 10000,
+    "gradeCrossingTphLimit": {
+      "highway": 6,
+      "major": 10,
+      "medium": 16,
+      "minor": 24
+    },
+    "portalCost": 7000000,
+    "rampCost": 3000000,
+    "manufacturer": [
+      "Bombardier Transportation",
+      "Stadler Rail"
+    ],
     "Manufacturer": [
       "Bombardier Transportation",
       "Stadler Rail"
@@ -512,8 +724,14 @@
       "parallelTrackSpacing": 4.0,
       "stopTimeSeconds": 30,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 30,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "tram-train",
+      "light-rail"
+    ],
     "appearance": {
       "color": "#6CACE4"
     },
@@ -521,10 +739,25 @@
       "DEEP_BORE": 3.8,
       "STANDARD_TUNNEL": 2.0,
       "CUT_AND_COVER": 1.0,
+      "TRENCHED": 0.68,
       "AT_GRADE": 0.35,
+      "RAMP": 0.6,
       "ELEVATED": 0.85
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 450000,
+    "gradeCrossingMaintenancePerYear": 10000,
+    "gradeCrossingTphLimit": {
+      "highway": 6,
+      "major": 10,
+      "medium": 16,
+      "minor": 24
+    },
+    "portalCost": 7000000,
+    "rampCost": 3000000,
+    "manufacturer": [
+      "Alstom"
+    ],
     "Manufacturer": [
       "Alstom"
     ]
@@ -560,8 +793,14 @@
       "parallelTrackSpacing": 4.0,
       "stopTimeSeconds": 30,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 30,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "tram-train",
+      "light-rail"
+    ],
     "appearance": {
       "color": "#ED1C24"
     },
@@ -569,10 +808,25 @@
       "DEEP_BORE": 3.8,
       "STANDARD_TUNNEL": 2.0,
       "CUT_AND_COVER": 1.0,
+      "TRENCHED": 0.68,
       "AT_GRADE": 0.35,
+      "RAMP": 0.6,
       "ELEVATED": 0.85
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 450000,
+    "gradeCrossingMaintenancePerYear": 10000,
+    "gradeCrossingTphLimit": {
+      "highway": 6,
+      "major": 10,
+      "medium": 16,
+      "minor": 24
+    },
+    "portalCost": 7000000,
+    "rampCost": 3000000,
+    "manufacturer": [
+      "Stadler Rail"
+    ],
     "Manufacturer": [
       "Stadler Rail"
     ]

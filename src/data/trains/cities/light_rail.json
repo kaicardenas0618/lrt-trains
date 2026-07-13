@@ -30,8 +30,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#F6BE00"
     },
@@ -39,10 +44,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Alstom"
+    ],
     "Manufacturer": [
       "Alstom"
     ]
@@ -78,8 +98,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#8E44AD"
     },
@@ -87,10 +112,26 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Stadler Rail",
+      "Bombardier Transportation"
+    ],
     "Manufacturer": [
       "Stadler Rail",
       "Bombardier Transportation"
@@ -127,8 +168,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#43B02A"
     },
@@ -136,10 +182,26 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Alstom",
+      "Bombardier Transportation"
+    ],
     "Manufacturer": [
       "Alstom",
       "Bombardier Transportation"
@@ -176,8 +238,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#7B6469"
     },
@@ -185,10 +252,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Alstom"
+    ],
     "Manufacturer": [
       "Alstom"
     ]
@@ -224,8 +306,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#7B6469"
     },
@@ -233,10 +320,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Alstom"
+    ],
     "Manufacturer": [
       "Alstom"
     ]
@@ -272,8 +374,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#004B93"
     },
@@ -281,10 +388,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "CAF"
+    ],
     "Manufacturer": [
       "CAF"
     ]
@@ -320,8 +442,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#F6BE00"
     },
@@ -329,10 +456,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Stadler Rail"
+    ],
     "Manufacturer": [
       "Stadler Rail"
     ]
@@ -368,8 +510,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#00A3E0"
     },
@@ -377,10 +524,26 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "CAF",
+      "Bombardier Transportation"
+    ],
     "Manufacturer": [
       "CAF",
       "Bombardier Transportation"
@@ -417,8 +580,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#F3D03E"
     },
@@ -426,10 +594,26 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "DUEWAG",
+      "Stadler Rail"
+    ],
     "Manufacturer": [
       "DUEWAG",
       "Stadler Rail"
@@ -466,8 +650,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#43B02A"
     },
@@ -475,10 +664,26 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "DUEWAG",
+      "TW"
+    ],
     "Manufacturer": [
       "DUEWAG",
       "TW"
@@ -515,8 +720,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#C8102E"
     },
@@ -524,10 +734,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Bombardier Transportation"
+    ],
     "Manufacturer": [
       "Bombardier Transportation"
     ]
@@ -563,8 +788,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#005EB8"
     },
@@ -572,10 +802,26 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "DUEWAG",
+      "Bombardier Transportation"
+    ],
     "Manufacturer": [
       "DUEWAG",
       "Bombardier Transportation"
@@ -612,8 +858,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#005EB8"
     },
@@ -621,10 +872,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Bombardier Transportation"
+    ],
     "Manufacturer": [
       "Bombardier Transportation"
     ]
@@ -660,8 +926,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#ED1C24"
     },
@@ -669,10 +940,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Stadler Rail"
+    ],
     "Manufacturer": [
       "Stadler Rail"
     ]
@@ -708,8 +994,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#ED1C24"
     },
@@ -717,10 +1008,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Stadler Rail"
+    ],
     "Manufacturer": [
       "Stadler Rail"
     ]
@@ -756,8 +1062,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#D71920"
     },
@@ -765,10 +1076,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Siemens Mobility"
+    ],
     "Manufacturer": [
       "Siemens Mobility"
     ]
@@ -804,8 +1130,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#0072CE"
     },
@@ -813,10 +1144,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Kinki Sharyo"
+    ],
     "Manufacturer": [
       "Kinki Sharyo"
     ]
@@ -852,8 +1198,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#F58220"
     },
@@ -861,10 +1212,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Kinki Sharyo"
+    ],
     "Manufacturer": [
       "Kinki Sharyo"
     ]
@@ -900,8 +1266,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#7B6469"
     },
@@ -909,10 +1280,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Siemens Mobility"
+    ],
     "Manufacturer": [
       "Siemens Mobility"
     ]
@@ -948,8 +1334,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#D71920"
     },
@@ -957,10 +1348,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Siemens Mobility"
+    ],
     "Manufacturer": [
       "Siemens Mobility"
     ]
@@ -996,8 +1402,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#005EB8"
     },
@@ -1005,10 +1416,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Siemens Mobility"
+    ],
     "Manufacturer": [
       "Siemens Mobility"
     ]
@@ -1044,8 +1470,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#00A3E0"
     },
@@ -1053,10 +1484,26 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Kinki Sharyo",
+      "Siemens Mobility"
+    ],
     "Manufacturer": [
       "Kinki Sharyo",
       "Siemens Mobility"
@@ -1093,8 +1540,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#8E44AD"
     },
@@ -1102,10 +1554,26 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Kinki Sharyo",
+      "Siemens Mobility"
+    ],
     "Manufacturer": [
       "Kinki Sharyo",
       "Siemens Mobility"
@@ -1142,8 +1610,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#007A3D"
     },
@@ -1151,10 +1624,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Kinki Sharyo"
+    ],
     "Manufacturer": [
       "Kinki Sharyo"
     ]
@@ -1190,8 +1678,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#005EB8"
     },
@@ -1199,10 +1692,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Siemens Mobility"
+    ],
     "Manufacturer": [
       "Siemens Mobility"
     ]
@@ -1238,8 +1746,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#00843D"
     },
@@ -1247,10 +1760,26 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Kinki Sharyo",
+      "CAF"
+    ],
     "Manufacturer": [
       "Kinki Sharyo",
       "CAF"
@@ -1287,8 +1816,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#00843D"
     },
@@ -1296,10 +1830,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "CAF"
+    ],
     "Manufacturer": [
       "CAF"
     ]
@@ -1335,8 +1884,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#D71920"
     },
@@ -1344,10 +1898,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Siemens Mobility"
+    ],
     "Manufacturer": [
       "Siemens Mobility"
     ]
@@ -1383,8 +1952,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#F58220"
     },
@@ -1392,10 +1966,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Kinki Sharyo"
+    ],
     "Manufacturer": [
       "Kinki Sharyo"
     ]
@@ -1431,8 +2020,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#00A3E0"
     },
@@ -1440,10 +2034,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Alstom"
+    ],
     "Manufacturer": [
       "Alstom"
     ]
@@ -1479,8 +2088,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#D71920"
     },
@@ -1488,10 +2102,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Alstom"
+    ],
     "Manufacturer": [
       "Alstom"
     ]
@@ -1527,8 +2156,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#D71920"
     },
@@ -1536,10 +2170,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Alstom"
+    ],
     "Manufacturer": [
       "Alstom"
     ]
@@ -1575,8 +2224,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#005EB8"
     },
@@ -1584,10 +2238,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Siemens Mobility"
+    ],
     "Manufacturer": [
       "Siemens Mobility"
     ]
@@ -1623,8 +2292,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#005EB8"
     },
@@ -1632,10 +2306,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Alstom"
+    ],
     "Manufacturer": [
       "Alstom"
     ]
@@ -1671,8 +2360,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#D71920"
     },
@@ -1680,10 +2374,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Siemens Mobility"
+    ],
     "Manufacturer": [
       "Siemens Mobility"
     ]
@@ -1719,8 +2428,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#43B02A"
     },
@@ -1728,10 +2442,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Taiwan Rolling Stock Company"
+    ],
     "Manufacturer": [
       "Taiwan Rolling Stock Company"
     ]
@@ -1767,8 +2496,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#43B02A"
     },
@@ -1776,10 +2510,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "CAF"
+    ],
     "Manufacturer": [
       "CAF"
     ]
@@ -1815,8 +2564,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#F58220"
     },
@@ -1824,10 +2578,26 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Adtranz",
+      "CRRC Zhuzhou"
+    ],
     "Manufacturer": [
       "Adtranz",
       "CRRC Zhuzhou"
@@ -1864,8 +2634,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#F3D03E"
     },
@@ -1873,10 +2648,27 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "BN",
+      "Hyundai Rotem",
+      "CAF"
+    ],
     "Manufacturer": [
       "BN",
       "Hyundai Rotem",
@@ -1914,8 +2706,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#7B6469"
     },
@@ -1923,10 +2720,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Hyundai Rotem"
+    ],
     "Manufacturer": [
       "Hyundai Rotem"
     ]
@@ -1962,8 +2774,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#005EB8"
     },
@@ -1971,10 +2788,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Hyundai Rotem"
+    ],
     "Manufacturer": [
       "Hyundai Rotem"
     ]
@@ -2010,8 +2842,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#005EB8"
     },
@@ -2019,10 +2856,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "INKA"
+    ],
     "Manufacturer": [
       "INKA"
     ]
@@ -2058,8 +2910,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#ED1C24"
     },
@@ -2067,10 +2924,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Alstom"
+    ],
     "Manufacturer": [
       "Alstom"
     ]
@@ -2106,8 +2978,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#F6BE00"
     },
@@ -2115,10 +2992,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Alstom"
+    ],
     "Manufacturer": [
       "Alstom"
     ]
@@ -2154,8 +3046,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#004B93"
     },
@@ -2163,10 +3060,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "CAF"
+    ],
     "Manufacturer": [
       "CAF"
     ]
@@ -2202,8 +3114,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#6CACE4"
     },
@@ -2211,10 +3128,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Alstom"
+    ],
     "Manufacturer": [
       "Alstom"
     ]
@@ -2250,8 +3182,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#6CACE4"
     },
@@ -2259,10 +3196,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Alstom"
+    ],
     "Manufacturer": [
       "Alstom"
     ]
@@ -2298,8 +3250,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#005EB8"
     },
@@ -2307,10 +3264,25 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "CNR Changchun"
+    ],
     "Manufacturer": [
       "CNR Changchun"
     ]
@@ -2346,8 +3318,13 @@
       "parallelTrackSpacing": 3.5,
       "stopTimeSeconds": 24,
       "trackMaintenanceCostPerMeter": 0,
-      "stationMaintenanceCostPerYear": 0
+      "stationMaintenanceCostPerYear": 0,
+      "tphLimit": 40,
+      "crossoverSpeed": 8.3
     },
+    "compatibleTrackTypes": [
+      "light-rail"
+    ],
     "appearance": {
       "color": "#43B02A"
     },
@@ -2355,10 +3332,26 @@
       "DEEP_BORE": 3.5,
       "STANDARD_TUNNEL": 1.9,
       "CUT_AND_COVER": 0.95,
+      "TRENCHED": 0.61,
       "AT_GRADE": 0.28,
+      "RAMP": 0.52,
       "ELEVATED": 0.75
     },
-    "allowAtGradeRoadCrossing": true,
+    "allowGradeCrossing": true,
+    "gradeCrossingBaseCost": 350000,
+    "gradeCrossingMaintenancePerYear": 8000,
+    "gradeCrossingTphLimit": {
+      "highway": 8,
+      "major": 12,
+      "medium": 18,
+      "minor": 28
+    },
+    "portalCost": 5000000,
+    "rampCost": 2000000,
+    "manufacturer": [
+      "Siemens Mobility",
+      "CAF"
+    ],
     "Manufacturer": [
       "Siemens Mobility",
       "CAF"
